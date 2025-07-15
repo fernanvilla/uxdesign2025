@@ -1,0 +1,2896 @@
+:: StoryTitle
+Historia ansiedad Valeria
+
+
+:: StoryData
+{
+  "ifid": "DEA343DE-6E2E-4058-8336-BDA7AEF3ECCF",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Tutorial",
+  "zoom": 1
+}
+
+
+:: Casa {"position":"350,1475","size":"100,100"}
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        De regreso en su habitación, rodeada de montones de apuntes y una lámpara que proyecta un halo cálido sobre sus ecuaciones, Valeria ve en la pantalla del móvil un mensaje de Ana, su amiga de la infancia, angustiada por disputas familiares: sus padres están por separarse, y está muy triste.
+        Valeria se siente dividida. ¿Qué debe hacer?
+        Uno: Llamarla y mantener una conversación extensa para calmarla.
+        Dos: Responder por texto mientras repasa las propiedades de las ecuaciones.
+        Tres: Ignorar el mensaje y concentrarse en los ejercicios.
+        Cuatro: Invitarla a su habitación para estudiar juntas y despejar la mente.
+        Utiliza las teclas del 1 al 4 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        De regreso en su habitación, rodeada de montones de apuntes y una lámpara que proyecta un halo cálido sobre sus ecuaciones, Valeria ve en la pantalla del móvil un mensaje de Ana, su amiga de la infancia, angustiada por disputas familiares: sus padres están por separarse, y está muy triste.
+        Valeria se siente dividida. ¿Qué debe hacer?
+        Uno: Llamarla y mantener una conversación extensa para calmarla.
+        Dos: Responder por texto mientras repasa las propiedades de las ecuaciones.
+        Tres: Ignorar el mensaje y concentrarse en los ejercicios.
+        Cuatro: Invitarla a su habitación para estudiar juntas y despejar la mente.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>De regreso en su habitación, rodeada de montones de apuntes y una lámpara que proyecta un halo cálido sobre sus ecuaciones, Valeria ve en la pantalla del móvil un mensaje de Ana, su amiga de la infancia, angustiada por disputas familiares: sus padres están por separarse, y está muy triste.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Casa.jpg" alt="Imagen de ejemplo" width="400">
+
+<p><strong>Valeria se siente dividida. ¿Qué debe hacer?</strong></p>
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Llamarla y mantener una conversación extensa para calmarla.->LlamarAmiga]]
+  </span><br>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Responder por texto mientras repasa las propiedades de las ecuaciones.->TextoAmiga]]
+  </span><br>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Ignorar el mensaje y concentrarse en los ejercicios.->IgnorarAmiga]]
+  </span><br>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Invitarla a su habitación para estudiar juntas y despejar la mente.->InvitarAmiga]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: ClaseAlgebra {"position":"1100,825","size":"100,100"}
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        El aula huele a tiza fresca y a madera vieja. Bajo la luz fría de los fluorescentes, la pizarra cubierta de fórmulas se alza como un desafío. Cuando el profesor reparte los exámenes corregidos, las sillas crujen y los susurros crecen: Valeria ve un 2.5 escrito en rojo y los compañeros comentan lo “sencillo” que fue el examen con sonrisas satisfechas.
+        Uno de ellos le pregunta: ¿Y tú, Valeria? ¿Qué nota sacaste?
+        ¿Qué decide hacer?
+        Uno: Valeria con voz temblorosa y mejillas encendidas anuncia que sacó un 4 sin haber estudiado, intentando vestir de orgullo su inseguridad.
+        Dos: Valeria desliza el examen marcado con un 2.5 hacia el centro de la mesa, dispuesta a asumir miradas y cuchicheos.
+        Tres: Valeria frunce el ceño, dirige la vista al ventanal y se pone a hacer garabatos en el margen del examen, dejando que los rumores llenen el vacío.
+        Cuatro: Valeria espera a que los demás abandonen el aula y, con el pulso acelerado, se planta frente al profesor para pedirle una segunda oportunidad.
+        Utiliza las teclas del 1 al 4 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        El aula huele a tiza fresca y a madera vieja. Bajo la luz fría de los fluorescentes, la pizarra cubierta de fórmulas se alza como un desafío. Cuando el profesor reparte los exámenes corregidos, las sillas crujen y los susurros crecen: Valeria ve un 2.5 escrito en rojo y los compañeros comentan lo “sencillo” que fue el examen con sonrisas satisfechas.
+        Uno de ellos le pregunta: ¿Y tú, Valeria? ¿Qué nota sacaste?
+        ¿Qué decide hacer?
+        Uno: Valeria con voz temblorosa y mejillas encendidas anuncia que sacó un 4 sin haber estudiado, intentando vestir de orgullo su inseguridad.
+        Dos: Valeria desliza el examen marcado con un 2.5 hacia el centro de la mesa, dispuesta a asumir miradas y cuchicheos.
+        Tres: Valeria frunce el ceño, dirige la vista al ventanal y se pone a hacer garabatos en el margen del examen, dejando que los rumores llenen el vacío.
+        Cuatro: Valeria espera a que los demás abandonen el aula y, con el pulso acelerado, se planta frente al profesor para pedirle una segunda oportunidad.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>El aula huele a tiza fresca y a madera vieja. Bajo la luz fría de los fluorescentes, la pizarra cubierta de fórmulas se alza como un desafío. Cuando el profesor reparte los exámenes corregidos, las sillas crujen y los susurros crecen: Valeria ve un 2.5 escrito en rojo y los compañeros comentan lo “sencillo” que fue el examen con sonrisas satisfechas.</p>
+
+<p>Uno de ellos le pregunta:<br>
+—<em>¿Y tú, Valeria? ¿Qué nota sacaste?</em></p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/c_algebra.jpg" alt="Imagen de ejemplo" width="400">
+
+<p><strong>¿Qué decide hacer?</strong></p>
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Valeria con voz temblorosa y mejillas encendidas anuncia que sacó un 4 sin haber estudiado, intentando vestir de orgullo su inseguridad.->MentirNota]]
+  </span><br>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Valeria desliza el examen marcado con un 2.5 hacia el centro de la mesa, dispuesta a asumir miradas y cuchicheos.->MostrarNota]]
+  </span><br>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Valeria frunce el ceño, dirige la vista al ventanal y se pone a hacer garabatos en el margen del examen, dejando que los rumores llenen el vacío.->OcultarNota]]
+  </span><br>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Valeria espera a que los demás abandonen el aula y, con el pulso acelerado, se planta frente al profesor para pedirle una segunda oportunidad. ->HablarPrivado]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: Conocer a Valeria {"position":"300,975","size":"100,100"}
+<div id="Diseno"> 
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Valeria Torres es una adolescente de 24 años con una vida aparentemente normal.
+        Vive con sus padres, asiste a un colegio promedio, y tiene un grupo de amigas con las cuales habla todos los días.
+        Sin embargo, últimamente ha estado teniendo unas extrañas pesadillas casi todas las noches,
+        que la hacen despertar con un sentimiento increíble de miedo y dolor en el pecho.
+        Trata de no prestarles mucha atención, pero estas pesadillas son un síntoma de una realidad mucho más compleja
+        que Valeria trata de evitar.
+        Dale clic en el botón siguiente o presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Valeria Torres es una adolescente de 24 años con una vida aparentemente normal.
+        Vive con sus padres, asiste a un colegio promedio, y tiene un grupo de amigas con las cuales habla todos los días.
+        Sin embargo, últimamente ha estado teniendo unas extrañas pesadillas casi todas las noches,
+        que la hacen despertar con un sentimiento increíble de miedo y dolor en el pecho.
+        Trata de no prestarles mucha atención, pero estas pesadillas son un síntoma de una realidad mucho más compleja
+        que Valeria trata de evitar.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Valeria Torres es una adolescente de 24 años con una vida aparentemente normal. Vive con sus padres, asiste a un colegio promedio, tiene un grupo de amigas con las cuales habla todos los días.</p>
+
+<p>Sin embargo, últimamente ha estado teniendo unas extrañas pesadillas casi todas las noches, que la hacen despertar con un sentimiento increíble de miedo y dolor en el pecho...</p>
+
+<p>Trata de no prestarles mucha atención, pero estas pesadillas son un síntoma de una realidad mucho más compleja la cual Valeria trata de evitar.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Valeria_protopersona.png" alt="Imagen de ejemplo" width="400" height = "400">
+
+<p>
+  <span style="color: #3399ff; font-size: 1.4em; font-family: 'Times New Roman', serif;">
+    [[Siguiente->Inicio]]
+  </span>
+</p>
+
+</div>
+
+
+:: Consejero {"position":"1200,1450","size":"100,100"}
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Semanas después, encuentra en su casillero una tarjeta de invitación con el logo del colegio. El despacho del orientador huele a café y libros viejos. Al entrar, ve diplomas en la pared y un sillón tapizado junto a una mesita con folletos de autocuidado.
+        Valeria decide:
+        Uno: Pedir una sesión individual y exponer su ansiedad con total sinceridad.
+        Dos: Asistir pero centrar la conversación solo en técnicas de estudio.
+        Tres: Rechazar la invitación por temor al qué dirán.
+        Cuatro: Proponer al orientador un taller grupal de apoyo emocional.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Semanas después, encuentra en su casillero una tarjeta de invitación con el logo del colegio. El despacho del orientador huele a café y libros viejos. Al entrar, ve diplomas en la pared y un sillón tapizado junto a una mesita con folletos de autocuidado.
+        Valeria decide:
+        Uno: Pedir una sesión individual y exponer su ansiedad con total sinceridad.
+        Dos: Asistir pero centrar la conversación solo en técnicas de estudio.
+        Tres: Rechazar la invitación por temor al qué dirán.
+        Cuatro: Proponer al orientador un taller grupal de apoyo emocional.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Semanas después, encuentra en su casillero una tarjeta de invitación con el logo del colegio. El despacho del orientador huele a café y libros viejos. Al entrar, ve diplomas en la pared y un sillón tapizado junto a una mesita con folletos de autocuidado.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Consejero.jpg" alt="Imagen de ejemplo" width="400">
+
+<p><strong>Valeria decide:</strong></p>
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Pedir una sesión individual y exponer su ansiedad con total sinceridad.->SesionSincera]]
+  </span><br>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Asistir pero centrar la conversación solo en técnicas de estudio.->FocoAcademico]]
+  </span><br>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Rechazar la invitación por temor al qué dirán.->Rechazar]]
+  </span><br>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Proponer al orientador un taller grupal de apoyo emocional.->Taller]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: ConsuelaMaria {"position":"300,1300","size":"100,100"}
+<<set $ansiedad to $ansiedad + 1>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        María se siente mejor con la proposición.
+        Aunque Valeria se siente ansiosa ya que no tiene mucho tiempo libre
+        y le gustaría gastarlo mejor en estudiar para álgebra.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        María se siente mejor con la proposición.
+        Aunque Valeria se siente ansiosa ya que no tiene mucho tiempo libre
+        y le gustaría gastarlo mejor en estudiar para álgebra.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>María se siente mejor con la proposición, aunque Valeria se siente ansiosa ya que no tiene mucho tiempo libre y le gustaría gastarlo mejor en estudiar para álgebra <strong>(+1 de ansiedad)</strong>.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Consuala_amiga.png" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Siguiente->Casa]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: CriticaEx {"position":"175,1300","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Aunque María parece darle la razón y sentirse un poco mejor,
+        Valeria sabe que sus palabras no son del todo ciertas.
+        Valeria se siente ansiosa porque sabe que últimamente también ha estado ganando peso,
+        y no quiere estar en la posición de María en un futuro.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Aunque María parece darle la razón y sentirse un poco mejor,
+        Valeria sabe que sus palabras no son del todo ciertas.
+        Valeria se siente ansiosa porque sabe que últimamente también ha estado ganando peso,
+        y no quiere estar en la posición de María en un futuro.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Aunque María parece darle la razón y sentirse un poco mejor, Valeria sabe que sus palabras no son del todo ciertas. Valeria se siente ansiosa porque sabe que últimamente también ha estado ganando peso y no quiere estar en la posición de María en un futuro <strong>(+2 de ansiedad)</strong>.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Critica_ex.png" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Siguiente->Casa]]
+  </span>
+</p>
+
+</div>
+
+
+:: Desviar {"position":"550,1300","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        La atmósfera se aligera y María retoma su sonrisa.
+        Sin embargo, Valeria registra un hormigueo de culpa por haber evitado la verdad del dolor ajeno.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        La atmósfera se aligera y María retoma su sonrisa.
+        Sin embargo, Valeria registra un hormigueo de culpa por haber evitado la verdad del dolor ajeno.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>La atmósfera se aligera y María retoma su sonrisa. Sin embargo,
+Valeria registra un hormigueo de culpa por haber evitado la verdad del dolor ajeno. <strong>(+2 de ansiedad)</strong>.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/desviar.jpg" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Siguiente->Casa]]
+  </span>
+</p>
+
+</div>
+
+
+:: Escena1 {"position":"475,975","size":"100,100"}
+<div id="Diseno"> 
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        La cocina huele a café recién colado y pan tostado. Su padre hojea las noticias en el teléfono mientras coloca un plato de huevo revuelto y tomate en la mesa. Con voz orgullosa menciona que el hijo de un amigo obtuvo mención honorífica en matemáticas. El aire se carga de expectativas silenciosas. 
+        Valeria se pone ansiosa porque no le está yendo bien en matemáticas.
+        ¿Qué decide hacer Valeria?
+        Uno: Valeria asegura con voz firme que todas sus materias van “de maravilla” y promete notas sobresalientes, aunque su corazón late con fuerza.
+        Dos: Valeria apoya las manos sobre la mesa y, con sonrisa distraída, introduce el tema de la última serie que vio, intentando ocultar su angustia.
+        Tres: Valeria baja la mirada y admite que las ecuaciones la superan; teme reprobar el próximo examen.
+        Cuatro: Valeria juguetea con la servilleta y sugiere tímidamente buscar un refuerzo académico, sin indicar en qué asignatura.
+        Utiliza las teclas del 1 al 4 para escoger una opción.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        La cocina huele a café recién colado y pan tostado. Su padre hojea las noticias en el teléfono mientras coloca un plato de huevo revuelto y tomate en la mesa. Con voz orgullosa menciona que el hijo de un amigo obtuvo mención honorífica en matemáticas. El aire se carga de expectativas silenciosas. 
+        Valeria se pone ansiosa porque no le está yendo bien en matemáticas.
+        ¿Qué decide hacer Valeria?
+        Uno: Valeria asegura con voz firme que todas sus materias van “de maravilla” y promete notas sobresalientes, aunque su corazón late con fuerza.
+        Dos: Valeria apoya las manos sobre la mesa y, con sonrisa distraída, introduce el tema de la última serie que vio, intentando ocultar su angustia.
+        Tres: Valeria baja la mirada y admite que las ecuaciones la superan; teme reprobar el próximo examen.
+        Cuatro: Valeria juguetea con la servilleta y sugiere tímidamente buscar un refuerzo académico, sin indicar en qué asignatura.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>La cocina huele a café recién colado y pan tostado. Su padre hojea las noticias en el teléfono mientras coloca un plato de huevo revuelto y tomate en la mesa. Con voz orgullosa menciona que el hijo de un amigo obtuvo mención honorífica en matemáticas. El aire se carga de expectativas silenciosas. 
+      Valeria se pone ansiosa porque no le está yendo bien en matemáticas.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/desayuno.png" alt="Imagen1" width="400" >
+
+<p><strong>¿Qué decide hacer Valeria?</strong></p>
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[ Valeria asegura con voz firme que todas sus materias van “de maravilla” y promete notas sobresalientes, aunque su corazón late con fuerza.->MentirDesayuno]]
+  </span><br>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Valeria apoya las manos sobre la mesa y, con sonrisa distraída, introduce el tema de la última serie que vio, intentando ocultar su angustia.->EvadirDesayuno]]
+  </span><br>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Valeria baja la mirada y admite que las ecuaciones la superan; teme reprobar el próximo examen.->VerdadDesayuno]]
+  </span>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Valeria juguetea con la servilleta y sugiere tímidamente buscar un refuerzo académico, sin indicar en qué asignatura.->Insinuar]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: EvadirDesayuno {"position":"675,825","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        El padre de Valeria asiente distraído, retoma el teléfono y cambia el tema.
+        El silencio se extiende unos segundos que parecen eternos;
+        Valeria experimenta un alivio breve, pero la inseguridad se enraíza más profundo.
+        Dale clic en el botón siguiente o presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        El padre de Valeria asiente distraído, retoma el teléfono y cambia el tema.
+        El silencio se extiende unos segundos que parecen eternos;
+        Valeria experimenta un alivio breve, pero la inseguridad se enraíza más profundo.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>El padre de Valeria asiente distraído, retoma el teléfono y cambia el tema. El silencio se extiende unos segundos que parecen eternos; Valeria experimenta un alivio breve, pero la inseguridad se enraíza más profundo.</p>
+
+  <img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Evadir_Desayuno.png" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Ir a clases->ClaseAlgebra]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: Final {"position":"1625,1450","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Así, con el paso de los días, las decisiones de Valeria, aparentemente pequeñas, casi invisibles, comienzan a entretejerse como hilos sutiles que moldean su mundo interior. Cada elección deja una huella: en sus relaciones, en su forma de mirarse al espejo, en la manera en que interpreta el silencio de los demás. Sin darse cuenta, está construyendo el mapa emocional que la llevará, inevitablemente, a uno de varios destinos posibles.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Así, con el paso de los días, las decisiones de Valeria, aparentemente pequeñas, casi invisibles, comienzan a entretejerse como hilos sutiles que moldean su mundo interior. Cada elección deja una huella: en sus relaciones, en su forma de mirarse al espejo, en la manera en que interpreta el silencio de los demás. Sin darse cuenta, está construyendo el mapa emocional que la llevará, inevitablemente, a uno de varios destinos posibles.
+        Presiona la tecla 1 para continuar.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Así, con el paso de los días, las decisiones de Valeria, aparentemente pequeñas, casi invisibles, comienzan a entretejerse como hilos sutiles que moldean su mundo interior. Cada elección deja una huella: en sus relaciones, en su forma de mirarse al espejo, en la manera en que interpreta el silencio de los demás. Sin darse cuenta, está construyendo el mapa emocional que la llevará, inevitablemente, a uno de varios destinos posibles.</p>
+
+<p><strong>¿Qué camino ha tomado Valeria?</strong><br>
+Presiona la tecla 1 para continuar.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Final.jpg" alt="Imagen de ejemplo" width="400">
+
+<<if $ansiedad >= 8 and $ansiedad <= 9>>
+  <p style="margin: 0;">
+    <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+      [[Seguir leyendo...->FinalEsperanzador]]
+    </span>
+  </p>
+<<elseif $ansiedad >= 10 and $ansiedad <= 11>>
+  <p style="margin: 0;">
+    <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+      [[Seguir leyendo...->FinalBueno]]
+    </span>
+  </p>
+<<elseif $ansiedad >= 12 and $ansiedad <= 13>>
+  <p style="margin: 0;">
+    <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+      [[Seguir leyendo...->FinalNeutral]]
+    </span>
+  </p>
+<<elseif $ansiedad >= 14 and $ansiedad <= 15>>
+  <p style="margin: 0;">
+    <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+      [[Seguir leyendo...->FinalMalo]]
+    </span>
+  </p>
+<<elseif $ansiedad >= 16 and $ansiedad <= 17>>
+  <p style="margin: 0;">
+    <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+      [[Seguir leyendo...->FinalOscuro]]
+    </span>
+  </p>
+<</if>>
+
+</div>
+
+
+:: FinalBueno {"position":"1900,1350","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Valeria toma una decisión difícil pero transformadora: comienza terapia. Poco a poco, deja de temerle a sus pensamientos y empieza a ponerles nombre. Abre conversaciones con su familia que antes evitaba, aprende a reconocer los momentos en que su ansiedad intenta gobernarla, y sobre todo, empieza a comprenderse con más compasión. Aunque hay días grises, aprende a convivir con ellos sin hundirse. En el aula ya no teme levantar la mano, y en su cuarto, los apuntes conviven con pausas, descansos y respiraciones conscientes.
+        Cada paso que da hacia sí misma deja de ser una caída y se convierte en raíz.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Valeria toma una decisión difícil pero transformadora: comienza terapia. Poco a poco, deja de temerle a sus pensamientos y empieza a ponerles nombre. Abre conversaciones con su familia que antes evitaba, aprende a reconocer los momentos en que su ansiedad intenta gobernarla, y sobre todo, empieza a comprenderse con más compasión. Aunque hay días grises, aprende a convivir con ellos sin hundirse. En el aula ya no teme levantar la mano, y en su cuarto, los apuntes conviven con pausas, descansos y respiraciones conscientes.
+        Cada paso que da hacia sí misma deja de ser una caída y se convierte en raíz.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Valeria toma una decisión difícil pero transformadora: comienza terapia. Poco a poco, deja de temerle a sus pensamientos y empieza a ponerles nombre. Abre conversaciones con su familia que antes evitaba, aprende a reconocer los momentos en que su ansiedad intenta gobernarla, y sobre todo, empieza a comprenderse con más compasión. Aunque hay días grises, aprende a convivir con ellos sin hundirse. En el aula ya no teme levantar la mano, y en su cuarto, los apuntes conviven con pausas, descansos y respiraciones conscientes.</p>
+
+<p><strong>Final bueno</strong><br>
+Cada paso que da hacia sí misma deja de ser una caída y se convierte en raíz.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/F_bueno.jpg" alt="Imagen de ejemplo" width="400">
+
+</div>
+
+
+:: FinalEsperanzador {"position":"1900,1200","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Durante el desayuno, entre cucharadas de cereal y miradas esquivas, Valeria decide hablar. Sus palabras temblorosas rompen la tensión, y su familia la escucha con atención sincera. Más tarde, en la sesión con el consejero, se permite llorar, reír y dudar. Inspirada por esa apertura, comienza a escribir un diario. Sus páginas se vuelven testigos de sus dudas, recuerdos y anhelos. Aunque sus días no son lineales, empieza a sentirse dueña de su camino. Su ansiedad ya no es una enemiga, sino una señal que aprende a interpretar.
+        No lo tiene todo resuelto, pero al fin ha comenzado a escucharse.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Durante el desayuno, entre cucharadas de cereal y miradas esquivas, Valeria decide hablar. Sus palabras temblorosas rompen la tensión, y su familia la escucha con atención sincera. Más tarde, en la sesión con el consejero, se permite llorar, reír y dudar. Inspirada por esa apertura, comienza a escribir un diario. Sus páginas se vuelven testigos de sus dudas, recuerdos y anhelos. Aunque sus días no son lineales, empieza a sentirse dueña de su camino. Su ansiedad ya no es una enemiga, sino una señal que aprende a interpretar.
+        No lo tiene todo resuelto, pero al fin ha comenzado a escucharse.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Durante el desayuno, entre cucharadas de cereal y miradas esquivas, Valeria decide hablar. Sus palabras temblorosas rompen la tensión, y su familia la escucha con atención sincera. Más tarde, en la sesión con el consejero, se permite llorar, reír y dudar. Inspirada por esa apertura, comienza a escribir un diario. Sus páginas se vuelven testigos de sus dudas, recuerdos y anhelos. Aunque sus días no son lineales, empieza a sentirse dueña de su camino. Su ansiedad ya no es una enemiga, sino una señal que aprende a interpretar.</p>
+
+<p><strong>Final Esperanzador</strong><br>
+No lo tiene todo resuelto, pero al fin ha comenzado a escucharse.<br>
+</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/F_espe.jpg" alt="Imagen de ejemplo" width="400">
+
+</div>
+
+
+:: FinalMalo {"position":"1900,1625","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Valeria niega su malestar hasta que el cuerpo y la mente empiezan a colapsar. Rechaza la ayuda del profesor, evade las llamadas de sus amigas y se aísla en su habitación, donde los apuntes ya no son compañía sino carga. Su ansiedad se intensifica hasta volverse asfixiante, y los episodios de pánico se convierten en visitantes frecuentes. Por fuera, sigue entregando trabajos y respondiendo con una sonrisa automática. Por dentro, algo se rompe lentamente. Nadie sospecha que la Valeria que conocen ya no logra reconocerse frente al espejo.
+        Y aunque todos la ven presente, hace tiempo que dejó de habitarse.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Valeria niega su malestar hasta que el cuerpo y la mente empiezan a colapsar. Rechaza la ayuda del profesor, evade las llamadas de sus amigas y se aísla en su habitación, donde los apuntes ya no son compañía sino carga. Su ansiedad se intensifica hasta volverse asfixiante, y los episodios de pánico se convierten en visitantes frecuentes. Por fuera, sigue entregando trabajos y respondiendo con una sonrisa automática. Por dentro, algo se rompe lentamente. Nadie sospecha que la Valeria que conocen ya no logra reconocerse frente al espejo.
+        Y aunque todos la ven presente, hace tiempo que dejó de habitarse.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Valeria deja de hablar con sus amigas. Evita a sus padres. Finge estar bien, pero cada noche las pesadillas la devoran.<br>
+Se aísla, pierde el interés en sus estudios, en sus rutinas, en sí misma.</p>
+
+<p>Los ataques de pánico son cada vez más frecuentes. El silencio se vuelve su refugio, pero también su prisión.<br>
+Siente que ya no hay salida. Nadie la escucha, pero tampoco ha sabido cómo pedir ayuda.</p>
+
+<p><strong>Final malo</strong><br>
+Y aunque todos la ven presente, hace tiempo que dejó de habitarse.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/F_malo.jpg" alt="Imagen de ejemplo" width="400">
+
+</div>
+
+
+
+:: FinalNeutral {"position":"1900,1500","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Valeria opta por el camino más conocido: el silencio. No comparte su malestar, no se permite quebrarse. Se mantiene funcional, cumple con sus obligaciones, y a ojos de los demás, todo parece estar en orden. La rutina se convierte en su escudo, pero también en su prisión. A veces ríe sin ganas, otras veces duerme sin descansar. Aprende a sobrevivir, pero no a sanar. Sus emociones se diluyen entre clases, tareas y pantallas, manteniéndose en una zona segura pero emocionalmente estéril.
+        Sabe funcionar, pero no vivir; y en esa línea tenue, aprende a no romperse... del todo
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Valeria opta por el camino más conocido: el silencio. No comparte su malestar, no se permite quebrarse. Se mantiene funcional, cumple con sus obligaciones, y a ojos de los demás, todo parece estar en orden. La rutina se convierte en su escudo, pero también en su prisión. A veces ríe sin ganas, otras veces duerme sin descansar. Aprende a sobrevivir, pero no a sanar. Sus emociones se diluyen entre clases, tareas y pantallas, manteniéndose en una zona segura pero emocionalmente estéril.
+        Sabe funcionar, pero no vivir; y en esa línea tenue, aprende a no romperse... del todo
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Valeria opta por el camino más conocido: el silencio. No comparte su malestar, no se permite quebrarse. Se mantiene funcional, cumple con sus obligaciones, y a ojos de los demás, todo parece estar en orden. La rutina se convierte en su escudo, pero también en su prisión. A veces ríe sin ganas, otras veces duerme sin descansar. Aprende a sobrevivir, pero no a sanar. Sus emociones se diluyen entre clases, tareas y pantallas, manteniéndose en una zona segura pero emocionalmente estéril.</p>
+
+<p><strong>Final neutral</strong><br>
+Sabe funcionar, pero no vivir; y en esa línea tenue, aprende a no romperse... del todo.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/F_neutro.jpg" alt="Imagen de ejemplo" width="400">
+
+</div>
+
+
+:: FinalOscuro {"position":"1900,1775","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Valeria perfecciona su fachada. Con cada mentira, con cada gesto calculado, va tallando una imagen que encanta a los demás: la estudiante ejemplar, la amiga racional, la hija sin conflictos. Comienza a medir su valor en logros y aplausos, escondiendo el miedo que le ruge por dentro. Ignora señales, rechaza ayuda, y convierte su vulnerabilidad en una debilidad que jamás se permite mostrar. El brillo exterior se hace más nítido, mientras su mundo interior se reduce a un murmullo lejano.
+        La imagen que refleja al mundo es impecable… pero no le pertenece.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Valeria perfecciona su fachada. Con cada mentira, con cada gesto calculado, va tallando una imagen que encanta a los demás: la estudiante ejemplar, la amiga racional, la hija sin conflictos. Comienza a medir su valor en logros y aplausos, escondiendo el miedo que le ruge por dentro. Ignora señales, rechaza ayuda, y convierte su vulnerabilidad en una debilidad que jamás se permite mostrar. El brillo exterior se hace más nítido, mientras su mundo interior se reduce a un murmullo lejano.
+        La imagen que refleja al mundo es impecable… pero no le pertenece.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Valeria perfecciona su fachada. Con cada mentira, con cada gesto calculado, va tallando una imagen que encanta a los demás: la estudiante ejemplar, la amiga racional, la hija sin conflictos. Comienza a medir su valor en logros y aplausos, escondiendo el miedo que le ruge por dentro. Ignora señales, rechaza ayuda, y convierte su vulnerabilidad en una debilidad que jamás se permite mostrar. El brillo exterior se hace más nítido, mientras su mundo interior se reduce a un murmullo lejano.</p>
+
+<p><strong>Final Oscuro</strong><br>
+La imagen que refleja al mundo es impecable… pero no le pertenece.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/F_oscuro.jpg" alt="Imagen de ejemplo" width="400">
+
+</div>
+
+
+
+:: FocoAcademico {"position":"1425,1400","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+         La charla gira en torno a horarios de estudio y métodos de memorización. Valeria sale con más planes de repaso, pero su ansiedad permanece intacta.
+         Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+         La charla gira en torno a horarios de estudio y métodos de memorización. Valeria sale con más planes de repaso, pero su ansiedad permanece intacta.
+         Presiona la tecla 1 para continuar.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p> La charla gira en torno a horarios de estudio y métodos de memorización. Valeria sale con más planes de repaso, pero su ansiedad permanece intacta.</p>
+
+  <img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Academico.jpg" alt="Imagen de ejemplo" width="400">
+
+  <p style="margin: 0;">
+    <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+      [[Siguiente->Final]]
+    </span>
+  </p>
+
+</div>
+
+
+
+:: Gritar {"position":"975,1300","size":"100,100"}
+<<set $ansiedad to $ansiedad + 3>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Las voces callan de golpe, pero un vendaval de pánico inunda su pecho y su corazón late con furia.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Las voces callan de golpe, pero un vendaval de pánico inunda su pecho y su corazón late con furia.
+        Presiona la tecla 1 para continuar.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Las voces callan de golpe, pero un vendaval de pánico inunda su pecho y su corazón late con furia.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Gritar.jpg" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Siguiente->Consejero]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: HablarPrivado {"position":"1300,1075","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        El profesor asiente con comprensión y le ofrece trabajo adicional para mejorar la nota.
+        Valeria apoya las manos sobre el escritorio gastado, siente alivio y advierte el peso de las noches que vendrán dedicadas a ejercicios extra.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        El profesor asiente con comprensión y le ofrece trabajo adicional para mejorar la nota.
+        Valeria apoya las manos sobre el escritorio gastado, siente alivio y advierte el peso de las noches que vendrán dedicadas a ejercicios extra.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>El profesor asiente con comprensión y le ofrece trabajo adicional para mejorar la nota.
+Valeria apoya las manos sobre el escritorio gastado, siente alivio y advierte el peso de
+las noches que vendrán dedicadas a ejercicios extra.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/privado.jpg" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Siguiente->Recreo]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: Huir {"position":"975,1550","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Logra alejarse de las voces, disfruta un respiro corto, pero el eco del miedo
+        palpita bajo su piel.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Logra alejarse de las voces, disfruta un respiro corto, pero el eco del miedo
+        palpita bajo su piel.
+        Presiona la tecla 1 para continuar.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Logra alejarse de las voces, disfruta un respiro corto, pero el eco del miedo
+palpita bajo su piel.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/huir.jpg" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Siguiente->Consejero]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: IgnorarAmiga {"position":"475,1600","size":"100,100"}
+<<set $ansiedad to $ansiedad + 1>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Valeria se concentra en sus estudios, y después de varias horas de concentración se siente aliviada de entender Álgebra un poco mejor.
+        Sin embargo, Valeria se siente ansiosa por no haber sido una buena amiga,
+        y piensa que puede que su amiga ya no la quiera más después de haberla ignorado.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Valeria se concentra en sus estudios, y después de varias horas de concentración se siente aliviada de entender Álgebra un poco mejor.
+        Sin embargo, Valeria se siente ansiosa por no haber sido una buena amiga,
+        y piensa que puede que su amiga ya no la quiera más después de haberla ignorado.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Valeria se concentra en sus estudios, y después de varias horas de concentración se siente aliviada de entender Álgebra un poco mejor. Sin embargo, Valeria se siente ansiosa por no haber sido una buena amiga y piensa que puede que su amiga ya no la quiera más después de haberla ignorado</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Ignora_amiga.png" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Hora de dormir->Pesadilla]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: Inicio {"position":"400,800","size":"100,100"}
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        En el dormitorio de Valeria, la tenue luz del amanecer se filtra a través de unas cortinas estampadas con motivos florales.
+        Su escritorio, cubierto de apuntes de álgebra abiertos y garabatos de fórmulas, delata noches en vela.
+        A lo lejos, el tic tac del reloj de pared marca cada segundo con insistencia, como si midiera la agitación de su pecho.
+        Cada mañana despierta con un recuerdo nebuloso de sueños que la atrapan en arenas movedizas de culpa y hacen que su respiración se acelere.
+        Dale clic en el botón siguiente o presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        En el dormitorio de Valeria, la tenue luz del amanecer se filtra a través de unas cortinas estampadas con motivos florales.
+        Su escritorio, cubierto de apuntes de álgebra abiertos y garabatos de fórmulas, delata noches en vela.
+        A lo lejos, el tic tac del reloj de pared marca cada segundo con insistencia, como si midiera la agitación de su pecho.
+        Cada mañana despierta con un recuerdo nebuloso de sueños que la atrapan en arenas movedizas de culpa y hacen que su respiración se acelere.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>En el dormitorio de Valeria, la tenue luz del amanecer se filtra a través de unas cortinas estampadas con motivos florales. Su escritorio, cubierto de apuntes de álgebra abiertos y garabatos de fórmulas, delata noches en vela. A lo lejos, el tic tac del reloj de pared marca cada segundo con insistencia, como si midiera la agitación de su pecho. Cada mañana despierta con un recuerdo nebuloso de sueños que la atrapan en arenas movedizas de culpa y hacen que su respiración se acelere.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/inicio.jpg" alt="Imagen1" width="400" >
+
+<p>
+  <span style="color: #3399ff; font-size: 1.4em; font-family: 'Times New Roman', serif;">
+    [[Siguiente->Escena1]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: Insinuar {"position":"925,825","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        El padre de Valeria le coloca la mano en el hombro y le dice “estoy aquí para lo que necesites” en tono suave.
+        La vaguedad de la promesa deja a Valeria con más preguntas que respuestas,
+        y su mente gira intentando definir qué pedir.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        El padre de Valeria le coloca la mano en el hombro y le dice “estoy aquí para lo que necesites” en tono suave.
+        La vaguedad de la promesa deja a Valeria con más preguntas que respuestas,
+        y su mente gira intentando definir qué pedir.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>El padre de Valeria le coloca la mano en el hombro y le dice “estoy aquí para lo que necesites” en tono suave. La vaguedad de la promesa deja a Valeria con más preguntas que respuestas, y su mente gira intentando definir qué pedir.</p>
+
+  <img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Evadir_Desayuno.png" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Ir a clases->ClaseAlgebra]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: Introduccion {"position":"200,1125","size":"100,100"}
+<<set $ansiedad = 0>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        A veces, las decisiones más pequeñas del día a día pueden generar un gran peso en nuestra mente.
+        Esta es la historia de Valeria, una chica que lucha en silencio contra algo que muchos enfrentan: ansiedad.
+        A lo largo de esta historia, tendrás la oportunidad de tomar decisiones en su lugar.
+        Cada decisión afectará su nivel de ansiedad y el desenlace de su historia.
+        Esta narrativa está diseñada para generar conciencia sobre la salud mental y la importancia de pedir ayuda a tiempo.
+        ¿Estás listo o lista para acompañar a Valeria?
+        Dale click en el boton siguiente o preciona la tecla 1
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        A veces, las decisiones más pequeñas del día a día pueden generar un gran peso en nuestra mente.
+        Esta es la historia de Valeria, una chica que lucha en silencio contra algo que muchos enfrentan: ansiedad.
+        A lo largo de esta historia, tendrás la oportunidad de tomar decisiones en su lugar.
+        Cada decisión afectará su nivel de ansiedad y el desenlace de su historia.
+        Esta narrativa está diseñada para generar conciencia sobre la salud mental y la importancia de pedir ayuda a tiempo.
+        ¿Estás listo o lista para acompañar a Valeria?
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>A veces, las decisiones más pequeñas del día a día pueden generar un gran peso en nuestra mente.</p>
+
+<p>Esta es la historia de Valeria, una adolescente que lucha en silencio contra algo que muchos enfrentan: ansiedad.</p>
+
+<p>A lo largo de esta historia, tendrás la oportunidad de tomar decisiones en su lugar.<br>
+
+Cada decisión afectará su nivel de ansiedad, y con ello, el desenlace de su historia.</p>
+<p>Esta narrativa está diseñada para generar conciencia sobre la salud mental y la importancia de pedir ayuda a tiempo.</p>
+
+<p><strong>¿Estás listo/a para acompañar a Valeria?</strong></p>
+
+<p>
+<span style="color: #3399ff; font-size: 1.4em; font-family: 'Times New Roman', serif;">
+    [[Conocer a Valeria]]
+</span>
+</p>
+</div>
+
+
+
+:: InvitarAmiga {"position":"600,1600","size":"100,100"}
+<<set $ansiedad to $ansiedad + 1>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Se ríen mientras repasan fórmulas, pero cuando el móvil suena de nuevo Valeria se pregunta si ha sacrificado demasiado tiempo de examen por comodidad.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Se ríen mientras repasan fórmulas, pero cuando el móvil suena de nuevo Valeria se pregunta si ha sacrificado demasiado tiempo de examen por comodidad.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Se ríen mientras repasan fórmulas, pero cuando el móvil suena de nuevo Valeria se pregunta si ha sacrificado demasiado tiempo de examen por comodidad.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/I_amiga.jpg" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Hora de dormir->Pesadilla]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: LlamarAmiga {"position":"225,1600","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Después de hablar cerca de dos horas, Valeria logra hacer que su amiga se calme y se sienta mejor.
+        Sin embargo, no pudo dedicar tiempo a su estudio de Álgebra.
+        Valeria se siente ansiosa por no estudiar correctamente y se preocupa por sus resultados en el próximo examen.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Después de hablar cerca de dos horas, Valeria logra hacer que su amiga se calme y se sienta mejor.
+        Sin embargo, no pudo dedicar tiempo a su estudio de Álgebra.
+        Valeria se siente ansiosa por no estudiar correctamente y se preocupa por sus resultados en el próximo examen.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Después de hablar cerca de 2 horas, Valeria logra hacer que su amiga se calme y se sienta mejor. Sin embargo, no pudo dedicar tiempo a su estudio de Álgebra. Valeria se siente ansiosa por no estudiar correctamente y se preocupa por sus resultados en el próximo examen.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Llamada_amiga.png" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Hora de dormir->Pesadilla]]
+  </span>
+</p>
+
+</div>
+
+
+:: MentirDesayuno {"position":"550,825","size":"100,100"}
+<<set $ansiedad to $ansiedad + 3>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        El padre de Valeria la mira con orgullo, aplaude su “compromiso” y habla de celebrar sus éxitos con una cena especial.
+        Valeria capturará el aroma del café y sentirá un nudo de culpa revolverse en el estómago.
+        Dale clic en el botón siguiente o presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        El padre de Valeria la mira con orgullo, aplaude su “compromiso” y habla de celebrar sus éxitos con una cena especial.
+        Valeria capturará el aroma del café y sentirá un nudo de culpa revolverse en el estómago.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>El padre de Valeria la mira con orgullo, aplaude su “compromiso” y habla de celebrar sus éxitos con una cena especial. Valeria capturará el aroma del café y sentirá un nudo de culpa revolverse en el estómago.</p>
+
+  <img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Mentir_Desayuno.png" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Ir a clases->ClaseAlgebra]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: MentirNota {"position":"925,1075","size":"100,100"}
+<<set $ansiedad to $ansiedad + 4>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        El aula estalla en vítores y puños chocan en señal de aprobación.
+        El murmullo de “¡Qué dedicada!” retumba en su cabeza,
+        mientras Valeria siente un golpe de pánico ante la posibilidad de ser descubierta.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        El aula estalla en vítores y puños chocan en señal de aprobación.
+        El murmullo de “¡Qué dedicada!” retumba en su cabeza,
+        mientras Valeria siente un golpe de pánico ante la posibilidad de ser descubierta.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>El aula estalla en vítores y puños chocan en señal de aprobación. El murmullo de “¡Qué dedicada!” retumba en su cabeza, mientras Valeria siente un golpe de pánico ante la posibilidad de ser descubierta.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/mentir_nota.jpg" alt="" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Siguiente->Recreo]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: MostrarNota {"position":"1050,1075","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Sus compañeros se ríen a carcajadas y señalan su examen con desprecio.
+        Su pecho se encoge, la sangre le arde en las mejillas y la vergüenza amenaza con hundirla en silencio.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Sus compañeros se ríen a carcajadas y señalan su examen con desprecio.
+        Su pecho se encoge, la sangre le arde en las mejillas y la vergüenza amenaza con hundirla en silencio.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Sus compañeros se ríen a carcajadas y señalan su examen con desprecio. Su pecho se encoge, la sangre le arde en las mejillas y la vergüenza amenaza con hundirla en silencio.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Mostrar_Nota.png" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Siguiente->Recreo]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: Muro {"position":"975,1425","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Una barrera de frases la protege unos instantes, pero la fatiga emocional la arrastra de nuevo al barro.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Una barrera de frases la protege unos instantes, pero la fatiga emocional la arrastra de nuevo al barro.
+        Presiona la tecla 1 para continuar.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Una barrera de frases la protege unos instantes, pero la fatiga emocional la arrastra de nuevo al barro.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Muro2.jpg" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Siguiente->Consejero]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: OcultarNota {"position":"1175,1075","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Un coro de susurros lanzan hipótesis sobre su nota mientras Valeria se sumerge en el eco de sus propios miedos.
+        Cada rumor la aísla un paso más y sus nervios crujen bajo la presión.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Un coro de susurros lanzan hipótesis sobre su nota mientras Valeria se sumerge en el eco de sus propios miedos.
+        Cada rumor la aísla un paso más y sus nervios crujen bajo la presión.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Un coro de susurros lanzan hipótesis sobre su nota mientras Valeria se sumerge en el eco de sus propios miedos. Cada rumor la aísla un paso más y sus nervios crujen bajo la presión.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Ocultar_nota.png" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Siguiente->Recreo]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: Paralizarse {"position":"975,1675","size":"100,100"}
+<<set $ansiedad to $ansiedad + 3>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        El silencio duele como un puñal; Valeria siente la ansiedad grabarse en cada fibra de su ser.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        El silencio duele como un puñal; Valeria siente la ansiedad grabarse en cada fibra de su ser.
+        Presiona la tecla 1 para continuar.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>El silencio duele como un puñal; Valeria siente la ansiedad grabarse en cada fibra de su ser.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Paralizado.jpg" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Siguiente->Consejero]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: Pesadilla {"position":"750,1425","size":"100,100"}
+<<set $ansiedad to $ansiedad + 1>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Finalmente, llega la hora de dormir. 
+        Lamentablemente, y como ya es usual, la pesadilla recurrente de Valeria empieza a acechar.
+        En ella, Valeria recorre pasillos infinitos que se retuercen como un laberinto.
+        Amigos y familiares aparecen con rostros distorsionados que la señalan, y cada palabra que pronuncia se convierte en cuchillos que perforan su pecho. De pronto, cede y cae en un fango espeso: su culpa materializada.
+        Valeria en su sueño decide:
+        Uno: Gritar a las voces para detenerlas.
+        Dos: Quedarse paralizada, escuchándolas en silencio.
+        Tres: Levantar un muro de palabras que trate de contener las críticas.
+        Cuatro: Huir, encerrando todo en una caja mental que luego guardará bajo llave.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Finalmente, llega la hora de dormir. 
+        Lamentablemente, y como ya es usual, la pesadilla recurrente de Valeria empieza a acechar.
+        En ella, Valeria recorre pasillos infinitos que se retuercen como un laberinto.
+        Amigos y familiares aparecen con rostros distorsionados que la señalan, y cada palabra que pronuncia se convierte en cuchillos que perforan su pecho. De pronto, cede y cae en un fango espeso: su culpa materializada.
+        Valeria en su sueño decide:
+        Uno: Gritar a las voces para detenerlas.
+        Dos: Quedarse paralizada, escuchándolas en silencio.
+        Tres: Levantar un muro de palabras que trate de contener las críticas.
+        Cuatro: Huir, encerrando todo en una caja mental que luego guardará bajo llave.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Finalmente, llega la hora de dormir. 
+Lamentablemente, y como ya es usual, la pesadilla recurrente de Valeria empieza a acechar. 
+En ella, Valeria recorre pasillos infinitos que se retuercen como un laberinto.
+Amigos y familiares aparecen con rostros distorsionados que la señalan, y cada palabra que pronuncia se convierte en cuchillos que perforan su pecho. De pronto, cede y cae en un fango espeso: su culpa materializada.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Pesadilla.png" alt="Imagen de ejemplo" width="400">
+
+<p><strong>Valeria en su sueño decide:</strong></p>
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Gritar a las voces para detenerlas. ->Gritar]]
+  </span><br>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Quedarse paralizada, escuchándolas en silencio. ->Paralizarse]]
+  </span><br>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Levantar un muro de palabras que trate de contener las críticas. ->Muro]]
+  </span><br>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Huir, encerrando todo en una caja mental que luego guardará bajo llave. ->Huir]]
+  </span>
+</p>
+
+</div>
+
+
+:: RazonEx {"position":"425,1300","size":"100,100"}
+<<set $ansiedad to $ansiedad + 3>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        María rompe en llanto mucho más.
+        Valeria se siente mal, ya que no era su intención herirla.
+        Muy adentro, se siente ansiosa, ya que ella tampoco cree que pueda encontrar a alguien que la aprecie tal y como es.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        María rompe en llanto mucho más.
+        Valeria se siente mal, ya que no era su intención herirla.
+        Muy adentro, se siente ansiosa, ya que ella tampoco cree que pueda encontrar a alguien que la aprecie tal y como es.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>María rompe en llanto mucho más. Valeria se siente mal ya que no era su intención, muy adentro se siente ansiosa ya que ella tampoco cree que pueda encontrar a alguien que la aprecie tal y como es.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Razon_ex.png" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Siguiente->Casa]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: Rechazar {"position":"1425,1525","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+         El orientador insiste en un tono amable; Valeria abandona el despacho sintiéndose incomprendida y mora en su soledad con un filo de resentimiento.
+         Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+         El orientador insiste en un tono amable; Valeria abandona el despacho sintiéndose incomprendida y mora en su soledad con un filo de resentimiento.
+         Presiona la tecla 1 para continuar.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p> El orientador insiste en un tono amable; Valeria abandona el despacho sintiéndose incomprendida y mora en su soledad con un filo de resentimiento.</p>
+
+  <img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Rechazo.jpg" alt="Imagen de ejemplo" width="400">
+
+  <p style="margin: 0;">
+    <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+      [[Siguiente->Final]]
+    </span>
+  </p>
+
+</div>
+
+
+
+:: Recreo {"position":"350,1175","size":"100,100"}
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Es la hora del recreo. Valeria se encuentra con sus amigas y nota que María está llorando.
+        Su novio terminó con ella porque, según él, es alta, grande y algo gorda.
+        Ahora él está saliendo con una chica del curso superior: atlética, rubia, y admirada por todos.
+        María, entre lágrimas, dice: Quizá no soy lo suficientemente bonita para alguien como él…
+        ¿Qué hace Valeria?
+        Uno: Criticar al exnovio y a la nueva pareja de María utilizando palabras afiladas para subrayar la injusticia.
+        Dos: Abrazar a María y sugerir que hagan deporte juntas para despejar la mente.
+        Tres: Decir que sea más realista: \"Quizá no era para ti\", con voz grave e intento de autoafirmación.
+        Cuatro: Desviar la conversación hacia un tema alegre, hablando de planes para el fin de semana.
+        Utiliza las teclas del 1 al 4 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Es la hora del recreo. Valeria se encuentra con sus amigas y nota que María está llorando.
+        Su novio terminó con ella porque, según él, es alta, grande y algo gorda.
+        Ahora él está saliendo con una chica del curso superior: atlética, rubia, y admirada por todos.
+        María, entre lágrimas, dice: Quizá no soy lo suficientemente bonita para alguien como él…
+        ¿Qué hace Valeria?
+        Uno: Criticar al exnovio y a la nueva pareja de María utilizando palabras afiladas para subrayar la injusticia.
+        Dos: Abrazar a María y sugerir que hagan deporte juntas para despejar la mente.
+        Tres: Decir que sea más realista: \"Quizá no era para ti\", con voz grave e intento de autoafirmación.
+        Cuatro: Desviar la conversación hacia un tema alegre, hablando de planes para el fin de semana.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Es la hora del recreo. Valeria se encuentra con sus amigas y nota que María está llorando.<br>
+Su novio terminó con ella porque “es alta, grande y algo gorda”. Ahora él está saliendo con una chica del curso superior: atlética, rubia, y admirada por todos.</p>
+
+<p>María, entre lágrimas, dice:<br>
+—<em>Quizá no soy lo suficientemente bonita para alguien como él…</em></p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/recreo.jpg" alt="Imagen de ejemplo" width="400">
+
+<p><strong>¿Qué hace Valeria?</strong></p>
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Criticar al exnovio y a la nueva pareja de María utilizando palabras afiladas para subrayar la injusticia.->CriticaEx]]
+  </span><br>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Abrazar a María y sugerir que hagan deporte juntas para despejar la mente.->ConsuelaMaria]]
+  </span><br>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Decir que sea más realista: "Quizá no era para ti", con voz grave e intento de autoafirmación.->RazonEx]]
+  </span><br>
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Desviar la conversación hacia un tema alegre, hablando de planes para el fin de semana.->Desviar]]
+  </span>
+</p>
+
+</div>
+
+
+:: SesionSincera {"position":"1425,1275","size":"100,100"}
+<<set $ansiedad to $ansiedad + 1>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        El consejero le ofrece técnicas de respiración, diario emocional y apoyo continuo. Valeria siente un hilo de esperanza crecer en su pecho.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        El consejero le ofrece técnicas de respiración, diario emocional y apoyo continuo. Valeria siente un hilo de esperanza crecer en su pecho.
+        Presiona la tecla 1 para continuar.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>El consejero le ofrece técnicas de respiración, diario emocional y apoyo continuo. Valeria siente un hilo de esperanza crecer en su pecho.</p>
+
+  <img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/sincera.jpg" alt="Imagen de ejemplo" width="400">
+
+
+  <p style="margin: 0;">
+    <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+      [[Siguiente->Final]]
+    </span>
+  </p>
+
+</div>
+
+
+
+:: Taller {"position":"1425,1650","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+         La iniciativa entusiasma al orientador, pero al pensar en exponer su vulnerabilidad ante otros, su pecho se llena de temor.
+         Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+         La iniciativa entusiasma al orientador, pero al pensar en exponer su vulnerabilidad ante otros, su pecho se llena de temor.
+         Presiona la tecla 1 para continuar.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p> La iniciativa entusiasma al orientador, pero al pensar en exponer su vulnerabilidad ante otros, su pecho se llena de temor. </p>
+
+  <img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Taller.jpg" alt="Imagen de ejemplo" width="400">
+
+  <p style="margin: 0;">
+    <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+      [[Siguiente->Final]]
+    </span>
+  </p>
+
+</div>
+
+
+
+:: TextoAmiga {"position":"350,1600","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        Valeria hace lo mejor para responder los mensajes de texto de su amiga mientras estudia.
+        No logra concentrarse debidamente en ninguna de las dos.
+        Valeria se siente ansiosa por no estudiar correctamente, no ser una buena amiga,
+        además de pensar que puede que sus padres también terminen separados si las dificultades económicas continúan.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        Valeria hace lo mejor para responder los mensajes de texto de su amiga mientras estudia.
+        No logra concentrarse debidamente en ninguna de las dos.
+        Valeria se siente ansiosa por no estudiar correctamente, no ser una buena amiga,
+        además de pensar que puede que sus padres también terminen separados si las dificultades económicas continúan.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>Valeria hace lo mejor para responder los mensajes de texto de su amiga mientras estudia. No logra concentrarse debidamente en ninguna de las dos. Valeria se siente ansiosa por no estudiar correctamente, no ser una buena amiga, además de pensar que puede que sus padres también terminen separados si las dificultades económicas continúan.</p>
+
+<img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Texteando_amiga.png" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Hora de dormir->Pesadilla]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: Tutorial {"position":"125,975","size":"100,100"}
+<!-- PASAJE: "Instrucciones" -->
+<style>
+#tutorial-instrucciones {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+}
+
+#contenido-instrucciones {
+  margin: 30px 0;
+}
+
+.instruccion-item {
+  background-color: #f8f9fa;
+  border-left: 4px solid #3399ff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.instruccion-item h2 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+.instruccion-item p {
+  margin: 10px 0;
+  color: #444;
+  font-size: 1.05em;
+}
+
+.ejemplo-numero {
+  color: #ff6b6b;
+  font-weight: bold;
+  background-color: #ffe6e6;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin: 0 3px;
+  font-size: 0.9em;
+}
+
+.numero-opcion {
+  color: #ff6b6b;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-right: 8px;
+}
+
+.opcion-seleccionada {
+  background-color: #fff3cd;
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid #ffc107;
+  transition: all 0.3s ease;
+  transform: scale(1.03);
+}
+
+#demo-controles {
+  background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
+  padding: 25px;
+  border-radius: 12px;
+  margin: 30px 0;
+  border: 1px solid #e1bee7;
+}
+
+#opciones-demo {
+  margin: 20px 0;
+}
+
+#opciones-demo p {
+  margin: 15px 0;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 6px;
+}
+
+a[data-passage]:hover {
+  background-color: #e3f2fd;
+  padding: 6px 10px;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+@keyframes destacar {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.numero-opcion:hover {
+  animation: destacar 0.5s ease-in-out;
+}
+
+@media (max-width: 600px) {
+  #tutorial-instrucciones {
+    padding: 15px;
+  }
+  
+  .instruccion-item {
+    padding: 15px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  #demo-controles {
+    padding: 20px;
+  }
+}
+</style>
+
+<div id="tutorial-instrucciones">
+  <h1 style="text-align: center; color: #3399ff; font-family: 'Times New Roman', serif; margin-bottom: 30px;">
+    📚 Instrucciones de Navegación
+  </h1>
+  
+  <div id="contenido-instrucciones">
+    <div class="instruccion-item">
+      <h2>🎧 Narrador de Voz</h2>
+      <p>• Presiona la <strong>BARRA ESPACIADORA</strong> para activar el narrador</p>
+      <p>• Vuelve a presionar <strong>ESPACIO</strong> para detener la narración</p>
+      <p>• También puedes usar el botón 🎧 cuando aparezca</p>
+    </div>
+    
+    <div class="instruccion-item">
+      <h2>⌨️ Navegación por Teclado</h2>
+      <p>• Presiona los números del <strong>1 al 4</strong> para seleccionar opciones</p>
+      <p>• Cada opción aparecerá numerada: <span class="ejemplo-numero">[1]</span> <span class="ejemplo-numero">[2]</span> <span class="ejemplo-numero">[3]</span></p>
+      <p>• La opción seleccionada se resaltará brevemente</p>
+    </div>
+    
+    <div class="instruccion-item">
+      <h2>🖱️ Navegación con Mouse</h2>
+      <p>• Haz clic directamente en cualquier opción disponible</p>
+      <p>• Funciona de manera tradicional</p>
+    </div>
+  </div>
+  
+  <div id="demo-controles">
+    <h2 style="text-align: center; color: #ff6b6b; margin: 40px 0 20px 0;">🎮 Prueba los Controles</h2>
+    <div id="opciones-demo">
+      <p>
+        <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+          <span class="numero-opcion">[1]</span> [[Comenzar con la historia|Introduccion]]
+        </span>
+      </p>
+    </div>
+  </div>
+  
+  <div id="ayuda-controles">
+    <p style="text-align: center; font-style: italic; color: #666; margin-top: 30px;">
+      💡 Presiona <strong>ESPACIO</strong> para escuchar estas instrucciones
+    </p>
+    <p style="text-align: center; font-style: italic; color: #666;">
+      🎯 Usa los números <strong>1</strong> para navegar
+    </p>
+  </div>
+</div>
+
+<script>
+$(document).ready(function() {
+  // Texto para narración de las instrucciones
+  const textoInstrucciones = `
+    Bienvenido a las instrucciones de navegación.
+    
+    Para activar el narrador, presiona la barra espaciadora en cualquier momento.
+    Vuelve a presionar espacio para detener la narración.
+    
+    Para navegar por las opciones, usa los números del 1 al 4 en tu teclado.
+    Cada opción estará marcada con su número correspondiente.
+    
+    También puedes usar el mouse para hacer clic directamente en cualquier opción.
+    
+    Ahora puedes practicar: presiona 1 para ir a la introducción de la historia.
+  `;
+  
+  // Función para iniciar narración
+  function iniciarNarracion() {
+    // Detener cualquier narración anterior
+    window.speechSynthesis.cancel();
+    
+    const narrador = new SpeechSynthesisUtterance(textoInstrucciones);
+    narrador.lang = "es-ES";
+    narrador.rate = 0.9;
+    narrador.pitch = 1;
+    narrador.volume = 0.8;
+    
+    // Feedback visual durante la narración
+    $('#ayuda-controles').html(`
+      <p style="text-align: center; color: #3399ff; font-weight: bold;">
+        🎧 Reproduciendo instrucciones... (Presiona ESPACIO para detener)
+      </p>
+    `);
+    
+    narrador.onend = function() {
+      $('#ayuda-controles').html(`
+        <p style="text-align: center; font-style: italic; color: #666;">
+          💡 Presiona <strong>ESPACIO</strong> para escuchar estas instrucciones
+        </p>
+        <p style="text-align: center; font-style: italic; color: #666;">
+          🎯 Usa los números <strong>1</strong> para navegar
+        </p>
+      `);
+    };
+    
+    window.speechSynthesis.speak(narrador);
+  }
+  
+  // Función para manejar la navegación por teclado
+  function manejarTeclado(evento) {
+    const tecla = evento.key;
+    
+    // ESPACIO para narración
+    if (tecla === ' ' || tecla === 'Spacebar') {
+      evento.preventDefault();
+      if (window.speechSynthesis.speaking) {
+        window.speechSynthesis.cancel();
+        $('#ayuda-controles').html(`
+          <p style="text-align: center; font-style: italic; color: #666;">
+            💡 Presiona <strong>ESPACIO</strong> para escuchar estas instrucciones
+          </p>
+          <p style="text-align: center; font-style: italic; color: #666;">
+            🎯 Usa los números <strong>1</strong> para navegar
+          </p>
+        `);
+      } else {
+        iniciarNarracion();
+      }
+      return;
+    }
+    
+    // Números para navegación
+    if (tecla >= '1' && tecla <= '9') {
+      const numeroOpcion = parseInt(tecla);
+      const opciones = $('a[data-passage]');
+      const opcionSeleccionada = opciones.eq(numeroOpcion - 1);
+      
+      if (opcionSeleccionada.length > 0) {
+        // Efecto visual de selección
+        opciones.removeClass('opcion-seleccionada');
+        opcionSeleccionada.addClass('opcion-seleccionada');
+        
+        // Navegar después de un breve delay
+        setTimeout(function() {
+          opcionSeleccionada[0].click();
+        }, 300);
+      }
+    }
+  }
+  
+  // Agregar event listener para el teclado
+  $(document).on('keydown', manejarTeclado);
+  
+  // Agregar números a las opciones automáticamente
+  $('a[data-passage]').each(function(index) {
+    const $this = $(this);
+    const numeroOpcion = index + 1;
+    
+    if (!$this.prev('.numero-opcion').length) {
+      $this.before('<span class="numero-opcion">[' + numeroOpcion + ']</span> ');
+    }
+  });
+  
+  // Efecto de entrada suave
+  $('#tutorial-instrucciones').css('opacity', '0').animate({opacity: 1}, 800);
+});
+
+
+</script><!-- PASAJE: "Instrucciones" -->
+<style>
+#tutorial-instrucciones {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+}
+
+#contenido-instrucciones {
+  margin: 30px 0;
+}
+
+.instruccion-item {
+  background-color: #f8f9fa;
+  border-left: 4px solid #3399ff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.instruccion-item h2 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+.instruccion-item p {
+  margin: 10px 0;
+  color: #444;
+  font-size: 1.05em;
+}
+
+.ejemplo-numero {
+  color: #ff6b6b;
+  font-weight: bold;
+  background-color: #ffe6e6;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin: 0 3px;
+  font-size: 0.9em;
+}
+
+.numero-opcion {
+  color: #ff6b6b;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-right: 8px;
+}
+
+.opcion-seleccionada {
+  background-color: #fff3cd;
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid #ffc107;
+  transition: all 0.3s ease;
+  transform: scale(1.03);
+}
+
+#demo-controles {
+  background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
+  padding: 25px;
+  border-radius: 12px;
+  margin: 30px 0;
+  border: 1px solid #e1bee7;
+}
+
+#opciones-demo {
+  margin: 20px 0;
+}
+
+#opciones-demo p {
+  margin: 15px 0;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 6px;
+}
+
+a[data-passage]:hover {
+  background-color: #e3f2fd;
+  padding: 6px 10px;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+@keyframes destacar {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.numero-opcion:hover {
+  animation: destacar 0.5s ease-in-out;
+}
+
+/* Indicador de narración global */
+#indicador-narracion {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #3399ff;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 1000;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+}
+
+#indicador-narracion.activo {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 600px) {
+  #tutorial-instrucciones {
+    padding: 15px;
+  }
+  
+  .instruccion-item {
+    padding: 15px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  #demo-controles {
+    padding: 20px;
+  }
+  
+  #indicador-narracion {
+    top: 5px;
+    right: 5px;
+    padding: 6px 12px;
+    font-size: 11px;
+  }
+}
+</style>
+
+<div id="tutorial-instrucciones">
+  <h1 style="text-align: center; color: #3399ff; font-family: 'Times New Roman', serif; margin-bottom: 30px;">
+    📚 Instrucciones de Navegación
+  </h1>
+  
+  <div id="contenido-instrucciones">
+    <div class="instruccion-item">
+      <h2>🎧 Narrador de Voz</h2>
+      <p>• Presiona la <strong>BARRA ESPACIADORA</strong> para activar el narrador</p>
+      <p>• Vuelve a presionar <strong>ESPACIO</strong> para detener la narración</p>
+      <p>• Funciona en <strong>todos los pasajes</strong> de la historia</p>
+      <p>• También puedes usar el botón 🎧 cuando aparezca</p>
+    </div>
+    
+    <div class="instruccion-item">
+      <h2>⌨️ Navegación por Teclado</h2>
+      <p>• Presiona los números del <strong>1 al 4</strong> para seleccionar opciones</p>
+      <p>• Cada opción aparecerá numerada: <span class="ejemplo-numero">[1]</span> <span class="ejemplo-numero">[2]</span> <span class="ejemplo-numero">[3]</span></p>
+      <p>• La opción seleccionada se resaltará brevemente</p>
+    </div>
+    
+    <div class="instruccion-item">
+      <h2>🖱️ Navegación con Mouse</h2>
+      <p>• Haz clic directamente en cualquier opción disponible</p>
+      <p>• Funciona de manera tradicional</p>
+    </div>
+  </div>
+  
+  <div id="demo-controles">
+    <h2 style="text-align: center; color: #ff6b6b; margin: 40px 0 20px 0;">🎮 Prueba los Controles</h2>
+    <div id="opciones-demo">
+      <p>
+        <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+          <span class="numero-opcion">[1]</span> [[Comenzar con la historia|Introduccion]]
+        </span>
+      </p>
+    </div>
+  </div>
+  
+  <div id="ayuda-controles">
+    <p style="text-align: center; font-style: italic; color: #666; margin-top: 30px;">
+      💡 Presiona <strong>ESPACIO</strong> para escuchar este pasaje
+    </p>
+    <p style="text-align: center; font-style: italic; color: #666;">
+      🎯 Usa los números <strong>1</strong> para navegar
+    </p>
+  </div>
+</div>
+
+<!-- Indicador de narración -->
+<div id="indicador-narracion">
+  🎧 Narrando...
+</div>
+
+<script>
+// SISTEMA DE NARRACIÓN GLOBAL PARA TWINE - JAVASCRIPT VANILLA
+(function() {
+  'use strict';
+  
+  // Sistema de narración global
+  window.NarradorGlobal = {
+    activo: false,
+    
+    // Función para extraer texto del pasaje actual
+    extraerTextoDelPasaje: function() {
+      let texto = "";
+      
+      // Obtener todos los elementos de texto visible
+      const elementos = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, div, span');
+      
+      elementos.forEach(function(elemento) {
+        // Evitar scripts, estilos y el indicador
+        if (elemento.tagName.toLowerCase() === 'script' || 
+            elemento.tagName.toLowerCase() === 'style' ||
+            elemento.id === 'indicador-narracion') {
+          return;
+        }
+        
+        // Solo texto directo, sin hijos
+        if (elemento.children.length === 0) {
+          const textoElemento = elemento.textContent.trim();
+          if (textoElemento && textoElemento.length > 3) {
+            texto += textoElemento + ". ";
+          }
+        }
+      });
+      
+      // Limpiar texto
+      texto = texto.replace(/\s+/g, ' ')
+                  .replace(/\[[\d\]]/g, '') // Remover números de opciones
+                  .trim();
+      
+      // Si no hay suficiente texto, usar método alternativo
+      if (texto.length < 50) {
+        const body = document.body;
+        if (body) {
+          texto = body.textContent
+                     .replace(/\s+/g, ' ')
+                     .replace(/\[[\d\]]/g, '')
+                     .trim();
+        }
+      }
+      
+      return texto;
+    },
+    
+    // Iniciar narración
+    iniciarNarracion: function() {
+      // Detener cualquier narración anterior
+      if (window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+      }
+      
+      const textoANarrar = this.extraerTextoDelPasaje();
+      
+      if (!textoANarrar || textoANarrar.length < 10) {
+        console.log("No se encontró texto suficiente para narrar");
+        return;
+      }
+      
+      if (window.speechSynthesis) {
+        const narrador = new SpeechSynthesisUtterance(textoANarrar);
+        narrador.lang = "es-ES";
+        narrador.rate = 0.9;
+        narrador.pitch = 1;
+        narrador.volume = 0.8;
+        
+        // Mostrar indicador
+        const indicador = document.getElementById('indicador-narracion');
+        if (indicador) {
+          indicador.classList.add('activo');
+        }
+        this.activo = true;
+        
+        // Eventos del narrador
+        const self = this;
+        narrador.onend = function() {
+          if (indicador) {
+            indicador.classList.remove('activo');
+          }
+          self.activo = false;
+        };
+        
+        narrador.onerror = function() {
+          if (indicador) {
+            indicador.classList.remove('activo');
+          }
+          self.activo = false;
+        };
+        
+        window.speechSynthesis.speak(narrador);
+      }
+    },
+    
+    // Detener narración
+    detenerNarracion: function() {
+      if (window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+      }
+      const indicador = document.getElementById('indicador-narracion');
+      if (indicador) {
+        indicador.classList.remove('activo');
+      }
+      this.activo = false;
+    },
+    
+    // Alternar narración
+    alternarNarracion: function() {
+      if (this.activo || (window.speechSynthesis && window.speechSynthesis.speaking)) {
+        this.detenerNarracion();
+      } else {
+        this.iniciarNarracion();
+      }
+    }
+  };
+  
+  // Función para numerar opciones
+  function numerarOpciones() {
+    const opciones = document.querySelectorAll('a[data-passage]');
+    opciones.forEach(function(opcion, index) {
+      const numeroOpcion = index + 1;
+      
+      // Verificar si ya tiene número
+      const anterior = opcion.previousElementSibling;
+      if (!anterior || !anterior.classList.contains('numero-opcion')) {
+        const spanNumero = document.createElement('span');
+        spanNumero.className = 'numero-opcion';
+        spanNumero.textContent = '[' + numeroOpcion + '] ';
+        opcion.parentNode.insertBefore(spanNumero, opcion);
+      }
+    });
+  }
+  
+  // Función para manejar el teclado
+  function manejarTeclado(evento) {
+    const tecla = evento.key;
+    
+    // ESPACIO para narración
+    if (tecla === ' ' || tecla === 'Spacebar') {
+      evento.preventDefault();
+      if (window.NarradorGlobal) {
+        window.NarradorGlobal.alternarNarracion();
+      }
+      return;
+    }
+    
+    // Números para navegación
+    if (tecla >= '1' && tecla <= '9') {
+      const numeroOpcion = parseInt(tecla);
+      const opciones = document.querySelectorAll('a[data-passage]');
+      const opcionSeleccionada = opciones[numeroOpcion - 1];
+      
+      if (opcionSeleccionada) {
+        // Detener narración antes de navegar
+        if (window.NarradorGlobal) {
+          window.NarradorGlobal.detenerNarracion();
+        }
+        
+        // Efecto visual
+        opciones.forEach(function(opcion) {
+          opcion.classList.remove('opcion-seleccionada');
+        });
+        opcionSeleccionada.classList.add('opcion-seleccionada');
+        
+        // Navegar después de un breve delay
+        setTimeout(function() {
+          opcionSeleccionada.click();
+        }, 300);
+      }
+    }
+  }
+  
+  // Inicializar cuando el DOM esté listo
+  function inicializar() {
+    // Agregar event listener para teclado
+    document.addEventListener('keydown', manejarTeclado);
+    
+    // Numerar opciones
+    numerarOpciones();
+    
+    // Observar cambios en el DOM
+    if (window.MutationObserver) {
+      const observer = new MutationObserver(function() {
+        setTimeout(numerarOpciones, 100);
+      });
+      
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+    }
+    
+    // Detener narración al hacer clic en opciones
+    document.addEventListener('click', function(evento) {
+      if (evento.target.matches('a[data-passage]')) {
+        if (window.NarradorGlobal) {
+          window.NarradorGlobal.detenerNarracion();
+        }
+      }
+    });
+  }
+  
+  // Inicializar cuando el DOM esté listo
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', inicializar);
+  } else {
+    inicializar();
+  }
+  
+})();
+</script>
+
+
+:: VerdadDesayuno {"position":"800,825","size":"100,100"}
+<<set $ansiedad to $ansiedad + 2>>
+
+<div id="Diseno">
+
+<script>
+  document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault();
+      const narracion = `
+        El padre de Valeria le coloca la mano en el hombro y le dice “estoy aquí para lo que necesites” en tono suave.
+        La vaguedad de la promesa deja a Valeria con más preguntas que respuestas,
+        y su mente gira intentando definir qué pedir.
+        Presiona la tecla 1 para continuar.
+      `;
+
+      const narrador = new SpeechSynthesisUtterance(narracion);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(narrador);
+    }
+  });
+</script>
+
+<p><<link "🎧 Escuchar narración">>
+    <<script>>
+      const narrador = new SpeechSynthesisUtterance(`
+        El padre de Valeria le coloca la mano en el hombro y le dice “estoy aquí para lo que necesites” en tono suave.
+        La vaguedad de la promesa deja a Valeria con más preguntas que respuestas,
+        y su mente gira intentando definir qué pedir.
+      `);
+      narrador.lang = "es-ES";
+      narrador.rate = 1;
+      window.speechSynthesis.speak(narrador);
+    <</script>>
+  <</link>></p>
+
+<p>El padre de Valeria le coloca la mano en el hombro y le dice “estoy aquí para lo que necesites” en tono suave. La vaguedad de la promesa deja a Valeria con más preguntas que respuestas, y su mente gira intentando definir qué pedir.</p>
+
+  <img src="https://raw.githubusercontent.com/Yolian007/UX-Design/refs/heads/main/Img/Evadir_Desayuno.png" alt="Imagen de ejemplo" width="400">
+
+<p style="margin: 0;">
+  <span style="color: #3399ff; font-size: 1.3em; font-family: 'Times New Roman', serif;">
+    [[Ir a clases->ClaseAlgebra]]
+  </span>
+</p>
+
+</div>
+
+
+
+:: \\d\\ {"position":"0,1100","size":"100,100"}
+
+
+
+:: StoryStylesheet [stylesheet]
+#Diseno {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.6em;
+  line-height: 1;
+  font-family: "Times New Roman", serif;
+  font-weight: normal;
+  color: white;
+}
+
+#Diseno p {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}

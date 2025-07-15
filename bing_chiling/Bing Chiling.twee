@@ -1,0 +1,518 @@
+:: StoryTitle
+Bin Chiling
+
+
+:: StoryData
+{
+  "ifid": "6AE9F3FD-3B20-426D-B4DD-C8824B683622",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Intro",
+  "zoom": 0.6
+}
+
+
+:: 2. Acerca de {"position":"2100,400","size":"100,100"}
+Historia interactiva: Moonlight
+
+Integrantes: Bing Chilling
+
+Carlos J Quijano Valencia
+Daniel Gonzalez Henao
+Marycielo Berrio Zapata
+Luis Mejia
+
+[[1. Intro ->Intro]]
+
+
+:: Aceptar acompañamiento {"position":"1200,975","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/jvqjjRYj/lluvia.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh
+  "
+role="img" aria-label="Una calle bajo la lluvia intensa, con un ambiente gris y melancólico que transmite tristeza o introspección y personas andando sobre ella con sombrillas.">
+
+</div>
+Caminando al lado de él, con pasos lentos y pesados. La lluvia ha cesado, pero dentro de ella aún llueve.
+—A veces… siento que ya no soy yo —susurra, con la voz quebrada.
+Su amigo la escucha. No la interrumpe. Solo está ahí. Presente. Real.
+Camila habla como nunca antes. Del miedo, del vacío, de las ganas de desaparecer. Y él, sin juzgar, sin dar soluciones rápidas, solo la mira con ojos llenos de ternura.
+Al llegar a casa, se despiden con un abrazo que dura más de lo habitual. Un abrazo que parece sostenerla un poco más fuerte.
+Ya en su habitación, Camila se queda en silencio.
+Por primera vez en mucho tiempo… piensa qué hacer.
+1. [[Seguir la recomendación del amigo]]
+2. [[Preferir hacerlo sola|Ella puede sola]]
+
+
+:: Caminar hasta la universidad {"position":"775,550","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/jvqjjRYj/lluvia.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh
+" 
+role="img" aria-label="Una calle bajo la lluvia intensa, con un ambiente gris y melancólico que transmite tristeza o introspección y personas andando sobre ella con sombrillas.">
+</div>
+Las gotas la golpean como cuchillas. El mundo entero parece mojarse con su tristeza.
+Entre el caos solo hay una opción...
+1. [[Llamar a su novio]]
+
+
+:: Confiesa {"position":"700,1525","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/xqnT8jqD/telefono.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh
+"role="img" aria-label="Un telefono celular sobre una mesa de madera que muestra en pantalla una llamada entrante.">
+
+</div>
+Del otro lado del teléfono, su madre guarda silencio. Un silencio largo, profundo.
+Luego, su voz tiembla.
+—Voy a dejar todo. Me mudo contigo. No voy a perderte.
+Ella se queda quieta. Nadie había dicho algo así. Nadie la había elegido así.
+Por primera vez en mucho tiempo, siente que no está sola.
+Días después, empiezan juntas un tratamiento. No hay soluciones mágicas, pero hay una promesa: seguir adelante, un día a la vez.
+1. [[Tratamiento]]
+
+
+:: Darse una ducha {"position":"1525,1100","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/qYFzXFzj/ducha.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh
+"role="img" aria-label="  Se ve el espacio de una ducha con el agua abierta y saliendo vapor de esta, el baño esta enchapado en azulejos y la grifería es de metal plateado  ">
+
+</div>
+El agua cae sobre su cuerpo como una lluvia tibia que no limpia nada.
+Camila se queda quieta, la mirada perdida, mientras su mente repite todas las voces que la han hecho sentir insuficiente.
+Piensa en todo lo que ha hecho mal. En todo lo que no ha dicho. En quienes se fueron.
+Se siente sola. Abandonada. Invisible.
+Y entonces, en ese silencio doloroso, lo hace otra vez. No porque quiera morir, sino porque no encuentra otra forma de apagar lo que arde dentro.
+Se siente sola. Abandonada. Invisible.
+Y entonces, en ese silencio doloroso, lo hace otra vez. No porque quiera morir, sino porque no encuentra otra forma de apagar lo que arde dentro.
+La sangre corre. Las lágrimas también. El dolor físico parece, por un segundo, más soportable que el emocional.
+Pero algo dentro de ella... una chispa, una memoria, una voz…
+Mamá.
+Su cuerpo tiembla mientras toma el celular con dedos mojados. No sabe qué va a decir. Solo necesita escucharla.
+1. [[Llamar a mamá]]
+
+
+:: Ella puede sola {"position":"1375,975","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/YBCxBXs5/nevera.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh
+"role="img" aria-label=" Una cocina acogedora con encimeras de madera y presentando en el centro una nevera blanca estilo antiguo con diferentes elementos pegados en la puerta. Sobre la encimera se ubican diferentes elementos de cocina y plantas.  ">
+
+</div>
+ Una vez en casa, abre la nevera casi sin pensar. Come lo primero que encuentra… luego lo segundo… luego lo que sigue.
+No tiene hambre. Ni siquiera tiene ganas. Pero algo en su pecho aprieta, y comer parece —por un instante— llenar ese vacío.
+Al terminar, se sienta en el suelo de la cocina. Llora sin saber por qué.
+Hoy no ha pasado nada grave. Nada que justifique este dolor.
+Y sin embargo, se siente rota, sola, hundida en una tristeza que no tiene nombre.
+Un día como hoy se ha repetido muchas veces… pero cada vez duele como si fuera la primera.
+1. [[Darse una ducha]]
+2. [[Escribirle al novio]]
+
+
+:: Escribirle al novio {"position":"1600,950","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/1YRkH8XT/chat.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh
+"role="img" aria-label="  Una imagen de un celular en el cual se ve una interfaz de chat genérica  ">
+
+</div>
+Ve los dos tics. Pero no hay respuesta.
+Pasan minutos… la ansiedad se acumula. Empieza a escribir mensajes desesperados, uno tras otro. Intenta calmar el miedo que crece dentro de ella:
+“Me está dejando.”
+Aunque sabe que su novio suele ser cariñoso, su silencio ahora se siente como un abandono…
+Y para Camila, el abandono duele como una herida abierta.
+El pecho le arde, las lágrimas no se detienen.
+Está atrapada entre el miedo, la angustia y la soledad.
+Solo puede hacer una de dos cosas:
+▸ Tal vez una ducha la ayude a calmarse…
+▸ O tal vez necesita el consuelo de la voz de su mamá.
+1. [[Darse una ducha]]
+2. [[Llamar a mamá]]
+
+
+:: Hablar con él {"position":"900,900","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/bMrzXW8s/borde.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh
+"role="img" aria-label="    ">
+role="img" aria-label="Vista desde el borde de una estructura o camino, con una atmósfera tensa que sugiere peligro o contemplación profunda.">
+</div>
+Él la mira con preocupación. No necesita palabras para saber que algo está muy mal.
+—¿Quieres que te acompañe a casa? —pregunta con voz suave, como si temiera romperla.
+Ella parpadea, sorprendida. Nadie suele notar cuándo está mal. Mucho menos ofrecerle compañía.
+Por dentro, su mente grita que lo aleje, que no merece que alguien la cuide. Pero… una parte de ella quiere decir que sí. Una parte muy cansada de estar sola.
+1. [[Aceptar acompañamiento]]
+2. [[Rechazarlo y decirle que está bien |Responder]]
+
+
+:: Inicio {"position":"1450,25","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/MD3f5jM2/Cama.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh
+"
+
+role="img" aria-label=" Habitación acogedora en tonos pastel, una cama bien tendida y bien iluminada por la luz del día que entra por una ventana junto a la cama. En la pared hay etanterías con libros y plantas, así como en una mesa de noche junto a la cama ">
+</div>
+Abre los ojos. La luz tenue del amanecer se cuela por la ventana.
+Aún puede dormir un poco más.
+1. [[Quedarse en la cama]]
+
+
+:: Intro {"position":"1925,125","size":"100,100"}
+<div style="text-align: left;">
+  <p><em>Presiona la tecla <strong>N</strong> para iniciar o detener la narración.</em></p>
+
+<h1><strong>Moonlight<strong></h1>
+  <p>Esta es una narrativa interactiva que explora la experiencia de vivir con <strong>Trastorno Límite de la Personalidad (TLP)</strong>. A través de los ojos de Camila, conocerás las luchas internas, las emociones intensas y la importancia del apoyo en la salud mental.</p>
+
+  <p><strong>Cómo navegar:</strong><br>
+    <strong>Teclas 1 y 2</strong>: Seleccionar la primera o segunda opción<br>
+    <strong>Tab</strong>: Navegar entre opciones<br>
+    <strong>Enter</strong>: Confirmar selección cuando una opción esté enfocada</p>
+
+  <p><strong>Objetivo:</strong> Generar empatía y comprensión hacia las personas que viven con TLP, mostrando que con apoyo y tratamiento adecuado, la recuperación es posible.</p>
+
+  <p><em>Esta historia contiene temas sensibles relacionados con salud mental. Si necesitas apoyo, no dudes en buscar ayuda profesional.</em></p>
+
+  <p><a href="https://www.colpsic.org.co/wp-content/uploads/2021/08/Directorio-salud-mental-Colombia.pdf" target="_blank">Directorio de salud mental Colombia</a></p>
+
+  [[1. Comenzar la historia->Inicio]]
+  [[2. Acerca de]]
+</div>
+
+
+:: Ir {"position":"625,825","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/bMrzXW8s/borde.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh
+" 
+role="img" aria-label="Vista desde el borde de una estructura o camino, con una atmósfera tensa que sugiere peligro o contemplación profunda.">
+
+</div>
+Mira al vacío. El río abajo ruge, como si también gritara. Pero como si fuera el destino, aparece Jose, un gran amigo suyo y este con una sonrisa de lado a lado la saluda. Ante tal situación solo puede:
+1. [[Pedirle que se vaya]]
+2. [[Hablar con él]]
+
+
+:: Ir igualmente {"position":"975,425","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/PZHRGrm3/bus.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh
+"
+role="img" aria-label="Un bus detenido bajo la lluvia, visto desde la calle, transmitiendo una sensación de espera o interrupción.">
+</div>
+El bus se detiene. Otro obstáculo. La vida parece reírse de ella.
+1. [[Caminar hasta la universidad]]
+2. [[Devolverse para la casa|Ella puede sola]]
+
+
+:: Llamar a mamá {"position":"1825,1400","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/xqnT8jqD/telefono.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh
+"role="img" aria-label="Un telefono celular sobre una mesa de madera que muestra en pantalla una llamada entrante.">
+
+</div>
+El celular sigue temblando en su mano.
+—¿Camila? ¿Estás bien? —la voz de su madre suena suave, cálida... pero también preocupada.
+Camila guarda silencio unos segundos. Mira al techo. Mira al suelo. Mira dentro de sí misma.
+No sabe qué decir. Una parte de ella quiere gritar. Otra quiere colgar.
+¿De qué serviría hablar? ¿Y si no la entiende? ¿Y si sí…?
+La pregunta sigue colgando en el aire.
+¿Romper el muro o seguir fingiendo?
+1. [[Confesar como se siente y pedir ayuda|Confiesa]]
+2. [[No preocuparla y decir que todo está bien|Inicio]]
+
+
+:: Llamar a su novio {"position":"575,650","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/kV4StND1/puente.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh
+" 
+role="img" aria-label="Vista de un puente solitario y nublado, evocando una sensación de aislamiento o decisiones importantes.">
+</div>
+La nula respuesta de su amado la deja desolada, no como a cualquiera... El mundo se le viene encima y decide volver a donde tantas veces lo habia intentado
+1. [[Seguir adelante|Ir]]
+
+
+:: No responder {"position":"125,950","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/0y9B3dvf/suicidio.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh
+"role="img" aria-label="  La habitación de camila pero ahora llena de cajas vacías y en un tono gris representando el trágico final  ">
+</div>
+Y así termina la historia… pero como esta hay muchas historias de diferentes personas allá afuera.
+Tu amiga, tu hija, tu hermano, tu sobrina, tus padres, un vecino —quien sea que esté luchando en silencio— no debería enfrentar esto sola.
+Las personas que viven con Trastorno Límite de la Personalidad no necesitan juicios ni distancias, necesitan comprensión, paciencia y amor real.
+
+Sé ese apoyo. Sé ese abrazo. Sé esa llamada que puede cambiar un día entero.
+
+[[1. Fin de la historia. Regresar al inicio->Intro]]
+
+
+:: Pedirle que se vaya {"position":"400,875","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/bMrzXW8s/borde.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh
+" role="img" aria-label="Es la misma imagen que la escena anterior">
+</div>
+Ella le sonríe débilmente y lo despide. Prefiere hundirse sola. Quedandose sola por sus propios pensamientos.
+1. [[Continuar|Responder]]
+
+
+:: Quedarse en la cama {"position":"1175,250","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/MD3f5jM2/Cama.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh  
+"
+
+role="img" aria-label=" Habitación acogedora en tonos pastel, una cama bien tendida y bien iluminada por la luz del día que entra por una ventana junto a la cama. En la pared hay etanterías con libros y plantas, así como en una mesa de noche junto a la cama ">
+</div>
+La alarma ya sonó hace rato. El reloj la condena: otra vez tarde. Pero algo dentro de ella dice "ve, al menos intenta".
+1. [[Ir igualmente]]
+
+
+:: Responder {"position":"600,1100","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/xqnT8jqD/telefono.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh
+"
+role="img" aria-label="Un telefono celular sobre una mesa de madera que muestra en pantalla una llamada entrante.">
+
+</div>
+¡Beep! Su telefono suena, es su madre que tanto le ayudado en este proceso.
+El teléfono vibra en sus manos temblorosas.
+—Hola, hija… ¿Estás bien?
+La voz de su madre es suave, familiar, pero se siente lejana, como si hablara desde otro mundo.
+Traga saliva. Tiene un nudo en la garganta.
+¿Qué debería decir? ¿La verdad… o lo que todos quieren escuchar?
+1. [[No responder]]
+2. [[Confiesa]]
+
+
+:: Seguir la recomendación del amigo {"position":"1075,1100","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/4nbQNdpr/grieta.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh
+">
+</div>
+Por primera vez, decide que tal vez no está rota… solo necesita entenderse.
+
+Valida su dolor, sus emociones, su historia. Y con ese pequeño acto de valentía, da el primer paso: pedir ayuda
+
+1. [[Tratamiento]]
+
+
+:: Tratamiento {"position":"1325,1175","size":"100,100"}
+<div style="
+  background-image: url('https://i.ibb.co/cSBdD5dF/atardecer.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  border-radius: 5px;
+  height: 50vh
+"role="img" aria-label="  Una escena metafórica de playa con una perspectiva ubicada en la orilla y mirando hacia el horizonte del mar. Hay olas suaves y el sol se está poniendo. Es un atarceder naranjado con nubes dispersas en el cielo  ">
+
+</div>Así como Camila, miles de personas viven cada día con el peso invisible del Trastorno Límite de la Personalidad (TLP).
+Dudan de sí mismas. Se sienten solas. Luchan con emociones que arden como fuego.
+Pero no están solas. No deberían estarlo.
+Tal vez no puedas entender completamente su batalla interna, pero sí puedes estar allí. Escuchar. Abrazar. Acompañar.
+A veces, una palabra, una presencia o un simple "estoy aquí" puede ser lo que salve una vida.
+Sé ese alguien. Hoy. No mañana.
+
+[[1. Fin de la historia. Regresar al inicio->Intro]]
+
+
+:: StoryScript [script]
+document.addEventListener("keydown", function (e) {
+    // Asegurarse que estamos en un pasaje válido
+    const links = document.querySelectorAll("tw-link");
+    if (links.length === 0) return;
+    if (e.key === "1" && links[0]) {
+        links[0].click();
+    } else if (e.key === "2" && links[1]) {
+        links[1].click();
+    }
+});
+// detectar clicks en enlaces para narrador
+document.addEventListener("click", function(e) {
+    const enlace = e.target.closest("tw-link");
+    if (!enlace) return;
+    e.preventDefault(); // evitar la acción por defecto para controlar el flujo
+    pararNarracion();
+    // Ejecutar la acción del enlace manualmente (simulamos el click)
+    // Dependiendo de cómo funcione tw-link, puede que tenga un método .click() que funcione bien
+    enlace.click();
+    if (narradorActivo) {
+        // Dejamos que la navegación se procese, y narramos el nuevo contenido después
+        setTimeout(() => activarNarrador(), 100);
+    }
+});
+// NARRADOR
+let narradorActivo = false;
+let synth = window.speechSynthesis;
+let utterance = null;
+document.addEventListener("keydown", function (e) {
+    const links = document.querySelectorAll("tw-link");
+    if (links.length === 0) return;
+    if (e.key === "1" && links[0]) {
+        pararNarracion();
+        links[0].click();
+        if (narradorActivo) activarNarrador();
+    } else if (e.key === "2" && links[1]) {
+        pararNarracion();
+        links[1].click();
+        if (narradorActivo) activarNarrador();
+    }
+    if (e.key.toLowerCase() === "n") {
+        narradorActivo = !narradorActivo;
+        if (narradorActivo) {
+            activarNarrador();
+            console.log("Narrador activado");
+        } else {
+            desactivarNarrador();
+            console.log("Narrador desactivado");
+        }
+    }
+});
+// Para cubrir clic con ratón en tw-link
+document.addEventListener("click", function(e) {
+    if (e.target.matches("tw-link")) {
+        pararNarracion();
+        if (narradorActivo) {
+            // Pequeño delay para que el pasaje cambie antes de narrar
+            setTimeout(() => activarNarrador(), 100);
+        }
+    }
+});
+function activarNarrador() {
+    const contenido = document.querySelector('.passage') || document.body;
+    if (!contenido) return;
+    const texto = contenido.innerText.trim();
+    if (!texto) return;
+    utterance = new SpeechSynthesisUtterance(texto);
+    utterance.lang = 'es-ES';
+    synth.speak(utterance);
+}
+function desactivarNarrador() {
+    if (synth.speaking) {
+        synth.cancel();
+    }
+}
+function pararNarracion() {
+    if (synth.speaking) {
+        synth.cancel();
+    }
+}
+
+:: StoryStylesheet [stylesheet]
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+/* Fondo general */
+tw-story {
+  background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 100%);
+  font-family: 'Karla', sans-serif;
+  color: #292929;
+}
+
+/* Pasaje centrado */
+tw-passage {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2em;
+  border-radius: 20px;
+  border-left: 4px solid #e17055;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 5vh auto;
+  text-align: center;
+}
+
+/* Botones/enlaces */
+tw-link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1.2em;
+  background: #e17055;
+  border-radius: 25px;
+  display: inline-block;
+  margin-top: 0.5em;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(225, 112, 85, 0.3);
+  font-weight: bold;
+}
+
+tw-link:hover {
+  color: white;
+  background: #c75e44;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(225, 112, 85, 0.4);
+}
