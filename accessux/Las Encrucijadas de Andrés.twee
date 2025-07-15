@@ -1,0 +1,680 @@
+:: StoryTitle
+Las Encrucijadas de Andrés
+
+
+:: StoryData
+{
+  "ifid": "F395E42B-4203-4024-A794-90ED14315837",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Instrucciones",
+  "tag-colors": {
+    "escena-1": "green",
+    "escena-2A": "none"
+  },
+  "zoom": 1
+}
+
+
+:: Escena 1: Un Día Gris en la Residencia Universitaria [escena-1] {"position":"525,200","size":"100,100"}
+
+<div class="texto" role="region" tabIndex="0" aria-label="Andrés se encuentra acostado en su habitación universitaria,  la luz entra por su ventana el día está gris y el ambiente es melancólico y desordenado.">Otro día comienza y la misma sensación de vacío me invade. Las clases pesan, los parciales se acercan y la idea de no poder con todo vuelve a rondar mi cabeza. Mi madre espera tanto de mí… ¿Para qué levantarme?
+
+¿Qué harás hoy, Andrés?
+[[Revisar las redes sociales|Escena 2A: Un Vistazo al Mundo Digital]] (Quizás algo allí me distraiga por un momento.)
+[[Levantarme con esfuerzo|Escena 2B: Un Paso Fuera de la Habitación]] (Tengo que intentarlo… al menos ir a una clase.)
+[[Quedarme en la cama|Escena 2C: El Refugio de la Oscuridad]] (No tengo fuerzas… solo quiero que este día termine pronto.)
+
+<<back Regresar>>
+</div>
+
+
+:: Escena 2A: Un Vistazo al Mundo Digital [escena-2A] {"position":"100,400","size":"100,100"}
+<div class="texto" role="region" tabIndex="0" aria-label="En el celular aparecen muchas personas felices en sus redes sociales.">Las fotos pasan… todos parecen estar disfrutando, logrando cosas grandes. Yo aquí, sintiéndome cada vez más pequeño e insignificante. Una punzada fría en el pecho me recuerda esa vieja costumbre… la de buscar algo que calme el dolor, aunque sea por un instante. Es como si una voz dentro de mí dijera: "Ellos sí pueden, tú no."
+
+¿Cómo reaccionarás a lo que ves?
+[[Buscar algo que me divierta rápido |Escena 3.1: Primeros Pasos Hacia Afuera]] (Ver videos graciosos o meterme en algún foro de juegos. Necesito escapar un poco, pero sé que no puedo huir para siempre.)
+[[Seguir comparándome y hundirme|Escena 3.2: La Espiral del Malestar]] (¿Por qué a mí todo me cuesta tanto? Tal vez esa voz tiene razón y realmente no sirvo para nada.)
+
+
+<<back Regresar>>
+</div>
+
+
+:: Escena 2B: Un Paso Fuera de la Habitación [escena-2B] {"position":"525,400","size":"100,100"}
+<div class="texto" role="region" tabIndex="0" aria-label="El corredor de la universidad esta rodeado de gente, la incomodidad es palpable.">
+El ruido de la gente me agobia. Siento que todos me miran, juzgándome. Quisiera desaparecer. ¡Oh! Alguien me saluda. Es Laura, una compañera de cálculo. Siempre es amable, siempre tiene una sonrisa. Mi corazón se encoge un poco.
+
+¿Qué harás cuando Laura te salude?
+[[Forzar una sonrisa y saludar|Escena 3.3: Un Rayo de Conexión]] (¡Hola, Laura! ¿Qué tal? Intentaré disimular un poco, pero quizás ella note algo.)
+[[Acelerar el paso y fingir no verla|Escena 3.4: El Peso del Aislamiento]] (No tengo ánimo para hablar con nadie ahora. Mejor la evito.)
+
+
+<<back Regresar>>
+</div>
+
+
+:: Escena 2C: El Refugio de la Oscuridad [escena-2C] {"position":"975,400","size":"100,100"}
+<div class="texto" role="region" tabIndex="0" aria-label="El lugar se siente mas penumbroso que antes, ahora envuelto en sabanas y con la cabeza abajo.">
+Las horas pasan lentas, como si el tiempo se hubiera detenido. La culpa por no hacer nada me carcome. Mi mamá estaría decepcionada. Un nudo doloroso en la garganta se forma… la idea de que este dolor termine, de alguna forma, es cada vez más fuerte. Me siento tan solo, tan agotado.
+
+¿Cómo buscarás alivio?
+[[Buscar algo que me calme la angustia (escape dañino)|Escena 3.5: La Tentación del Olvido]] (Tal vez un poco de música fuerte… o recordar esas viejas "soluciones" que a veces me daban un respiro del dolor.)
+[[Intentar un último esfuerzo de ayuda|Escena 3.6: Un Último Aliento]] (¿Habrá alguna otra cosa que pueda intentar, por pequeña que sea?)
+
+
+<<back Regresar>>
+</div>
+
+
+:: Escena 3.1: Primeros Pasos Hacia Afuera [escena-31] {"position":"0,600","size":"100,100"}
+<div class="texto" role="region" tabIndex="0" aria-label="Los videos parecen interesantes con animales capaces de sacar sonrisas, todo parece mejor.">
+Por unos minutos, la distracción me saca de mi cabeza. Es un respiro, como un rayo de sol. El alivio es corto, pero suficiente para darme cuenta de que no todo está perdido. Decido intentar algo diferente.
+
+¿Mantendrás este impulso positivo?
+[[Buscar apoyo o establecer una rutina|FINAL POSITIVO 1: Un Día Diferente]] (Intentar hablar con alguien o empezar a organizar mi día.)
+[[Volver a la rutina por mi cuenta|FINAL POSITIVO 2: La Fuerza Interior]] (Haré el esfuerzo, pero solo por ahora, sin ayuda.)
+
+
+<<back Regresar>>
+</div>
+
+
+:: Escena 3.2: La Espiral del Malestar [escena-32] {"position":"200,600","size":"100,100"}
+<div class="texto" role="region" tabIndex="0" aria-label="Un rostro marcado por la desesperación, angustiado y a punto de llorar.">
+La voz en mi cabeza se hace más fuerte: "No sirves para esto", "Eres una carga". Cada foto que veo es una prueba de que estoy fallando. Las lágrimas amenazan con salir. Quisiera esconderme de todo, desaparecer. La idea de una "solución" rápida parece una alternativa, una forma de sentir que controlo algo.
+
+¿Qué sigue para salir de la espiral?
+[[Buscar ayuda profesional|FINAL POSITIVO 3: La Semilla de la Recuperación]] (Esto es demasiado para mí. Necesito a alguien que me guíe.)
+[[Seguir evadiendo y aislado|FINAL NEGATIVO 1: La Fuga Continua]] (Nadie me entiende. Mejor me encierro. Tal vez si desaparezco, todo se arregla.)
+
+
+<<back Regresar>>
+</div>
+
+
+:: Escena 3.3: Un Rayo de Conexión [escena-33] {"position":"425,600","size":"100,100"}
+<div class="texto" role="region" tabIndex="0" aria-label="Rostros sorprendidos ante el inicio de una conversacion">
+"¿Qué tal, Andrés? Te veo un poco… pensativo", dice Laura. Su preocupación genuina me desarma. "Pues… no tan bien, la verdad. Me siento un poco abrumado". Su respuesta me sorprende y me da un calorcito en el pecho. Es el primer paso, un pequeño acto de confianza.
+
+¿Cultivarás esta conexión?
+[[Abrirse un poco más y buscar ayuda|FINAL POSITIVO 3: La Semilla de la Recuperación]] (Quizás ella pueda entender más. Necesito hablar con alguien más profesional.)
+[[Mantener la relación superficial|FINAL POSITIVO 2: La Fuerza Interior]] (Agradecerle y seguir, pero sin profundizar. Ya con eso me siento un poco mejor.)
+
+
+<<back Regresar>>
+</div>
+
+
+:: Escena 3.4: El Peso del Aislamiento [escena-34] {"position":"725,600","size":"100,100"}
+<div class="texto" role="region" tabIndex="0" aria-label="Mirando al piso derrotado pasa por el corredor rapidamente">Bajé la cabeza y aceleré el paso. No pude mirarla a los ojos. Me siento tan agotado para fingir que estoy bien, para explicar lo que no sé cómo explicar. Cada vez me cuesta más conectar con la gente. La soledad se siente como una manta pesada que me cubre, y la idea de que todo sería más fácil si yo no estuviera aquí se hace más fuerte.
+
+¿La soledad te consume?
+[[Pedir ayuda a alguien cercano o a una línea de apoyo|FINAL POSITIVO 4: Una Voz en la Oscuridad]] (Aun en este lugar, hay una mínima chispa. Necesito un hilo, una voz amiga.)
+[[Hundirte en la desesperación|FINAL NEGATIVO 2: El Abismo]] (Nadie va a entender. Mejor me acostumbro a estar solo, o a buscar el fin a este dolor.)
+
+
+<<back Regresar>>
+</div>
+
+
+:: Escena 3.5: La Tentación del Olvido [escena-35] {"position":"1000,600","size":"100,100"}
+<div class="texto" role="region" tabIndex="0" aria-label="Abrazando sus  rodillas en la cama con rostro de desesperacion">La angustia es una ola que me arrastra. Esa "solución" que a veces usaba, ese pequeño corte o esa bebida… aparece como una tentación. Es solo un momento, pienso. Un momento para sentir algo diferente a este dolor interno. Pero, ¿y si me arrepiento? ¿Y si hago algo que no pueda deshacer?
+
+¿Qué harás después de ceder a la tentación?
+[[Reconocer el problema y pedir ayuda|FINAL POSITIVO 3: La Semilla de la Recuperación]] (Esto no puede seguir así. Necesito ayuda real, ¡ya!)
+[[Continuar el ciclo del olvido|FINAL NEGATIVO 1: La Fuga Continua]] (Necesito más para no sentir. Esto es mi única forma de lidiar con ello.)
+
+
+<<back Regresar>>
+</div>
+
+
+:: Escena 3.6: Un Último Aliento [escena-36] {"position":"1150,600","size":"100,100"}
+<div class="texto" role="region" tabIndex="0" aria-label="Entra luz por la ventana , sentado en cama reflexionando, aunque con cara de angustia parece un ambiente un poco menos triste">
+En medio del agotamiento, una pequeña voz en mi interior susurró: "Inténtalo una vez más. Busca otra forma". No sé de dónde vino esa fuerza. Me levanto, con dificultad, y me obligo a buscar algo diferente. ¿Hay alguna luz en este túnel?
+
+¿Ese último aliento te lleva a...?
+
+[[Contactar a un profesional|FINAL POSITIVO 3: La Semilla de la Recuperación]] (Necesito a alguien que sepa cómo ayudarme.)
+[[Contactar a alguien cercano|FINAL POSITIVO 4: Una Voz en la Oscuridad]] (Quizás un amigo, mi hermana, alguien a quien le pueda decir algo.)
+
+
+<<back Regresar>>
+</div>
+
+
+:: FINAL NEGATIVO 1: La Fuga Continua [escena-final-negativo1] {"position":"325,800","size":"100,100"}
+<div class="texto" role="region" tabIndex="0" aria-label="La habitación esta peor que nunca, todo se ve acabado y sin vida">Elegí seguir evadiendo, seguir en este ciclo de dolor y olvido, o simplemente quedarme en el aislamiento. Las horas y los días se mezclan en una nebulosa. Me siento cada vez más atrapado en mi propia mente, más solo. La esperanza se desvanece con cada decisión de no buscar ayuda. El camino se hace más oscuro, y la idea de que ya no hay salida empieza a rondar más seguido. Me siento completamente agotado y sin dirección.
+
+<div class="alerta" role="region" aria-label="Importante">Si la evasión o el aislamiento se vuelven una constante y el dolor no cesa, es crucial buscar ayuda. No estás solo en esto.</div>
+<div class="alerta" role="region" aria-label="Lineas de ayuda y prevencion">¡Busca ayuda AHORA!
+Servicios de Emergencia: 123
+Habla con alguien de confianza: Familiares, amigos, maestros
+Línea Amiga Medellín: +604 4444448
+Organizaciones de apoyo: Ministerio de Salud
+Para mayor informacion sobre números de contacto: <a href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/SG/GT/lineas-atencion-territorial-salud-mental.pdf" target="_blank">Ministerio de Salud - Contactos</a>
+</div>
+
+
+<<back Regresar>>
+</div>
+
+
+:: FINAL NEGATIVO 2: El Abismo [escena-final-negativo2] {"position":"900,800","size":"100,100"}
+<div class="texto" role="region" tabIndex="0" aria-label="La desesperacion hace perder el sentido derrotado en el piso, el cuarto parece un ambiente desolador">
+La desesperación me arrastró a lo más profundo del abismo. Elegí seguir solo, ignorar las señales y las oportunidades de ayuda. Ahora, la oscuridad es casi total, y la idea de que todo termine es la única que me da un atisbo de paz. Siento que ya no puedo más, que he llegado al límite. Estoy en un punto crítico, y la fuerza para seguir adelante se ha agotado por completo.
+
+<div class="alerta" role="region" aria-label="Importante">Este final es una señal de que Andrés se encuentra en una situación de riesgo extremo. Si tú o alguien que conoces se siente así, es fundamental buscar ayuda de inmediato. ¡El suicidio es prevenible! </div>
+<div class="alerta" role="region" aria-label="Lineas de ayuda y prevencion">¡BUSCA AYUDA DE INMEDIATO!
+Servicios de Emergencia: 123
+Habla con alguien de confianza: Familiares, amigos, maestros
+Línea Amiga Medellín: +604 4444448
+Organizaciones de apoyo: Ministerio de Salud
+Para mayor informacion sobre números de contacto: <a href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/SG/GT/lineas-atencion-territorial-salud-mental.pdf" target="_blank">Ministerio de Salud - Contactos</a>
+
+Recuerda: Siempre hay esperanza y hay personas que se preocupan por ti. ¡Tu vida vale!
+</div>
+
+<<back Regresar>>
+</div>
+
+
+:: FINAL POSITIVO 1: Un Día Diferente [escena-final-positivo1] {"position":"0,800","size":"100,100"}
+<div class="texto" role="region" tabIndex="0" aria-label="Parace una charla productiva y amigable.">
+El pequeño avance de hoy se convirtió en un impulso. Decidí que un paso a la vez es suficiente. Empecé a establecer una rutina: estudiar un rato, caminar, comer algo nutritivo. Es difícil, sí, pero el sentir que retomo el control de mi vida me da fuerzas. Mi mente sigue teniendo días nublados, pero ahora sé que puedo encontrar la luz. Estoy aprendiendo a ser paciente conmigo mismo.
+
+<div class="alerta" role="region" aria-label="Lineas de ayuda y prevencion">Cada pequeño paso cuenta. Pedir ayuda es un acto de valentía.
+Línea Amiga Medellín: +604 4444448
+Organizaciones de apoyo: Ministerio de Salud
+Para mayor informacion sobre números de contacto: <a href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/SG/GT/lineas-atencion-territorial-salud-mental.pdf" target="_blank">Ministerio de Salud - Contactos</a>
+</div>
+
+<<back Regresar>>
+</div>
+
+
+:: FINAL POSITIVO 2: La Fuerza Interior [escena-final-positivo2] {"position":"150,800","size":"100,100"}
+<div class="texto" role="region" tabIndex="0" aria-label="El parque parece relajante un buen lugar para sentarse a reflexionar">
+Darme un descanso, una caminata o hablar con alguien cercano sin profundizar, me recargó las energías. Estoy aprendiendo a escucharme, a cuidarme. Los días difíciles siguen, pero ahora sé que tengo la fuerza para superarlos. He descubierto que mi propio bienestar es mi mayor responsabilidad. No necesito que todo sea perfecto para sentirme mejor.
+
+<div class="alerta" role="region" aria-label="Lineas de ayuda y prevencion">Descansar y cuidarse es vital. Escúchate a ti mismo y busca lo que te hace bien.
+Línea Amiga Medellín: +604 4444448
+Organizaciones de apoyo: Ministerio de Salud
+Para mayor informacion sobre números de contacto: <a href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/SG/GT/lineas-atencion-territorial-salud-mental.pdf" target="_blank">Ministerio de Salud - Contactos</a>
+</div>
+
+
+<<back Regresar>>
+</div>
+
+
+:: FINAL POSITIVO 3: La Semilla de la Recuperación [escena-final-positivo3] {"position":"500,800","size":"100,100"}
+<div class="texto" role="region" tabIndex="0" aria-label="Una sesión con un profesional parece estar dando frutos con un rostro reflexivo.">Dar el primer paso de buscar ayuda profesional, ya sea a través de la universidad, una línea de ayuda o por recomendación de Laura, fue lo más valiente que he hecho. Hablar de lo que sentía, de mis miedos, de mi historia… no ha sido fácil. Pero al hacerlo, sentí un peso menos. Me di cuenta de que no estaba solo y que pedir ayuda no es de débiles. Todavía tengo un camino por recorrer, pero ahora tengo herramientas y personas que me guían. La vida sigue siendo un desafío, pero ahora tengo esperanza.
+
+<div class="alerta" role="region" aria-label="Lineas de ayuda y prevencion">Buscar ayuda profesional es el camino más efectivo. No dudes en hacerlo.
+Línea Amiga Medellín: +604 4444448
+Organizaciones de apoyo: Ministerio de Salud
+Para mayor informacion sobre números de contacto: <a href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/SG/GT/lineas-atencion-territorial-salud-mental.pdf" target="_blank">Ministerio de Salud - Contactos</a>
+</div>
+
+
+<<back Regresar>>
+</div>
+
+
+:: FINAL POSITIVO 4: Una Voz en la Oscuridad [escena-final-positivo4] {"position":"700,800","size":"100,100"}
+<div class="texto" role="region" tabIndex="0" aria-label="En la banca del parque habla por celular.">
+En mi momento más oscuro, contacté a mi hermana o una línea de ayuda. Pude hablar, por primera vez, sin sentirme juzgado. Lloré, conté mis miedos. La voz me dijo que estaba allí para escucharme y que había esperanza. No solucionó todo al instante, pero me dio un hilo al que aferrarme. Siento un poco más de luz, un poco menos solo.
+
+<div class="alerta" role="region" aria-label="Lineas de ayuda y prevencion">Las líneas de ayuda y el apoyo de tus seres queridos están ahí para ti. No estás solo.
+Línea Amiga Medellín: +604 4444448
+Organizaciones de apoyo: Ministerio de Salud
+Para mayor informacion sobre números de contacto: <a href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/SG/GT/lineas-atencion-territorial-salud-mental.pdf" target="_blank">Ministerio de Salud - Contactos</a>
+</div>
+
+<<back Regresar>>
+</div>
+
+
+:: Instrucciones [instrucciones] {"position":"175,75","size":"100,100"}
+<div class="texto" role="region" tabIndex="0" aria-label="La habitacion de Andrés se encuentra lugubre."><h1>Instrucciones</h1>
+Esta es una historia interactiva. A lo largo del camino, deberás tomar decisiones haciendo clic en las opciones que se te presenten. Cada elección cambia el rumbo de la historia, y puede llevarte a distintos finales.
+Tú decides qué camino tomar.
+Asi:
+
+¿Qué harás hoy, Andrés?
+[[Decide hacer la accion "A"|a]] 
+[[Decide hacer la accion "B"|b]] 
+
+<div class="alerta" style="text-align: center;">[[Estoy listo ¡Comencemos!|Escena 1: Un Día Gris en la Residencia Universitaria]]</div>
+</div>
+
+
+:: a [instrucciones2] {"position":"350,25","size":"100,100"}
+<div class="texto" role="region" tabIndex="0">Consecuencia de la accion "A"
+
+
+<<back Regresar>>
+
+
+<div class="alerta" style="text-align: center;">[[Estoy listo ¡Comencemos!|Escena 1: Un Día Gris en la Residencia Universitaria]]</div>
+</div>
+
+
+:: b [instrucciones3] {"position":"350,150","size":"100,100"}
+<div class="texto" role="region" tabIndex="0">Consecuencia de la accion "B"
+
+
+<<back Regresar>>
+
+
+<div class="alerta" style="text-align: center;">[[Estoy listo ¡Comencemos!|Escena 1: Un Día Gris en la Residencia Universitaria]]</div>
+</div>
+
+
+:: StoryScript [script]
+$('#ui-bar').remove();
+$(document.head).find('#style-ui-bar').remove();
+
+var audioFondo = null;
+var audioAmbiente = null;
+var musicaActiva = true;
+
+function crearBotonMusica() {
+	// Eliminar si ya existe (por seguridad)
+	$("#btn-musica").remove();
+
+	// ✅ Solo mostrar si al menos uno de los audios existe
+	if (!audioFondo && !audioAmbiente) return;
+
+	const btn = document.createElement("button");
+	btn.id = "btn-musica";
+
+	// Verificar si alguno está silenciado
+	const silenciada = (audioFondo?.muted || audioAmbiente?.muted || false);
+	musicaActiva = !silenciada;
+
+	// Configurar ícono y accesibilidad
+	btn.innerHTML = silenciada ? "🔇" : "🔊";
+	btn.setAttribute("aria-label", silenciada ? "Activar música" : "Silenciar música");
+	btn.setAttribute("title", silenciada ? "Activar música" : "Silenciar música");
+
+	// Estilos
+	btn.style.position = "fixed";
+	btn.style.bottom = "1em";
+	btn.style.right = "1em";
+	btn.style.zIndex = "999";
+	btn.style.padding = "0.5em";
+	btn.style.fontSize = "1.5em";
+	btn.style.background = "#222";
+	btn.style.color = "#fff";
+	btn.style.border = "none";
+	btn.style.borderRadius = "50%";
+	btn.style.cursor = "pointer";
+
+	// Control de clic
+	btn.addEventListener("click", () => {
+		musicaActiva = !musicaActiva;
+
+		if (audioFondo) audioFondo.muted = !musicaActiva;
+		if (audioAmbiente) audioAmbiente.muted = !musicaActiva;
+
+		btn.innerHTML = musicaActiva ? "🔊" : "🔇";
+		btn.setAttribute("aria-label", musicaActiva ? "Silenciar música" : "Activar música");
+		btn.setAttribute("title", musicaActiva ? "Silenciar música" : "Activar música");
+	});
+
+	document.body.appendChild(btn);
+}
+
+$(document).on(':passagerender', function (ev) {
+	// Eliminar botón anterior
+	$("#btn-musica").remove();
+
+	// Detener y eliminar audios previos
+	[audioFondo, audioAmbiente].forEach(a => {
+		if (a) {
+			a.pause();
+			a.remove();
+		}
+	});
+	audioFondo = null;
+	audioAmbiente = null;
+
+	// Obtener tags del pasaje
+	const tags = ev.passage.tags;
+
+	// Determinar URLs
+	let urlFondo = null;
+	let urlAmbiente = null;
+
+	if (tags.includes("escena-1")) {
+		urlFondo = "https://www.dropbox.com/scl/fi/sz71mt2xyw46i12ollsmn/sad-and-cosmic-60795.mp3?rlkey=f14r4221zlvez2nddth561ngv&st=jryv5bbr&dl=1";
+		urlAmbiente = "https://www.dropbox.com/scl/fi/f25wazfwwyanmkdq4sqj1/birds-in-forest-on-sunny-day-14444.mp3?rlkey=waa9e77eke8hx37txih270qg1&st=suo5iu1z&dl=1"; // Efecto extra
+	} else if (tags.includes("escena-2A")) {
+		urlFondo = "https://www.dropbox.com/scl/fi/8ifm6a0trrhcf2mqepzdd/group-of-friends-joking-and-laughing-300997.mp3?rlkey=onvfp1iiuco5e16imdg29cp5i&st=vfhal39w&dl=1";
+		urlAmbiente = "https://www.dropbox.com/scl/fi/haetrs5v83wf3mx39808b/distant-choir-343159.mp3?rlkey=4tmi2guahpzr8sxw78dn0fj71&st=45wwahmn&dl=1";
+	} else if (tags.includes("escena-2B")) {
+		urlFondo = "https://www.dropbox.com/scl/fi/xirp1pz574jcnkq0z5dmj/futuristic-heartbeat-60-bpm-7074.mp3?rlkey=y35ajbh6j4rpywodyma44dd1r&st=widfso3o&dl=1";
+		urlAmbiente = "https://www.dropbox.com/scl/fi/pl3zxce6dsdfh96k019en/ambiente-pessoas-conversando-66717.mp3?rlkey=2fbqrpujgp9fhoyxwm2oagveo&st=ioc9bpgu&dl=1";
+	} else if (tags.includes("escena-2C")) {
+		urlFondo = "https://www.dropbox.com/scl/fi/t7pjcag3apoqdyj6qzws6/sad-piano-69461.mp3?rlkey=uwd4ubo2vcr1pdaseyswkcflc&st=rux76fj2&dl=1";
+		urlAmbiente = "https://www.dropbox.com/scl/fi/645h82p4uuyohadtnus1p/wind-blowing-sfx-12809.mp3?rlkey=pigop9s4mg3gqsbv2cvuk6u77&st=8gajqekg&dl=1";
+	} else if (tags.includes("escena-31")) {
+		urlFondo = "https://www.dropbox.com/scl/fi/rgfq0zejtvw6qaok8be1j/cute-music-26476.mp3?rlkey=xq2polscmy4mr2ig9rbegzlyk&st=ynyul7m4&dl=1";
+		
+	} else if (tags.includes("escena-32")) {
+		urlFondo = "https://www.dropbox.com/scl/fi/xirp1pz574jcnkq0z5dmj/futuristic-heartbeat-60-bpm-7074.mp3?rlkey=y35ajbh6j4rpywodyma44dd1r&st=widfso3o&dl=1";
+		urlAmbiente = "https://www.dropbox.com/scl/fi/tjqx6bsjjvpll4efa6llb/schizophrenic-voices-62486.mp3?rlkey=js7gxv4cxgxjhbiyyoofi7g3v&st=svbkznmj&dl=1";
+	} else if (tags.includes("escena-33")) {
+		urlFondo = "https://www.dropbox.com/scl/fi/9w2n8kuie3pphw78cc6c1/a-fragment-of-hope-12482.mp3?rlkey=nzg68suyj0jegognf738d3s4b&st=11q2au0r&dl=1";
+		urlAmbiente = "https://www.dropbox.com/scl/fi/th8l92koxlo91ssj5lx1z/voices-in-cafe-68787.mp3?rlkey=v9raarmzexjj6df8a4k0l244e&st=gkrpstji&dl=1";
+	} else if (tags.includes("escena-34")) {
+		urlFondo = "https://www.dropbox.com/scl/fi/2kegr9bkr47tcdyiurw40/rumble-tension-horror-370001.mp3?rlkey=idldsbjpzxpnnubvx0f187zn4&st=243zcnpt&dl=1";
+		urlAmbiente = "https://www.dropbox.com/scl/fi/th8l92koxlo91ssj5lx1z/voices-in-cafe-68787.mp3?rlkey=v9raarmzexjj6df8a4k0l244e&st=gkrpstji&dl=1";
+	} else if (tags.includes("escena-35")) {
+		urlFondo = "https://www.dropbox.com/scl/fi/2kegr9bkr47tcdyiurw40/rumble-tension-horror-370001.mp3?rlkey=idldsbjpzxpnnubvx0f187zn4&st=243zcnpt&dl=1";
+		urlAmbiente = "https://www.dropbox.com/scl/fi/tjqx6bsjjvpll4efa6llb/schizophrenic-voices-62486.mp3?rlkey=js7gxv4cxgxjhbiyyoofi7g3v&st=svbkznmj&dl=1";
+	} else if (tags.includes("escena-36")) {
+		urlFondo = "https://www.dropbox.com/scl/fi/twwnbyy2zyreu4113op1w/woodwind-instrument-242338.mp3?rlkey=4ql9q47u2m0rfth0rqsoe45k9&st=5t61vjva&dl=1";
+	} else if (tags.includes("escena-final-positivo1")) {
+		urlFondo = "https://www.dropbox.com/scl/fi/9w2n8kuie3pphw78cc6c1/a-fragment-of-hope-12482.mp3?rlkey=nzg68suyj0jegognf738d3s4b&st=11q2au0r&dl=1";
+	
+	} else if (tags.includes("escena-final-positivo2")) {
+		urlFondo = "https://www.dropbox.com/scl/fi/wabpwjusteezet57otn5c/birds-voices-143055.mp3?rlkey=haz6razmg6h9dj30vg2d1k3c5&st=93enavhw&dl=1";
+		urlAmbiente = "https://www.dropbox.com/scl/fi/th8l92koxlo91ssj5lx1z/voices-in-cafe-68787.mp3?rlkey=v9raarmzexjj6df8a4k0l244e&st=gkrpstji&dl=1";
+	} else if (tags.includes("escena-final-positivo3")) {
+		urlFondo = "https://www.dropbox.com/scl/fi/twwnbyy2zyreu4113op1w/woodwind-instrument-242338.mp3?rlkey=4ql9q47u2m0rfth0rqsoe45k9&st=5t61vjva&dl=1";
+	} else if (tags.includes("escena-final-positivo4")) {
+		urlFondo = "https://www.dropbox.com/scl/fi/wabpwjusteezet57otn5c/birds-voices-143055.mp3?rlkey=haz6razmg6h9dj30vg2d1k3c5&st=93enavhw&dl=1";
+		urlAmbiente = "https://www.dropbox.com/scl/fi/mgzz2d3s8uk6pkve126c4/phone-calling-8s-kuerzerepause-222027.mp3?rlkey=rhln1smjkz5uhnf55mil2kbdl&st=6iefnrii&dl=1";
+	} else if (tags.includes("escena-final-negativo1")) {
+		urlFondo = "https://www.dropbox.com/scl/fi/twiwh7e9s4pz5s8rlonp9/comedic-silence-90574.mp3?rlkey=8lt6auvu4wgla12peexp254un&st=ij9d86xh&dl=1";
+		urlAmbiente = "https://www.dropbox.com/scl/fi/645h82p4uuyohadtnus1p/wind-blowing-sfx-12809.mp3?rlkey=pigop9s4mg3gqsbv2cvuk6u77&st=8gajqekg&dl=1";
+	} else if (tags.includes("escena-final-negativo2")) {
+		urlFondo = "https://www.dropbox.com/scl/fi/twiwh7e9s4pz5s8rlonp9/comedic-silence-90574.mp3?rlkey=8lt6auvu4wgla12peexp254un&st=ij9d86xh&dl=1";
+		urlAmbiente = "https://www.dropbox.com/scl/fi/3vvqtsapm2oo05nte8uqh/tired-ghosts-piano-65013.mp3?rlkey=f48f16ystslrc0kohg7gw8urc&st=29y70icv&dl=1";
+	} else if (tags.includes("instrucciones")||tags.includes("instrucciones2")||tags.includes("instrucciones3")) {
+		urlFondo = "https://www.dropbox.com/scl/fi/4rz8w54pej5q4fl5h466v/new-sad-guitar-melody-70157.mp3?rlkey=1cox5r9vkwyfl1mjp8w5oqbef&st=gb079r6a&dl=1";
+	
+	} else {
+	urlFondo = null;
+	urlAmbiente = null;
+	}	
+
+
+	// Reproducir música de fondo
+	if (urlFondo) {
+		audioFondo = document.createElement('audio');
+		audioFondo.src = urlFondo;
+		audioFondo.loop = true;
+		audioFondo.volume = 0.2;
+		audioFondo.muted = !musicaActiva;
+		audioFondo.play().catch(err => console.warn("Error fondo:", err));
+	}
+
+	// Reproducir ambiente o efectos
+	if (urlAmbiente) {
+		audioAmbiente = document.createElement('audio');
+		audioAmbiente.src = urlAmbiente;
+		audioAmbiente.loop = true;
+		audioAmbiente.volume = 0.2;
+		audioAmbiente.muted = !musicaActiva;
+		audioAmbiente.play().catch(err => console.warn("Error ambiente:", err));
+	}
+
+	// Crear botón de control
+	crearBotonMusica();
+});
+
+//Autoplay al recargar la pagina con diferentes opciones de interaccion
+
+function intentarReproducirAudios() {
+	if (audioFondo && audioFondo.paused) {
+		audioFondo.play().catch(() => {});
+	}
+	if (audioAmbiente && audioAmbiente.paused) {
+		audioAmbiente.play().catch(() => {});
+	}
+}
+
+// Escucha cualquier tipo de interacción
+function agregarEscuchadoresAutoplay() {
+	const reactivar = () => {
+		intentarReproducirAudios();
+		document.removeEventListener("click", reactivar);
+		document.removeEventListener("keydown", reactivar);
+		document.removeEventListener("pointerdown", reactivar);
+		document.removeEventListener("touchstart", reactivar);
+	};
+
+	document.addEventListener("click", reactivar);
+	document.addEventListener("keydown", reactivar);
+	document.addEventListener("pointerdown", reactivar);
+	document.addEventListener("touchstart", reactivar);
+}
+
+agregarEscuchadoresAutoplay();
+
+
+:: StoryStylesheet [stylesheet]
+@import url('https://fonts.cdnfonts.com/css/typewriter');
+@import url('https://fonts.cdnfonts.com/css/depres');
+
+
+
+/* ESTILOS GENERALES */
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: 'typewriter','Georgia', serif;
+  color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+h1{
+  color: #8B0000 
+}
+
+
+/* Contenedor de contenido centrado verticalmente y con proporción tipo página */
+.passage {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  padding: 2em;
+  width: 90%;
+  max-width: 600px; 
+  min-height: 70vh;
+  border: 8px double #aaa;
+  border-image: linear-gradient(to right, #ccc 0%, #999 50%, #ccc 100%);
+  border-image-slice: 1;
+  border-radius: 1em;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  overflow: auto;
+}
+.texto {
+  background-color: rgba(255, 255, 255, 0.6); /* Fondo semitransparente */
+  backdrop-filter: blur(5px);         /* Desenfoque del fondo */
+  -webkit-backdrop-filter: blur(5px); /* Compatibilidad con Safari */
+  padding: 2em;
+  max-width: 700px;
+  margin: 3em auto;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+  border-radius: 0.5em;
+  color: black;
+}
+
+.alerta {
+  outline: 2px solid #8B0000;
+  outline-offset: 4px;            /* Separación del borde */     
+  border-radius: 4px;       
+}
+/* Enlaces */
+a {
+  color: #8B0000 ;
+  font-weight: bold;
+  font-family: 'depres','Georgia'
+}
+a:hover {
+  color: #333333;
+  text-shadow: 0 0 8px #fff;
+}
+a:focus {
+  outline: 2px solid #8B0000;     /* Color del borde al enfocarse */
+  outline-offset: 4px;            /* Separación del borde */
+  background-color: #fff;         /* Fondo al seleccionar */
+  color: #8B0000 !important;                    /* Color de texto */
+  border-radius: 4px;             /* Bordes redondeados opcionales */
+  padding: 2px 4px;               /* Espaciado visual */
+}
+
+/* Animación de transición */
+body {
+  animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* IMÁGENES DENTRO DEL TEXTO */
+.passage img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2em auto;
+  border: 6px ridge #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+/* ESCENAS CON IMÁGENES DE FONDO AJUSTADAS */
+
+.passage.escena-1 {
+  background-image: url("https://www.dropbox.com/scl/fi/fasc9kiackkoqqallaa60/escena1.png?rlkey=ex4ycivw2ushdvbtrapk4ofve&st=8zcaq4el&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.passage.escena-2a {
+  background-image: url("https://www.dropbox.com/scl/fi/h3skgelox9et2tw2xzrqm/escena2a.png?rlkey=6804cw1xgb2fss28lufz662aj&st=u6gc47y7&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.passage.escena-2b {
+  background-image: url("https://www.dropbox.com/scl/fi/cejtcyiuf1oc66ds8vxt6/escena2b.png?rlkey=r0o7qmvyfce7kkgbiqewgewgf&st=k3wlczjl&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.passage.escena-2c {
+  background-image: url("https://www.dropbox.com/scl/fi/7ul5l4a2msr93uvhry1ti/escena2c.png?rlkey=l6vsrvd2qy12imy0wyfmbom7c&st=6r7aqnpc&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.passage.escena-31 {
+  background-image: url("https://www.dropbox.com/scl/fi/z3wvix2e9d7eer24epheo/escena31.png?rlkey=3545rwrvcpxtkt9ay20uor441&st=f0tlwtxn&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.passage.escena-32 {
+  background-image: url("https://www.dropbox.com/scl/fi/qqji30yv2kj3k9rvjuxr4/escena32.png?rlkey=v08wbhe3snip0snnqpuk2vmix&st=bxzq46r4&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.passage.escena-33 {
+  background-image: url("https://www.dropbox.com/scl/fi/xo27to7gb6aopdai0zbzl/escena33.png?rlkey=48ygjyz2z1mmn1zc1c27f9h5b&st=3444rhid&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.passage.escena-34 {
+  background-image: url("https://www.dropbox.com/scl/fi/nl69v8i5mweco0t11hepw/escena34.png?rlkey=ln84atvfxac7fwo3gpitfddqi&st=m4k169bc&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.passage.escena-35 {
+  background-image: url("https://www.dropbox.com/scl/fi/fz8t2oul92fn4z3ii79no/escena35.png?rlkey=1zo87lmfz0i8odx3m2fgnmzb5&st=xd9dwcvo&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.passage.escena-36 {
+  background-image: url("https://www.dropbox.com/scl/fi/bvmc8nmmv7st0e3mmdmnd/escena36.png?rlkey=kcnhav8ay3htk2hzts6n2ek41&st=myzsyiwt&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.passage.escena-final-positivo1 {
+  background-image: url("https://www.dropbox.com/scl/fi/9hp262417teg14risfvk9/positivo1.png?rlkey=3d6lk636ma3kco2ee2x7ykpl4&st=li4dtfaw&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.passage.escena-final-positivo2 {
+  background-image: url("https://www.dropbox.com/scl/fi/uo6vjk8e9axgdqha4vilu/positivo2.png?rlkey=m0me8sq9fweajk6xenwylhulh&st=2zk2r9ku&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.passage.escena-final-positivo3 {
+  background-image: url("https://www.dropbox.com/scl/fi/nzpofyr6zzkkdkbrolask/positivo3.png?rlkey=rquobgb0g7eo0kmzxyh6jfm51&st=jrniomhg&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.passage.escena-final-positivo4 {
+  background-image: url("https://www.dropbox.com/scl/fi/xdevwtawp662h1o4llngz/positivo4.png?rlkey=9fhimiem4ormhlhc8k5dvw44q&st=4xzxx97s&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.passage.escena-final-negativo1 {
+  background-image: url("https://www.dropbox.com/scl/fi/8t587y9helnwbfy8exs7d/negativo1.png?rlkey=354r6dcubx3qcwgzybbwey0eh&st=g9hyn1ef&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.passage.escena-final-negativo2 {
+  background-image: url("https://www.dropbox.com/scl/fi/8h7oj1pvuumca9b7ydzg3/negativo2.png?rlkey=1jp3qf0qhf8daam6kcbvk3c86&st=vtxsfkrd&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.passage.instrucciones, .passage.instrucciones2,.passage.instrucciones3 {
+  background-image: url("https://www.dropbox.com/scl/fi/dvwzrsabqqtse0l3nz2gp/instrucciones.png?rlkey=6rpstjtwvvz16a377aj0wp9hq&st=ruzvurjc&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
