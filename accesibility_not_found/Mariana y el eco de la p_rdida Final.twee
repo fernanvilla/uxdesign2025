@@ -1,0 +1,1839 @@
+:: StoryTitle
+Mariana y el eco de la pérdida
+
+
+:: StoryData
+{
+  "ifid": "C6EBE712-2C0E-417A-9A86-2F1D02D85705",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Start",
+  "zoom": 0.6
+}
+
+
+:: Aparición Elena {"position":"1200,650","size":"100,100"}
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+            <p class="mode-description">El aire cambia. Mariana siente una presencia familiar</p>
+             <p>MARIANA: (susurrando) ¿Elena? ¿Eres tú, mi amor?</p>
+             <p  class="mode-description">A unos metros de distancia, ve una figura etérea: Elena, pero no como la niña de ocho años, sino como podría verse ahora, una joven de dieciocho años.</p>
+             <img src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/MarianaParque.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+             <p>ELENA: Hola, mami. Sabía que regresarías.</p>  
+             <p>MARIANA: (llorando) Elena... mi niña hermosa... ¿dónde has estado?.</p>
+             <p>ELENA: Esperándote, mami. Esperando que fueras lo suficientemente fuerte para venir a buscarme.</p>
+             <p>MARIANA: ¿Estás...? ¿Estás bien? ¿Te lastimaron?</p>
+             <p>ELENA: Ya no me pueden lastimar, mami. Pero necesito que sepas la verdad.</p>
+             <p>MARIANA: ¿Qué verdad?.</p> 
+             <p>ELENA: La verdad sobre por qué me llevaron. La verdad sobre papá..</p> 
+			</div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+				[[Ver desaparecer a Elena->Desaparición Elena]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Ayuda {"position":"2175,1550","size":"100,100"}
+<<set $cordura += 35>>
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+             <p class="mode-description" >Dos semanas después. Mariana ha regresado al pueblo y busca ayuda</p>
+             <p>DR. MENDOZA: Mariana, lo que has vivido es traumático, pero encontrar los restos de Elena puede ser el inicio de tu sanación.</p>
+             <p>MARIANA: Doctor, ¿las visiones...?</p>
+             <p>DR. MENDOZA: Fueron la forma en que tu mente procesó el trauma. No importa si fueron reales o no. Te llevaron a la verdad que necesitabas.
+</p>
+			</div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+				[[Aceptar y comenzar duelo->Final A]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Buscar a Ramón {"position":"1000,1050","size":"100,100"}
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+            <p class="mode-description">Mariana decide confrontar a Ramón Gutiérrez</p>
+			<p>Necesito respuestas de los vivos, no de los muertos..</p>
+             <p class="mode-description">te diriges al bar "El Descanso", un lugar deteriorado en el centro del pueblo</p>
+             <hr class="linea-narrativa">
+            <p class="mode-description"> El bar está semi-vacío, con olor a cerveza rancia y humo de cigarrillo. Algunas mesas rotas, una rocola sin funcionar</p>
+</div>
+<img src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/BarRamon.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+<p> CANTINERO: ¿En qué la puedo servir, señora?</p>
+<p> MARIANA: Busco a Ramón Gutiérrez.</p>
+<p>CANTINERO: (señalando una mesa del fondo) Ahí está, como siempre.</p>
+            <div class="decision-section">
+                <div id="choicesContainer">
+				[[Confrontar a Ramón->Confrontación Ramón]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Calle principal {"position":"225,350","size":"100,100"}
+<div class="background-scene" aria-hidden="true"></div>
+<div class="stats-panel" role="region" aria-label="Indicador de cordura">
+ <div class="stat-item">
+    <span id="cordura-label">Cordura</span>
+    <div
+      class="stat-bar"
+      role="progressbar"
+      aria-valuemin="0"
+      aria-valuemax="100"
+      aria-valuenow="<<print $cordura>>"
+      aria-labelledby="cordura-label"
+    >
+      <div class="cordura-fill" id="cordura-fill"><<print $cordura>>%</div>
+    </div>
+  </div>
+</div>
+<div class="content-overlay" role="main" aria-label="Escena narrativa">
+  <div class="narrative-panel fade-in" id="narrativePanel">
+    <div class="story-text" id="storyText" tabindex="-1">
+      <!-- Audio con descripción accesible -->
+      <audio id="audio2" autoplay aria-label="Sonido ambiental de pasos">
+        <source src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/walking.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio embebido.
+      </audio>
+      <p>
+        Mariana lleva una maleta pequeña y desgastada. Sus manos tiemblan ligeramente mientras saca una fotografía arrugada:
+        Elena sonriendo, con ocho años, abrazando un caballito de juguete rosa.
+        <br>
+        <em>He vuelto por ti, mi niña. Esta vez no me iré sin respuestas.</em>
+      </p>
+      <img     src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/Mariana.jpg"
+        alt="Mariana caminando por una calle desolada de su pueblo natal"
+        role="img"
+      >
+      <p>
+        Mariana camina lentamente por la calle principal de San Rafael. Sus pasos resuenan contra el asfalto agrietado.
+        Algunos habitantes la observan desde las sombras de sus puertas, reconociéndola pero sin atreverse a acercarse.
+        El peso de los recuerdos se hace más intenso con cada paso.
+      </p>
+      <p>
+        Pasa frente a lo que era la panadería de doña Carmen, ahora cerrada con tablones.
+        El kiosco donde Elena compraba dulces los domingos, ahora convertido en un memorial con flores marchitas.
+        Mariana se detiene frente al mural y dice:
+        <strong>—Tantos niños... tantas familias destruidas.</strong>
+      </p>
+      <p class="mode-description">
+        Lee algunos nombres grabados en madera: "Carlos Mendez - 7 años", "María Jiménez - 9 años", "Sebastián Torres - 6 años" y se topa con...
+      </p>
+    </div>
+    <div class="decision-section" role="navigation" aria-label="Opciones de decisión">
+      <div id="choicesContainer">
+        [[Recordar el día de la tragedia->Flashback 1]]
+      </div>
+    </div>
+  </div>
+</div>
+<<actualizarCordura>>
+
+
+:: Camino a casa {"position":"225,650","size":"100,100"}
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+          			<p>Mariana se dirige hacia el barrio Las Flores, donde una vez estuvo su hogar. Con cada paso, los recuerdos se vuelven más vívidos: Elena corriendo por estas mismas calles, Miguel regresando del trabajo en su bicicleta, las tardes de domingo en familia.</p>
+ <p class="mode-description">Las casas del barrio están en diferentes estados de abandono. Algunas completamente destruidas, otras habitadas por nuevas familias desplazadas.</p>
+<p>Mariana señala una casa pintada de azul. Ahí vivía la familia Morales... (pausa)¿También se llevaron a sus hijos?</p>
+<p>Mariana se detiene frente a los restos de su casa. La estructura principal permanece, pero las ventanas están rotas, la puerta principal cuelga de una bisagra, y las paredes están marcadas con grafitis y agujeros de bala.
+
+Casa número 47... Aquí construimos nuestros sueños.
+<p class="mode-description">En la pared lateral, aún se puede ver parte de un mural que Elena había pintado: un sol amarillo con cara sonriente, ahora descolorido y agrietado.</p>
+ La casa que Miguel y Mariana construyeron durante cinco años de matrimonio ahora es solo una cáscara vacía. Los saqueadores se llevaron todo: muebles, electrodomésticos, recuerdos, esperanzas.</p>
+                  </div>
+            <div class="decision-section">
+            	<div class="information"><svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#483e60"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7086 1.53214C10.9786 1.05676 10.078 0.917375 9.27255 1.04467C8.46803 1.17183 7.62325 1.5904 7.12591 2.39445C6.9332 2.70601 6.81024 3.04646 6.7559 3.40767C5.97312 3.35525 5.18086 3.59264 4.58547 4.08919C3.98255 4.59201 3.59741 5.34432 3.59741 6.25684C3.59741 6.55614 3.63851 6.86315 3.72008 7.17654C3.42298 7.23942 3.13697 7.34918 2.86932 7.50027C1.98542 7.99927 1.36438 8.90663 1.11913 9.88841C0.869371 10.8882 0.989124 12.0467 1.70052 13.0391C2.0609 13.5419 2.54903 13.9691 3.1623 14.305C3.01053 14.5081 2.88229 14.7271 2.77811 14.9565C2.35249 15.8935 2.32044 17.0038 2.64559 17.98C2.97535 18.9701 3.69756 19.8871 4.83624 20.3254C5.57833 20.6111 6.42615 20.6665 7.35551 20.4749C7.39798 20.9494 7.52745 21.3806 7.74983 21.7577C8.22598 22.5651 9.0236 22.9458 9.80541 22.9947C10.5523 23.0414 11.3758 22.778 12 22.2458C12.6242 22.778 13.4477 23.0414 14.1946 22.9947C14.9764 22.9458 15.774 22.5651 16.2502 21.7577C16.4725 21.3806 16.602 20.9494 16.6445 20.4749C17.5738 20.6665 18.4217 20.6111 19.1638 20.3254C20.3024 19.8871 21.0246 18.9701 21.3544 17.98C21.6796 17.0038 21.6475 15.8935 21.2219 14.9565C21.1177 14.7271 20.9895 14.5081 20.8377 14.305C21.451 13.9691 21.9391 13.5419 22.2995 13.0391C23.0109 12.0467 23.1306 10.8882 22.8809 9.88841C22.6356 8.90663 22.0146 7.99927 21.1307 7.50027C20.863 7.34918 20.577 7.23942 20.2799 7.17654C20.3615 6.86315 20.4026 6.55614 20.4026 6.25684C20.4026 5.34432 20.0175 4.59201 19.4145 4.08919C18.8191 3.59264 18.0269 3.35525 17.2441 3.40767C17.1898 3.04646 17.0668 2.70601 16.8741 2.39445C16.3767 1.5904 15.532 1.17183 14.7274 1.04467C13.922 0.917375 13.0214 1.05676 12.2914 1.53214C11.9861 1.73097 12.0139 1.73097 11.7086 1.53214ZM13.0033 20.0518L13.0033 17.5288C13.0045 17.0494 13.1133 16.3457 13.3939 15.7998C13.6573 15.2872 13.9946 15.0268 14.5082 15.0268C15.0623 15.0268 15.5115 14.5773 15.5115 14.0227C15.5115 13.4682 15.0623 13.0186 14.5082 13.0186C13.9202 13.0186 13.4216 13.16 13.0033 13.3894V12.5084C13.0045 12.029 13.1133 11.3254 13.3939 10.7794C13.6573 10.2668 13.9946 10.0064 14.5082 10.0064C15.0623 10.0064 15.5115 9.55688 15.5115 9.00234C15.5115 8.4478 15.0623 7.99826 14.5082 7.99826C13.9202 7.99826 13.4216 8.13957 13.0033 8.36902L13.0033 3.97532C13.005 3.57853 13.1671 3.35779 13.3859 3.21528C13.6436 3.04746 14.0284 2.96723 14.4144 3.02824C14.8013 3.08939 15.0539 3.26704 15.1679 3.45142C15.2603 3.60078 15.3726 3.9329 15.091 4.59054C14.9015 5.03294 15.0524 5.54766 15.4507 5.8175C15.849 6.08734 16.3825 6.03639 16.7226 5.69604C17.0903 5.32811 17.7563 5.32032 18.1299 5.63189C18.2795 5.75662 18.396 5.94564 18.396 6.25684C18.396 6.59422 18.2548 7.14633 17.705 7.91672C17.4235 8.31116 17.4637 8.85055 17.8006 9.19878C18.1375 9.54701 18.6749 9.60465 19.0779 9.33577C19.5101 9.04741 19.8566 9.08664 20.1448 9.24934C20.4837 9.44063 20.8032 9.85112 20.9342 10.3755C21.0607 10.8818 20.9923 11.4176 20.669 11.8686C20.3466 12.3184 19.6765 12.8121 18.3565 13.0323C17.8683 13.1137 17.5124 13.5392 17.5182 14.0344C17.5239 14.5296 17.8896 14.9467 18.3795 15.0167C18.8812 15.0884 19.207 15.3732 19.3952 15.7874C19.5966 16.231 19.6273 16.8151 19.4508 17.345C19.2789 17.861 18.9351 18.2619 18.4434 18.4511C17.9498 18.6411 17.1399 18.6809 15.9267 18.129C15.5761 17.9695 15.1653 18.025 14.8694 18.2716C14.5735 18.5183 14.4448 18.9127 14.5382 19.2866C14.6621 19.7827 14.8668 20.9406 14.0694 20.9905C13.5184 21.0249 13.0062 20.6055 13.0033 20.0518ZM10.9967 3.97532C10.995 3.57853 10.8329 3.35779 10.6141 3.21528C10.3564 3.04746 9.97157 2.96723 9.58558 3.02824C9.19869 3.08939 8.94611 3.26704 8.83207 3.45142C8.73968 3.60078 8.62739 3.9329 8.90901 4.59054C9.09846 5.03294 8.94757 5.54766 8.54931 5.8175C8.15105 6.08734 7.61747 6.03639 7.27739 5.69604C6.90975 5.32811 6.24365 5.32032 5.87006 5.63189C5.72051 5.75662 5.604 5.94564 5.604 6.25684C5.604 6.59422 5.74515 7.14633 6.29501 7.91672C6.57653 8.31116 6.53629 8.85055 6.19937 9.19878C5.86246 9.54701 5.32505 9.60465 4.92206 9.33577C4.48987 9.04741 4.1434 9.08664 3.8552 9.24934C3.51634 9.44063 3.19679 9.85112 3.06581 10.3755C2.93933 10.8818 3.0077 11.4176 3.33095 11.8686C3.65342 12.3184 4.32349 12.8121 5.64353 13.0323C6.13166 13.1137 6.48757 13.5392 6.48182 14.0344C6.47607 14.5296 6.11037 14.9467 5.62048 15.0167C5.1188 15.0884 4.793 15.3732 4.60484 15.7874C4.40339 16.231 4.37273 16.8151 4.54922 17.345C4.7211 17.861 5.06489 18.2619 5.55656 18.4511C6.05021 18.6411 6.86015 18.6809 8.0733 18.129C8.42388 17.9695 8.83474 18.025 9.13063 18.2716C9.42652 18.5183 9.5552 18.9127 9.4618 19.2866C9.33788 19.7827 9.13324 20.9406 9.93058 20.9905C10.4816 21.0249 10.9938 20.6055 10.9967 20.0518L10.9967 20.0472V17.5292C10.9955 17.0498 10.8868 16.3459 10.6061 15.7998C10.3427 15.2872 10.0054 15.0268 9.49176 15.0268C8.93765 15.0268 8.48846 14.5773 8.48846 14.0227C8.48846 13.4682 8.93765 13.0186 9.49176 13.0186C10.0798 13.0186 10.5784 13.16 10.9967 13.3894V12.5088C10.9955 12.0294 10.8868 11.3255 10.6061 10.7794C10.3427 10.2668 10.0054 10.0064 9.49176 10.0064C8.93765 10.0064 8.48846 9.55688 8.48846 9.00234C8.48846 8.4478 8.93765 7.99826 9.49176 7.99826C10.0798 7.99826 10.5784 8.13957 10.9967 8.36902L10.9967 3.97532Z" fill="#b17777"></path> </g></svg>
+                <p>Vas a ir experimentando un momento dificil para Mariana ten cuidado con tu cordura. Al ingresar a la casa perderas directamente 20 puntos de cordura</p></div>
+                <div id="choicesContainer">
+                 [[Ingresar a la sala->Sala]]
+                </div>
+            </div>
+        </div>
+    </div>
+    <<actualizarCordura>>
+
+
+:: Campamento {"position":"1825,1550","size":"100,100"}
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+            <img src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/MarianaCampamento.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+            <p class="mode-description">El camino se vuelve empinado y difícil. Mariana sigue a la aparición de Elena monte arriba.</p>
+			<p> Las montañas que rodean San Rafael fueron testigos de muchos horrores durante el conflicto. Aquí establecieron campamentos tanto paramilitares como guerrilleros. Aquí desaparecieron muchas personas.</p>
+            <p class="mode-description">Llegan a los restos de un campamento militar abandonado. Estructuras de madera podrida, alambres oxidados, restos de fogatas antiguas.</p>
+            <p>ELENA: Aquí nos trajeron esa noche, mami.</p>
+            <p>MARIANA: ¿A este lugar?.</p>
+            <p>ELENA: A mí y a todos los otros niños.</p>
+            <p>ELENA: Aquí nos trajeron esa noche, mami.</p>
+            <p class="mode-description">Mariana camina por el campamento junto a la aparición de Elena. Ve restos de lo que fueron barracas, una cocina improvisada, una estructura que podría haber sido una prisión.</p>
+            <p>ELENA: ¿Sabes por qué nos trajeron aquí, mami?.</p>
+            <p>MARIANA: No... dímelo tú..</p>
+            <p>ELENA (APARICIÓN): Por papá. Por lo que hacía papá.</p>
+            <p class="mode-description">Elena se detiene frente a un montículo de tierra con ropa vieja esparcida.</p>
+			</div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+				[[Explorar el montículo de tierra->Tumba Elena]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Casa de Esperanza {"position":"1775,1050","size":"100,100"}
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+				<p class="mode-description">Don Carlos acompaña a Mariana hasta la pequeña casa donde vive Esperanza, al lado del refugio. Es una casa sencilla pero cálida, llena de plantas y fotografías de familia.
+</p>
+<p>MARIANA: Confundida. Vi a Elena en el parque, pero Don Carlos dice que no había nadie.</p>
+<p>ESPERANZA: El dolor hace cosas extrañas con la mente. Yo también veo a mi hijo muerto a veces.</p>
+<p>MARIANA: ¿Tú crees... tú crees que Elena puede estar tratando de comunicarse conmigo?</p>
+<p>ESPERANZA: No lo sé, mija. Pero sé que necesitas respuestas reales para poder sanar.</p>
+<hr class="linea-narrativa">
+<p  class="mode-description">Al día siguiente, Mariana regresa al parque, esperando otra aparición</p>
+<p  class="mode-description">La aparición de Elena se manifiesta otra vez, esta vez más clara</p>
+<p>ELENA: Sabía que regresarías, mami.</p>
+<p>MARIANA: Elena, mi amor, necesito que me ayudes a entender.</p>
+<p>ELENA: Hay dos caminos, mami. Puedes seguirme y conocer toda la verdad, pero será doloroso. O puedes buscar a Ramón y confrontar a los que nos traicionaron.</p>
+			</div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+				[[Volver al parque->Volver parque]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Confrontación Ramón {"position":"1200,1050","size":"100,100"}
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+            <p class="mode-description">Ramón Gutiérrez, de 55 años, está solo en una mesa, claramente ebrio. Ha envejecido mal: demacrado, con temblor en las manos</p>
+            <img src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/Ramon.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+            <p>MARIANA: Ramón.</p>
+             <p>RAMÓN: (levantando la vista, reconociéndola inmediatamente) Mariana... (pausa larga) No pensé que regresarías.</p>
+              <p>MARIANA: Esperanza te vio esa noche. Te vio con los soldados.</p>
+               <p>RAMÓN:(tomando otro trago) Esperanza ve muchas cosas. A veces ve cosas que no pasaron.</p>
+                <p>MARIANA: ¿Dónde está mi hija, Ramón?.</p>
+                <hr class="linea-narrativa">
+                <p class="mode-description">Ramón niega con la cabeza haber participado en la redada de ese día</p>
+                 <p>RAMÓN: Yo no sé de qué me hablas. Esa noche estuve aquí, bebiendo, como siempre..</p>
+                 <p>MARIANA: ¡Mentiroso! ¡Ayudaste a llevarte a los niños!.</p>
+                 <hr class="linea-narrativa">
+                <p class="mode-description">Ramón ignora a Mariana y sigue bebiendo</p>
+                <p>RAMÓN: Vete a casa, Mariana. No hay nada para ti aquí.</p>
+			<p>MARIANA: (gritando) ¡MI HIJA TENÍA OCHO AÑOS! ¡OCHO AÑOS!</p>
+            <p class="mode-description">Otros clientes del bar la miran incómodos</p>
+            <hr class="linea-narrativa">
+            <p class="mode-description">Ramón se pone de pie bruscamente, la silla cae hacia atrás. Aunque ebrio, su voz adquiere un tono amenazante.</p>
+            <p>RAMÓN: Te dije que te fueras. No sabes en qué te estás metiendo, Mariana.</p>
+            <p>MARIANA: ¡Dímelo entonces! ¡Explícame por qué Elena no volvió! ¿Por qué tú estabas con ellos esa noche?
+</p>
+            <p>RAMÓN: (acercándose peligrosamente) Porque a veces uno tiene que elegir entre su pellejo y el de otros. ¡Y yo elegí vivir!
+</p>
+            <p>MARIANA: (retrocediendo) ¿Y eso te da derecho a entregar niños?
+</p>
+ <hr class="linea-narrativa">
+  <p class="mode-description">Ramón recoge la silla, se sienta de nuevo, y con las manos temblorosas se sirve otro trago.</p>
+            <p>RAMÓN: (murmurando) Yo no los entregué... solo los marqué. Me dijeron que no se los llevarían si los tenía vigilados. Pero mintieron. Todos mintieron.
+</p>
+<hr class="linea-narrativa">
+            <p>MARIANA: ¿Quiénes? ¿Los militares? ¿El alcalde? ¡Dímelo todo!</p>
+            <p>RAMÓN: (la mira con ojos vidriosos) ¿De verdad quieres saber? ¿Quieres cargar con eso?.
+</p>
+<p>MARIANA: ¡Estoy cargando con la ausencia de mi hija hace diez años! ¡Nada puede ser peor que eso!</p>
+            
+			</div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+				[[Ramon te revela lo ocurrido esa noche en el pueblo ->Revelación]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Cuarto de Elena {"position":"100,1325","size":"100,100"}
+<<set $cordura -= 15>>
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+            <p class="mode-description">Mariana respira profundo y camina hacia el cuarto de Elena</p>
+                        <p>Necesito hacerlo. Necesito enfrentar todo.</p>
+			<p class="mode-description">Empuja la puerta. El cuarto está devastado, pero algunos elementos permanecen: dibujos pegados en las paredes, su cama pequeña volcada, juguetes esparcidos.</p>
+                        			<img src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/Habitación.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+                                    <p>Mariana camina cuidadosamente entre los escombros. En las paredes, los dibujos de Elena permanecen como testigos mudos: una familia feliz tomada de la mano, un paisaje con montañas y flores, un autorretrato con una sonrisa enorme.</p>
+<p>"Mi familia bonita"... así titulaste este dibujo. </p>
+            </div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+                  [[Recuerdo->Flashback3]] [[Salir de la casa->Salir de la casa]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Decision {"position":"225,1225","size":"100,100"}
+<<set $cordura -= 10>>
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+            <p class="mode-description">Mariana mira hacia el pasillo que lleva a los cuartos. La puerta del cuarto de Elena está entreabierta, como si la estuviera invitando a entrar. Pero también como si fuera una trampa emocional de la cual podría no salir.
+</p>
+            			<img src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/Habitacion.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+            </div>
+            <div class="decision-section">
+            <p>¿Estoy lista para esto? ¿Realmente quiero ver lo que queda de su mundo?
+</p>
+            	<div class="information"><svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#483e60"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7086 1.53214C10.9786 1.05676 10.078 0.917375 9.27255 1.04467C8.46803 1.17183 7.62325 1.5904 7.12591 2.39445C6.9332 2.70601 6.81024 3.04646 6.7559 3.40767C5.97312 3.35525 5.18086 3.59264 4.58547 4.08919C3.98255 4.59201 3.59741 5.34432 3.59741 6.25684C3.59741 6.55614 3.63851 6.86315 3.72008 7.17654C3.42298 7.23942 3.13697 7.34918 2.86932 7.50027C1.98542 7.99927 1.36438 8.90663 1.11913 9.88841C0.869371 10.8882 0.989124 12.0467 1.70052 13.0391C2.0609 13.5419 2.54903 13.9691 3.1623 14.305C3.01053 14.5081 2.88229 14.7271 2.77811 14.9565C2.35249 15.8935 2.32044 17.0038 2.64559 17.98C2.97535 18.9701 3.69756 19.8871 4.83624 20.3254C5.57833 20.6111 6.42615 20.6665 7.35551 20.4749C7.39798 20.9494 7.52745 21.3806 7.74983 21.7577C8.22598 22.5651 9.0236 22.9458 9.80541 22.9947C10.5523 23.0414 11.3758 22.778 12 22.2458C12.6242 22.778 13.4477 23.0414 14.1946 22.9947C14.9764 22.9458 15.774 22.5651 16.2502 21.7577C16.4725 21.3806 16.602 20.9494 16.6445 20.4749C17.5738 20.6665 18.4217 20.6111 19.1638 20.3254C20.3024 19.8871 21.0246 18.9701 21.3544 17.98C21.6796 17.0038 21.6475 15.8935 21.2219 14.9565C21.1177 14.7271 20.9895 14.5081 20.8377 14.305C21.451 13.9691 21.9391 13.5419 22.2995 13.0391C23.0109 12.0467 23.1306 10.8882 22.8809 9.88841C22.6356 8.90663 22.0146 7.99927 21.1307 7.50027C20.863 7.34918 20.577 7.23942 20.2799 7.17654C20.3615 6.86315 20.4026 6.55614 20.4026 6.25684C20.4026 5.34432 20.0175 4.59201 19.4145 4.08919C18.8191 3.59264 18.0269 3.35525 17.2441 3.40767C17.1898 3.04646 17.0668 2.70601 16.8741 2.39445C16.3767 1.5904 15.532 1.17183 14.7274 1.04467C13.922 0.917375 13.0214 1.05676 12.2914 1.53214C11.9861 1.73097 12.0139 1.73097 11.7086 1.53214ZM13.0033 20.0518L13.0033 17.5288C13.0045 17.0494 13.1133 16.3457 13.3939 15.7998C13.6573 15.2872 13.9946 15.0268 14.5082 15.0268C15.0623 15.0268 15.5115 14.5773 15.5115 14.0227C15.5115 13.4682 15.0623 13.0186 14.5082 13.0186C13.9202 13.0186 13.4216 13.16 13.0033 13.3894V12.5084C13.0045 12.029 13.1133 11.3254 13.3939 10.7794C13.6573 10.2668 13.9946 10.0064 14.5082 10.0064C15.0623 10.0064 15.5115 9.55688 15.5115 9.00234C15.5115 8.4478 15.0623 7.99826 14.5082 7.99826C13.9202 7.99826 13.4216 8.13957 13.0033 8.36902L13.0033 3.97532C13.005 3.57853 13.1671 3.35779 13.3859 3.21528C13.6436 3.04746 14.0284 2.96723 14.4144 3.02824C14.8013 3.08939 15.0539 3.26704 15.1679 3.45142C15.2603 3.60078 15.3726 3.9329 15.091 4.59054C14.9015 5.03294 15.0524 5.54766 15.4507 5.8175C15.849 6.08734 16.3825 6.03639 16.7226 5.69604C17.0903 5.32811 17.7563 5.32032 18.1299 5.63189C18.2795 5.75662 18.396 5.94564 18.396 6.25684C18.396 6.59422 18.2548 7.14633 17.705 7.91672C17.4235 8.31116 17.4637 8.85055 17.8006 9.19878C18.1375 9.54701 18.6749 9.60465 19.0779 9.33577C19.5101 9.04741 19.8566 9.08664 20.1448 9.24934C20.4837 9.44063 20.8032 9.85112 20.9342 10.3755C21.0607 10.8818 20.9923 11.4176 20.669 11.8686C20.3466 12.3184 19.6765 12.8121 18.3565 13.0323C17.8683 13.1137 17.5124 13.5392 17.5182 14.0344C17.5239 14.5296 17.8896 14.9467 18.3795 15.0167C18.8812 15.0884 19.207 15.3732 19.3952 15.7874C19.5966 16.231 19.6273 16.8151 19.4508 17.345C19.2789 17.861 18.9351 18.2619 18.4434 18.4511C17.9498 18.6411 17.1399 18.6809 15.9267 18.129C15.5761 17.9695 15.1653 18.025 14.8694 18.2716C14.5735 18.5183 14.4448 18.9127 14.5382 19.2866C14.6621 19.7827 14.8668 20.9406 14.0694 20.9905C13.5184 21.0249 13.0062 20.6055 13.0033 20.0518ZM10.9967 3.97532C10.995 3.57853 10.8329 3.35779 10.6141 3.21528C10.3564 3.04746 9.97157 2.96723 9.58558 3.02824C9.19869 3.08939 8.94611 3.26704 8.83207 3.45142C8.73968 3.60078 8.62739 3.9329 8.90901 4.59054C9.09846 5.03294 8.94757 5.54766 8.54931 5.8175C8.15105 6.08734 7.61747 6.03639 7.27739 5.69604C6.90975 5.32811 6.24365 5.32032 5.87006 5.63189C5.72051 5.75662 5.604 5.94564 5.604 6.25684C5.604 6.59422 5.74515 7.14633 6.29501 7.91672C6.57653 8.31116 6.53629 8.85055 6.19937 9.19878C5.86246 9.54701 5.32505 9.60465 4.92206 9.33577C4.48987 9.04741 4.1434 9.08664 3.8552 9.24934C3.51634 9.44063 3.19679 9.85112 3.06581 10.3755C2.93933 10.8818 3.0077 11.4176 3.33095 11.8686C3.65342 12.3184 4.32349 12.8121 5.64353 13.0323C6.13166 13.1137 6.48757 13.5392 6.48182 14.0344C6.47607 14.5296 6.11037 14.9467 5.62048 15.0167C5.1188 15.0884 4.793 15.3732 4.60484 15.7874C4.40339 16.231 4.37273 16.8151 4.54922 17.345C4.7211 17.861 5.06489 18.2619 5.55656 18.4511C6.05021 18.6411 6.86015 18.6809 8.0733 18.129C8.42388 17.9695 8.83474 18.025 9.13063 18.2716C9.42652 18.5183 9.5552 18.9127 9.4618 19.2866C9.33788 19.7827 9.13324 20.9406 9.93058 20.9905C10.4816 21.0249 10.9938 20.6055 10.9967 20.0518L10.9967 20.0472V17.5292C10.9955 17.0498 10.8868 16.3459 10.6061 15.7998C10.3427 15.2872 10.0054 15.0268 9.49176 15.0268C8.93765 15.0268 8.48846 14.5773 8.48846 14.0227C8.48846 13.4682 8.93765 13.0186 9.49176 13.0186C10.0798 13.0186 10.5784 13.16 10.9967 13.3894V12.5088C10.9955 12.0294 10.8868 11.3255 10.6061 10.7794C10.3427 10.2668 10.0054 10.0064 9.49176 10.0064C8.93765 10.0064 8.48846 9.55688 8.48846 9.00234C8.48846 8.4478 8.93765 7.99826 9.49176 7.99826C10.0798 7.99826 10.5784 8.13957 10.9967 8.36902L10.9967 3.97532Z" fill="#b17777"></path> </g></svg>
+                <p>El cuarto de Elena es un lugar muy cargado emocionalmente puedes perder mucha cordura mientras estás ahí</p></div>
+                <div id="choicesContainer">
+                  [[Entrar a la habitación de elena->Cuarto de Elena]] [[Salir de la casa->Salir de la casa]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Desaparición Elena {"position":"1500,725","size":"100,100"}
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+				<p class="mode-description">La aparición comienza a desvanecerse</p>
+                <p>ELENA: Sígueme, mami. Pero primero necesitas estar más fuerte.</p>
+                <p class="texto-impacto">¡No! ¡No te vayas otra vez!</p>
+                <p class="mode-description">Elena desaparece completamente</p>
+                <hr class="linea-narrativa">
+                <p class="mode-description">Un hombre mayor, DON CARLOS, se acerca 
+                preocupado</p>
+                <p>DON CARLOS: ¿Se encuentra bien, señora? La escuché hablando...</p>
+                 <p>MARIANA: (confundida) ¿No vio a la joven que estaba aquí? Era mi hija Elena.</p>
+                 <p>DON CARLOS: (con delicadeza) Señora... aquí no hay nadie más que usted y yo.</p>
+                 <p class="mode-description">La realidad la golpea.</p>
+                 <p>MARIANA: Yo... lo siento. Es que... han sido días muy difíciles.</p>
+                 <p>DON CARLOS: Venga, la acompaño a donde doña Esperanza.</p>
+			</div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+				[[Ir a casa de Esperanza->Casa de Esperanza]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Escuela {"position":"600,1550","size":"100,100"}
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+            <p> El edificio amarillo de la escuela ahora luce parches de diferentes colores donde repararon los daños de bala. En el patio, donde Elena solía jugar durante los recreos, ahora hay tendederos con ropa y pequeñas fogatas para cocinar.</p>
+            <p>(deteniéndose en la entrada) Aquí Elena aprendió a leer... Aquí me dibujó su primer "Te amo, mami".*</p>
+<img  src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/Escuela.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+            </div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+				[[Encuentro con Esperanza->Esperanza]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Esperanza {"position":"550,1225","size":"100,100"}
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+            <p class="mode-description">Una mujer mayor sale del edificio. Es ESPERANZA MORALES, de 65 años, que ahora coordina el refugio</p>
+            <p>MARIANA: Doña Esperanza... (se abrazan) Pensé que también había...</p>
+             <p>ESPERANZA: Aquí sigo, mija. Como las malas hierbas, que siempre resurgen. (pausa) ¿Vienes por Elena?</p>
+              <p class="mode-description">El nombre golpea a Mariana como siempre</p>
+               <p>MARIANA: Necesito saber qué pasó realmente. Han sido diez años de incertidumbre.</p>
+                <p>ESPERANZA: Ven, hay algo que debes ver.</p>
+                 <p class="mode-description">Esperanza la lleva hacia una pared del refugio cubierta completamente con fotografías</p>
+                 <p>ESPERANZA: El muro de la memoria. Cada mes agregamos más fotos, pero también, gracias a Dios, a veces podemos quitar alguna porque aparece alguien.</p>
+                 <p class="mode-description">Cientos de rostros miran desde las fotografías. Niños, adultos, ancianos. En el centro, enmarcada con flores secas, está la foto de Elena.
+</p>
+                 <p>MARIANA: (tocando la foto) Mi bebé... ¿cuánto tiempo lleva aquí su foto?</p>
+                 <p>ESPERANZA: Desde el primer día que hicimos el mural. Tu Elena fue una de las primeras.</p>
+            </div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+				[[Recordar primer día de clases->Flashback 4]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Estrellita {"position":"225,950","size":"100,100"}
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+               <p class="mode-description">Entre los escombros, algo rosa llama su atención. Mariana se arrodilla y, con cuidado, saca un caballito de plástico rosa, sucio pero reconocible.</p>
+                  <img  src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/Caballito.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+               <p>Estrellita... El caballito de Elena..</p>
+               <p class="mode-description">Lo limpia suavemente con su blusa, como si fuera un tesoro invaluable.</p>
+               <p>Elena, mi amor... Estrellita te estaba esperando.</p>
+            </div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+                  [[Recuerdo->Flashback2]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Final A {"position":"2350,1550","size":"100,100"}
+<div class="background-scene textoBlur"><img class="finalB" src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/FinalA.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal"></div> 
+   <div class="content-overlay textoBlur">
+   <div class="narrative-panel textoBlur" id="narrativePanel">
+   <div class="story-text" id="storyText">
+   <p>Mariana está en terapia, trabajando en el proceso de duelo.</p>
+   <p> Elena murió esa noche. Mi hija está muerta y no va a regresar.</p>
+    <p class="mode-description">Llora, pero es un llanto diferente. Un llanto de liberación.</p>
+    <p>Pero ahora sé dónde está. Ahora puedo despedirme correctamente.</p>
+   <p class="texto-impacto">Gracias por jugar, Desbloqueaste el final A.</p>
+   </div>
+   </div>
+   </div>
+    <<actualizarCordura>>
+
+
+:: Final B {"position":"1550,1050","size":"100,100"}
+<div class="background-scene textoBlur"><img class="finalB" src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/Final B.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal"></div> 
+   <div class="content-overlay textoBlur">
+   <div class="narrative-panel textoBlur" id="narrativePanel">
+   <div class="story-text" id="storyText">
+   <p>Las palabras de Ramón se clavan como cuchillos en la mente de Mariana. Su visión se nubla. El mundo real se disuelve.</p>
+   <p>Mariana se pierde en sus pensamientos, constantes flashbacks recaen sobre ella y ya no tiene salvación.</p>
+   <p class="texto-impacto">Gracias por jugar, Desbloqueaste el final B.</p>
+   </div>
+   </div>
+   </div>
+    <<actualizarCordura>>
+
+
+:: Final alternativo {"position":"750,1275","size":"100,100"}
+<div class="background-scene textoBlur"><img class="finalB" src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/finalAlternativo.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal"></div> 
+   <div class="content-overlay textoBlur">
+   <div class="narrative-panel textoBlur" id="narrativePanel">
+   <div class="story-text" id="storyText">
+   <p class="texto-impacto">Mariana se pierde en sus pensamientos.Gracias por jugar, desbloqueaste el final alternativo.</p>
+   </div>
+   </div>
+   </div>
+    <<actualizarCordura>>
+
+
+:: Flashback 1 {"position":"225,500","size":"100,100"}
+<<set $cordura -= 10>>
+<div class="background-scene" aria-hidden="true"></div>
+<div class="stats-panel" role="region" aria-label="Indicador de cordura">
+ <div class="stat-item">
+    <span id="cordura-label">Cordura</span>
+    <div
+      class="stat-bar"
+      role="progressbar"
+      aria-valuemin="0"
+      aria-valuemax="100"
+      aria-valuenow="<<print $cordura>>"
+      aria-labelledby="cordura-label"
+    >
+      <div class="cordura-fill" id="cordura-fill"><<print $cordura>>%</div>
+    </div>
+  </div>
+</div>
+    <div class="content-overlay" role="main" aria-label="Escena del flashback de Mariana">
+  <div class="narrative-panel textoBlur" id="narrativePanel">
+    <div class="story-text" id="storyText" tabindex="-1">
+      <p class="mode-description" aria-live="polite">
+        Sin aviso, un flashback violento golpea a Mariana.
+      </p>
+      <p>
+        15 de marzo de 2014, 5:47 AM. Los disparos comenzaron con las primeras luces del amanecer.
+      </p>
+      <img
+        class="flashback"
+        src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/Flashback1.jpg"
+        alt="Vista de una calle vacía, evocando recuerdos dolorosos"
+        role="img"
+      >
+      <p>
+        <strong>ELENA:</strong> ¡Mami, tengo miedo! ¡No me dejes sola! <br>
+        <strong>MARIANA:</strong> Quédate escondida debajo de la cama, mi amor. No salgas hasta que yo regrese. <br>
+        <strong>SOLDADO:</strong> ¡Saquen a todos los niños! ¡Rápido!
+      </p>
+      <p class="mode-description" aria-live="polite">
+        El flashback se intensifica: botas militares, puertas siendo derribadas, el grito final de Elena llamándola.
+      </p>
+      <p class="texto-impacto" role="alert" aria-label="Grito de Elena">
+        <strong>¡MAMI! ¡MAMI, NO ME DEJES!</strong>
+      </p>
+      <hr class="linea-narrativa" aria-hidden="true">
+      <div class="bloque-cordura textoBlur" role="region" aria-label="Reacción emocional de Mariana">
+        <p class="mode-description">
+          Vuelves al presente y tienes una pérdida momentánea de cordura.
+        </p>
+        <div class="fondo-cordura">
+          <p>Nivel de estabilidad mental: 90/100</p>
+          <p>(-10 por flashback traumático)</p>
+        </div>
+        <p>
+          Mariana se tambaleó, llevándose las manos a la cabeza mientras un grito desgarrador brotaba de su garganta y se perdía en la calle vacía. <br>
+          —<strong>¡Elena! ¡Ya estoy aquí! ¡Mami regresó!</strong><br>
+          Su voz rebotó contra los muros, multiplicándose en ecos que no traían respuesta, solo el silencio y el ladrido solitario de un perro a lo lejos. <br>
+          Fue ese eco, distorsionado y lejano, el que la arrastró de vuelta a la realidad. <br>
+          Jadeaba. Cada respiración era un intento desesperado por recuperar el control. Se obligó a mantenerse firme. <br>
+          —<em>Contrólate, Mariana… Contrólate</em> —murmuró, limpiándose las lágrimas con el dorso de la mano. <br>
+          Poco a poco, sus hombros dejaron de temblar. Tenía un propósito, y había venido a cumplirlo.
+        </p>
+      </div>
+    </div>
+    <div class="decision-section" role="navigation" aria-label="Opciones de avance">
+      <div id="choicesContainer">
+        [[Caminar hacia la casa->Camino a casa]]
+      </div>
+    </div>
+  </div>
+</div>
+<<actualizarCordura>>
+
+
+:: Flashback 4 {"position":"550,1050","size":"100,100"}
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+            <p>Primer día de clases de Elena, febrero de 2014</p>
+        <img class="flashback" src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/Flashback4.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+            <p>ELENA: Mami, ¿y si los otros niños no quieren ser mis amigos?</p>
+            <p>MARIANA: Imposible, mi amor. Eres imposible de no querer.</p>
+            <p>MAESTRA CARMEN: Elena es una niña muy especial, señora Herrera. Muy observadora, muy inteligente.</p>
+            <p class="mode-description">Elena corriendo hacia Mariana al final del día escolar</p>
+            <p>ELENA: ¡Mami! ¡Hice tres amigos nuevos! Carlos, María José y Sebastián.
+</p>
+  <hr class="linea-narrativa">
+  <p class="mode-description">En el presente, Mariana ve las fotos de esos mismos niños en el muro</p>
+  <p> Todos... se llevaron a todos sus amiguitos también</p>
+            </div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+				[[Escuchar testimonio de Esperanza->Revelación Esperanza]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Flashback2 {"position":"225,1100","size":"100,100"}
+<<set $cordura -= 10>>
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+            <p class="mode-description">Otro flashback, esta vez más dulce pero igualmente doloroso</p>
+             <img class="flashback"  src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/Flashback2.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+             <p>Navidad de 2013. Elena tenía siete años y acababa de recibir su regalo favorito.</p>
+             <p>ELENA: ¡Mira, mami! ¡Estrellita puede volar como los caballos del cielo que me contabas en los cuentos!
+</p>
+<p class="mode-description">Elena hace volar el caballito por toda la sala, imitando sonidos de galope
+</p>
+<p>MARIANA: ¿Y cómo se llama tu caballito, mi amor?
+</p>
+<p>ELENA: Estrellita, porque tiene una estrella en la frente, ¿ves? Y porque va a llevarme a conocer las estrellas de verdad.
+</p>
+<p>MIGUEL: Nuestra princesa y su corcel mágico.</p>
+<p class="mode-description">La familia ríe junta. Es un momento de felicidad purae</p>
+ <div class="fondo-cordura"><p>Nivel de estabilidad mental: <<print($cordura)>>/100</p><p>(-10 por contraste emocional doloroso)</p></div>
+            </div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+                  [[Volver al presente->Decision]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Flashback3 {"position":"75,1475","size":"100,100"}
+<<set $cordura -= 15>>
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+            <p>La noche del 14 de marzo de 2014. La última noche normal.</p>
+                        			<img  class ="flashback" src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/Flashback3.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+                                    
+			<p>ELENA: Mami, léeme el cuento de la princesa que encuentra a su papá.</p>
+            <p>MARIANA: ¿Cuál cuento, mi amor? No recuerdo ese.</p>
+            <p>ELENA: El que tú me inventas. Donde la princesa pierde a su papá pero lo encuentra en las estrellas.</p>
+            <p class="mode-description">Mariana en el recuerdo se acuesta junto a Elena en la cama pequeña</p>
+            <p>MARIANA: Había una vez una princesa muy valiente llamada Elena...</p>
+            </div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+                 [[Obtener Pista Habitación ->Pista habitación]] [[Salir de la casa->Salir de la casa]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Parque {"position":"925,675","size":"100,100"}
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+            <p class="mode-description">Mariana decide no confrontar inmediatamente a los supuestos colaboradores</p>
+             <p>MARIANA: Necesito procesar esto primero. Necesito... necesitar estar sola un momento.</p>
+             <p>ESPERANZA: Te entiendo, mija. Pero ten cuidado. Algunas verdades duelen más que la incertidumbre.</p>
+             <p  class="mode-description">Mariana llega al Parque Central. Los columpios están oxidados, el carrusel volcado, la fuente seca. Se sienta en una banca deteriorada.</p>
+             <img src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/MarianaLlegaParque.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+             <p>Este parque fue testigo de los mejores momentos de Elena: cumpleaños, primeros pasos en bicicleta, tardes de juegos con sus amigos. Ahora es un cementerio de recuerdos.</p>          
+			</div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+				[[Descansas un momento->Aparición Elena]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Pista habitación {"position":"75,1625","size":"100,100"}
+<<set $cordura -= 5>>
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+					<p class="mode-description">En el presente, Mariana se sienta en el piso donde estaba la cama</p>
+                    <p>...que tenía un corazón tan grande que podía amar incluso desde muy lejos...</p>
+                    <p class="mode-description">Continúa el cuento que no pudo terminar esa noche</p>
+                    <p>Y cuando la princesa Elena se perdió, su mami la buscó en cada estrella del cielo, hasta que un día...</p>
+                    <p class="mode-description">Su voz se quiebra</p>
+                    <p>Un día su mami fue lo suficientemente valiente para regresar y encontrarla.</p>
+                    <hr class="linea-narrativa">
+                    <p class="mode-description">Debajo de donde estaba la cama, Mariana encuentra algo inusual: un cuaderno pequeño, protegido en una bolsa plástica</p>
+                    <p>¿Qué es esto?</p>
+                    <p class="mode-description">Lo abre. Son dibujos de Elena, pero diferentes. Dibujos de hombres con uniformes, camiones, niños llorando</p>
+                    <p> (leyendo una nota escrita con letra infantil) "Los señores de verde se llevaron a Carlos. Mami dice que no hable de esto."</p>
+                    <div class="recuerdo-card flicker"><svg fill="#f0f0f1" width="81px" height="81px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#f0f0f1"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M26.536 0h-19.937c-1.438 0-2.063 1.063-2.063 2.063v3.979h-1.091c-0.541 0-0.979 0.439-0.979 0.98s0.438 0.98 0.979 0.98h1.091v4.024h-0.998c-0.541 0-0.98 0.438-0.98 0.979s0.438 0.98 0.979 0.98h0.998v4.045h-1.019c-0.541 0-0.979 0.439-0.979 0.98s0.438 0.98 0.979 0.98h1.019v4.014h-1.019c-0.541 0-0.979 0.439-0.979 0.98s0.438 0.98 0.979 0.98h1.019v4.040c0 1.657 1.298 2 2.016 2h19.985c1.657 0 3-1.343 3-3v-26c0-1.657-1.343-3-3-3zM6.535 30l-0-4.040h1.042c0.541 0 0.979-0.439 0.979-0.98s-0.438-0.98-0.979-0.98h-1.042v-4.014h1.042c0.541 0 0.979-0.439 0.979-0.98s-0.438-0.98-0.979-0.98h-1.042v-4.045h1.063c0.541 0 0.98-0.438 0.98-0.98s-0.438-0.979-0.979-0.979h-1.063v-4.024h0.97c0.541 0 0.979-0.439 0.979-0.979s-0.438-0.98-0.979-0.98h-0.97v-3.978c0-0.023 0.002-0.043 0.005-0.060 0.016-0.001 0.035-0.002 0.059-0.002h15.938v28h-16.001zM27.536 29c0 0.552-0.448 1-1 1h-2v-28h2c0.552 0 1 0.448 1 1v26z"></path> </g></svg><p class="recuerdo">Encontraste el libro de dibujos de Elena , te ayudará en tu busqueda de la verdad, te da esperanzas de encontrar que sucedió con tu hija  (Recuperas 35 de cordura)</p>
+ <<set $cordura += 35>>
+ </div>
+             <p class="mode-description">PISTA REVELADA: Elena había estado documentando las desapariciones en el pueblo</p>
+            </div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+                [[Salir de la casa->Salir de la casa]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Presentación {"position":"225,175","size":"100,100"}
+<div class="background-scene" aria-hidden="true"></div>
+<div class="stats-panel" role="region" aria-label="Indicador de cordura">
+ <div class="stat-item">
+    <span id="cordura-label">Cordura</span>
+    <div
+      class="stat-bar"
+      role="progressbar"
+      aria-valuemin="0"
+      aria-valuemax="100"
+      aria-valuenow="<<print $cordura>>"
+      aria-labelledby="cordura-label"
+    >
+      <div class="cordura-fill" id="cordura-fill"><<print $cordura>>%</div>
+    </div>
+  </div>
+</div>
+<div class="content-overlay" role="main" aria-label="Escena narrativa">
+  <div class="narrative-panel fade-in" id="narrativePanel">
+    <div class="story-text" id="storyText" tabindex="-1">
+      <audio id="audio1" autoplay aria-label="Sonido ambiental de bus alejándose de San Rafael">
+        <source src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/bus.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+      </audio>
+      <p>
+        El polvo se asienta lentamente sobre el parabrisas del autobús que se aleja de San Rafael. Mariana Herrera, de 42 años, permanece inmóvil en la estación improvisada, observando lo que una vez fue su hogar. Diez años han pasado desde que huyó de este lugar, dejando atrás no solo su casa, sino a su hija Elena.
+      </p>
+
+      <!-- Imagen con descripción significativa -->
+      <img
+        src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/InicioBus.jpg"
+        alt="Mariana observa en silencio la calle desierta mientras el autobús se aleja"
+        role="img"
+      >
+    </div>
+
+    <!-- Opciones de navegación con SugarCube -->
+    <div class="decision-section" role="navigation" aria-label="Opciones de avance">
+      <div id="choicesContainer">
+        [[Caminar la calle principal|Calle principal]]
+      </div>
+    </div>
+  </div>
+</div>
+
+<<actualizarCordura>>
+
+
+:: Revelación {"position":"1375,1050","size":"100,100"}
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+            <img src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/Revelación.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+            <p>RAMÓN: Miguel... tu esposo... trabajaba con ellos. Les llevaba comida, les daba información. Cuando descubrieron que algunos niños los habían visto, decidieron borrar todo rastro. Fue una orden de arriba. Elena... Elena sabía demasiado.</p>
+            <p>MARIANA: (aturdida) ¿Miguel...? No... él nunca...</p>
+            <p>RAMÓN: Elena los dibujó. Con sus uniformes. Con sus insignias. Miguel trató de protegerla, pero ya era tarde. Lo mataron esa misma noche. Y a los niños... los subieron a los camiones.</p>
+			</div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+				[[Continuar ...->Final B]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Revelación Esperanza {"position":"750,1050","size":"100,100"}
+<div class="background-scene perdida-cordura"></div> 
+
+<div class="stats-panel">
+    <div class="stat-item">
+        <span>Cordura</span>
+        <div class="stat-bar">
+            <div class="cordura-fill" id="cordura-fill"><<print $cordura>>%</div>
+        </div>
+    </div>
+</div>
+
+<div class="content-overlay">
+    <div class="narrative-panel blurIn" id="narrativePanel">
+        <div class="story-text" id="storyText">             
+            <p>ESPERANZA: Mariana, hay algo que necesitas saber sobre esa noche.</p>
+            <p>MARIANA: ¿Qué cosa?</p>
+            <p>ESPERANZA: Yo vi cuando se llevaron a los niños. Elena iba en el segundo camión.</p>
+            <p>MARIANA: (temblando) ¿La viste? ¿Realmente la viste?*</p>
+            <p>ESPERANZA: Iba llorando, gritando tu nombre. Pero... había algo más.</p>
+            <p>MARIANA: ¿Qué?</p>
+            <p>ESPERANZA: No eran solo soldados, Mariana. Había civiles con ellos. Gente del pueblo que yo conocía bien.</p>
+            <p class="mode-description">Esta revelación golpea a Mariana como un puño en el estómago</p>
+
+            <<set $cordura -= 20>>
+
+            <div class="fondo-cordura">
+                <p>Nivel de estabilidad mental: <<print $cordura>>/100</p>
+                <p>-20 por revelación de traición comunitaria</p>
+            </div>
+
+            <p>MARIANA: ¿Quiénes? ¿Quién de nuestros vecinos participó en esto?</p>
+            <p>ESPERANZA: Vi a Ramón Gutiérrez, el del bar.</p>
+            <img src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/Decisión2.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+            <p>¿CÓMO ACTUAR ANTE LA TRAICIÓN?</p>
+        </div>
+        <div class="decision-section">
+
+            <<if $cordura == 0>>
+                <div class="fondo-cordura">
+                    <p>Nivel de estabilidad mental: 0/100</p>
+                    <p>Entras en un colapso mental y te pierdes en tus pensamientos</p>
+                </div>
+            <</if>>
+
+            <div id="choicesContainer">
+                <<if $cordura == 0>>
+                    [[Continuar ...->Final alternativo]]
+                <<else>>
+                    [[Seguir tu camino->Parque]] [[Buscar a Ramón->Buscar a Ramón]]
+                <</if>>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<<actualizarCordura>>
+
+<style>
+.disabled-link {
+    color: gray;
+    cursor: not-allowed;
+    text-decoration: none;
+    pointer-events: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+</style>
+
+
+:: Sala {"position":"225,800","size":"100,100"}
+<<set $cordura -= 20>>
+ <div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+                <p  class="mode-description">Mariana empuja la puerta. El sonido del metal oxidado la hace estremecer.</p>
+                <p>Permiso... (susurra, como si alguien pudiera escucharla) Soy yo... he vuelto a casa.</p>
+                <p class="mode-description">Entra lentamente. El piso está cubierto de escombros, vidrios rotos y hojas secas que han entrado por las ventanas sin vidrio. 	En una esquina, reconoce los restos de su sofá favorito, ahora irreconocible.</p>
+                 <img  src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/CasaEntrada.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+                <div class="fondo-cordura"><p>Nivel de estabilidad mental: <<print($cordura)>>/100</p><p>-20 por exposición traumática intensa</p></div>
+                <p>Cada objeto destruido es un recuerdo asesinado. Cada espacio vacío grita la ausencia de la vida que una vez floreció aquí.</p>
+            </div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+                  [[Encuentras el juguete de Elena->Estrellita]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Salir de la casa {"position":"375,1625","size":"100,100"}
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+            <p> A veces la supervivencia emocional requiere de límites auto-impuestos. Mariana ha aprendido, a través de años de terapia intermitente, a reconocer cuándo está llegando a su límite.
+</p>
+<p class="mode-description">Mariana se dirige hacia lo que una vez fue la Escuela Primaria Simón Bolívar, ahora convertida en refugio temporal</p>
+            </div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+				[[Ir a la escuela/refugio->Escuela]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Seguir visión {"position":"1650,1550","size":"100,100"}
+<<set $cordura -= 10>>
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+            <img src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/MarianaMontana.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+            <p>MARIANA: Te sigo, mi amor. Necesito saber qué pasó realmente.</p>
+            <p>ELENA: Ven, mami. Pero prepárate. Lo que vas a ver va a cambiar todo..</p>
+            <div class="fondo-cordura"><p>Nivel de estabilidad mental: <<print($cordura)>>/100</p><p>(-10 por decisión de alto riesgo emocional)</p></div>
+			<p class="mode-description">Elena comienza a caminar hacia las montañas que rodean el pueblo</p>
+			</div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+				[[Seguir al campamento->Campamento]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Start {"position":"225,0","size":"100,100"}
+<<set $cordura = 100>>
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+<div class="content-overlay" role="main">
+  <div class="narrative-panel fade-in" id="narrativePanel">
+    <h1 class="panel-title">Mariana y el eco de la pérdida</h1>
+    <div class="story-text" id="storyText">
+      <img        src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/MarianaYLaPerdida.jpg"
+        alt="Ilustración: Mariana caminando por una calle desolada de su pueblo natal"
+        role="img"
+      />
+      <p>
+        Te damos la bienvenida a <strong>Mariana y el eco de la pérdida</strong>. Esta es una historia interactiva de memoria, pérdida y reconstrucción, ambientada en un pequeño pueblo marcado por el paso del conflicto armado.
+      </p>
+      <p>
+        Años después de haber huido, Mariana regresa a su lugar de origen tras recibir una carta que nunca pensó leer: unas pocas líneas escritas con letra temblorosa, firmadas por alguien que creía desaparecido.
+      </p>
+      <p>
+        El pueblo al que vuelve no es el mismo… o tal vez ella ya no lo es. Las casas siguen en pie, pero las voces que antes llenaban los caminos ahora son ecos, susurros atrapados entre la niebla.
+      </p>
+      <p>
+        A través de decisiones íntimas y fragmentos del pasado, el jugador acompañará a Mariana mientras recorre calles abandonadas, explora casas cubiertas de polvo y reconstruye, poco a poco, su historia y la de quienes dejó atrás.
+      </p>
+      <p>
+        Es una historia de preguntas no resueltas, de heridas invisibles, y de una búsqueda profunda: la de volver a ser parte de algo.
+      </p>
+    </div>
+    <div class="mode-section" role="region" aria-labelledby="mecanicas-titulo">
+      <h2 id="mecanicas-titulo">Mecánicas de la historia</h2>
+      <div class="mode-title">
+        <div class="mode-icon" aria-hidden="true"></div>
+        <p><strong>Barra de cordura:</strong></p>
+      </div>
+      <p>
+        A medida que Mariana explora el pueblo, ciertos lugares, recuerdos o conversaciones pueden afectarla. Revivir escenas del pasado, encontrar objetos significativos o enfrentarse al silencio pueden reducir temporalmente su estabilidad emocional.
+      </p>
+      <ul>
+        <li><p>Perder claridad en sus pensamientos (los textos pueden volverse confusos o fragmentados).</p></li>
+        <li><p>Dudar de sus recuerdos (nuevas opciones de diálogo pueden aparecer).</p></li>
+      </ul>
+      <div class="mode-title">
+        <div class="mode-icon" aria-hidden="true"></div>
+        <p><strong>Controles:</strong></p>
+    </div><p>Puedes navegar por la historia haciendo uso de las teclas de arriba y abajo de tu teclado.</p>
+       <div class="keyboard">
+  <div class="key rotate-up">
+    <!-- ↑ -->
+    <svg width="75px" height="75px" viewBox="0 0 24 24" fill="none">
+      <path opacity="0.4" d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2Z" fill="#292D32"></path>
+      <path d="M12.0002 14.9098C11.8102 14.9098 11.6202 14.8398 11.4702 14.6898L7.94016 11.1598C7.65016 10.8698 7.65016 10.3898 7.94016 10.0998C8.23016 9.80982 8.71016 9.80982 9.00016 10.0998L12.0002 13.0998L15.0002 10.0998C15.2902 9.80982 15.7702 9.80982 16.0602 10.0998C16.3502 10.3898 16.3502 10.8698 16.0602 11.1598L12.5302 14.6898C12.3802 14.8398 12.1902 14.9098 12.0002 14.9098Z" fill="#292D32"></path>
+    </svg>
+  </div>
+  <div class="key rotate-down">
+    <!-- ↓ -->
+    <svg width="75px" height="75px" viewBox="0 0 24 24" fill="none">
+      <path opacity="0.4" d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2Z" fill="#292D32"></path>
+      <path d="M12.0002 14.9098C11.8102 14.9098 11.6202 14.8398 11.4702 14.6898L7.94016 11.1598C7.65016 10.8698 7.65016 10.3898 7.94016 10.0998C8.23016 9.80982 8.71016 9.80982 9.00016 10.0998L12.0002 13.0998L15.0002 10.0998C15.2902 9.80982 15.7702 9.80982 16.0602 10.0998C16.3502 10.3898 16.3502 10.8698 16.0602 11.1598L12.5302 14.6898C12.3802 14.8398 12.1902 14.9098 12.0002 14.9098Z" fill="#292D32"></path>
+    </svg>
+  </div>
+      </div>
+
+    <div class="decision-section" role="region" aria-labelledby="decisiones-titulo">
+      <h2 id="decisiones-titulo">Toma de decisiones</h2>
+      <div class="decision-title">
+        <div class="decision-icon" aria-hidden="true"></div>
+        <p><strong>Decisiones múltiples:</strong></p>
+      </div>
+      <p>este es un juego que se basa en la toma de decisiones, las cuales pueden afectar los finales que vas a presenciar o el rumbo de la historia.</p>
+      <div class="mode-title">
+<svg width="32px" height="32px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#4a5568" stroke-width="0.768"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path opacity="0.5" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" fill="#729d84"></path> <path d="M12 17.75C12.4142 17.75 12.75 17.4142 12.75 17V11C12.75 10.5858 12.4142 10.25 12 10.25C11.5858 10.25 11.25 10.5858 11.25 11V17C11.25 17.4142 11.5858 17.75 12 17.75Z" fill="#729d84"></path> <path d="M12 7C12.5523 7 13 7.44771 13 8C13 8.55229 12.5523 9 12 9C11.4477 9 11 8.55229 11 8C11 7.44771 11.4477 7 12 7Z" fill="#729d84"></path> </g></svg>
+        <p><strong>Acerca de:</strong></p>
+      </div>
+      <p>Este trabajo fue realizado, dirigido y producido por:</p>
+        <ul>
+        <li><p>Valentina Ospina Narvaez</p></li>
+        <li><p>Veronica Perez Zea</p></li>
+        <li><p>Santiago Varela Vanegas</p></li>
+        </ul>
+      <div id="choicesContainer" role="navigation" aria-label="Opciones disponibles para avanzar">
+        [[Mariana|Presentación]]
+      </div>
+    </div>
+  </div>
+</div>
+<<actualizarCordura>>
+
+
+:: Tumba Elena {"position":"2000,1550","size":"100,100"}
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+            <img src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/Tumba.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+            <p>ELENA (APARICIÓN): Aquí es donde terminó todo, mami.</p>
+            <p>MARIANA: ¿Qué quieres decir?.</p>
+            <p> ELENA (APARICIÓN): Mira bien. Mira lo que hay aquí.</p>
+             <p class="mode-description"> Mariana se acerca al montículo. Entre la ropa reconoce piezas familiares.</p>
+             <p>MARIANA: Esa... esa es tu blusa favorita. La rosada con flores.</p>
+            <p class="mode-description">Mariana aparta la ropa y encuentra pequeños huesos humanos.</p>
+            <p class="texto-impacto">MARIANA: (gritando) ¡NO! ¡NO, NO, NO!.</p>
+            <p class="mode-description">Cae de rodillas, abrazando los pequeños restos.</p>
+            <p>ELENA : Ya no tengas miedo, mami. Ya no me duele.</p>
+            <p class="mode-description">Con reverencia infinita, Mariana recoge cuidadosamente cada pequeño hueso</p>
+            <p >ELENA : Me quitaron el miedo, mami. Ahora puedo estar en paz.</p>
+            <hr class="linea-narrativa">
+            <img src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/ElenaT.png" alt="Mariana caminando por una calle desolada de su pueblo natal">
+            <p class="mode-description" >Mariana, con sus propias manos, cava una pequeña tumba en un lugar hermoso del monte, bajo un árbol grande</p>
+            <p >MARIANA: Aquí vas a descansar, mi amor. Donde puedas ver el pueblo y estar cerca del cielo.</p>
+            <p class="mode-description" >Coloca los huesos en la tumba improvisada, junto con Estrellita, el caballito de juguete</p>
+			</div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+				[[Buscar ayuda profesional->Ayuda]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: Volver parque {"position":"1325,1550","size":"100,100"}
+<div class="background-scene perdida-cordura"></div> 
+    <div class="stats-panel"><div class="stat-item"><span>Cordura</span><div class="stat-bar"><div class="cordura-fill" id="cordura-fill"><<print$cordura>>%</div></div></div></div>
+    <div class="content-overlay">
+        <div class="narrative-panel blurIn" id="narrativePanel">
+            <div class="story-text" id="storyText">
+            <p>¿Seguir a Elena o buscar a Ramón?</p>
+				<img src="https://raw.githubusercontent.com/Savarelav18/TwineAudio/main/ElenaRamon.jpg" alt="Mariana caminando por una calle desolada de su pueblo natal">
+			</div>
+            <div class="decision-section">
+                <div id="choicesContainer">
+				[[Seguir a Elena->Seguir visión]]   [[Buscar a Ramón->Buscar a Ramón]]
+                </div>
+            </div>
+       </div>
+  </div>
+    <<actualizarCordura>>
+
+
+:: StoryScript [script]
+$(document).on(':passagerender', function () {
+  // Accesibilidad para botones del panel lateral
+  $("#ui-bar-saves").attr({
+    "tabindex": "0",
+    "aria-label": "Abrir menú de guardado"
+  });
+
+  $("#ui-bar-restart").attr({
+    "tabindex": "0",
+    "aria-label": "Reiniciar la historia"
+  });
+
+  $("#ui-bar-history-backward").attr({
+    "tabindex": "0",
+    "aria-label": "Retroceder un paso en la historia"
+  });
+
+  $("#ui-bar-history-forward").attr({
+    "tabindex": "0",
+    "aria-label": "Avanzar un paso en la historia"
+  });
+
+  $("#ui-bar-toggle").attr({
+    "tabindex": "0",
+    "aria-label": "Mostrar u ocultar la barra lateral"
+  });
+});
+
+$(document).on(':passagedisplay', function () {
+  // Accesibilidad para enlaces internos generados por SugarCube
+  $(".link-internal").each(function () {
+    const texto = $(this).text().trim();
+    if (texto && !$(this).attr("aria-label")) {
+      $(this).attr("aria-label", `Ir a ${texto}`);
+    }
+  });
+});
+
+$(document).on(':passagerender', function (ev) {
+  $(ev.content).find('br').remove();
+});
+
+
+// Story JavaScript
+
+window.updateCorduraBar = function () {
+    setTimeout(() => {
+        // 1) Asegurar que cordura no sea negativa
+        if (State.variables.cordura < 0) {
+            State.variables.cordura = 0;
+        }
+
+        const cordura = State.variables.cordura;
+        const fill = document.getElementById("cordura-fill");
+
+        // 2) Actualizar la barra de cordura
+        if (fill) {
+            fill.style.width = cordura + "%";
+            fill.textContent = cordura + "%";
+
+            if (cordura >= 70) {
+                fill.style.backgroundColor = "#9BC09C"; // Verde
+            } else if (cordura >= 40) {
+                fill.style.backgroundColor = "#ff9800"; // Naranja
+            } else {
+                fill.style.backgroundColor = "#f44336"; // Rojo
+            }
+        }
+
+        // 3) Añadir o quitar la clase dark-theme en <body>
+        const umbralOscuro = 50;
+        if (cordura < umbralOscuro) {
+            document.body.classList.add("dark-theme");
+        } else {
+            document.body.classList.remove("dark-theme");
+        }
+
+        // 4) (Opcional) Mostrar botón fin de juego si cordura es 0
+        const botonFin = document.getElementById("boton-fin-juego");
+        if (botonFin) {
+            if (cordura <= 0) {
+                botonFin.style.display = "block";
+                botonFin.innerHTML = '<button onclick="Engine.play(\'FinDelJuego\')" class="final-button">Finalizar juego</button>';
+            } else {
+                botonFin.style.display = "none";
+            }
+        }
+      
+      
+      
+const bgScene = document.querySelector(".background-scene");
+if (bgScene) {
+    if (cordura <= 20) {
+        bgScene.classList.add("red-wave-active");
+    } else {
+        bgScene.classList.remove("red-wave-active");
+    }
+}
+    }, 10);
+};
+
+// Macro para invocar la actualización desde un passage
+Macro.add("actualizarCordura", {
+    skipArgs: true,
+    handler() {
+        updateCorduraBar();
+    }
+});
+
+// Ejecutar al mostrar cada passage
+$(document).on('showpassage:after', function () {
+    if (typeof State.variables.cordura !== 'undefined') {
+        updateCorduraBar();
+    }
+});
+
+
+
+$(document).on(':passagerender', function () {
+    function estaEnPantalla(el) {
+        const rect = el.getBoundingClientRect();
+        return (
+            rect.top < window.innerHeight && rect.bottom >= 0
+        );
+    }
+
+    function activarCuandoVisible() {
+        const selectores = ['.bloque-cordura', '.texto-impacto'];
+        selectores.forEach(function (selector) {
+            $(selector).each(function () {
+                if (estaEnPantalla(this)) {
+                    $(this).addClass('activa');
+                }
+            });
+        });
+    }
+
+    activarCuandoVisible();
+    $(window).on('scroll', activarCuandoVisible);
+});
+
+:: StoryStylesheet [stylesheet]
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+			
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #0d1b1e;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+          
+        }
+
+#passages{
+  max-width:80%;
+}
+
+        .background-scene {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color:#0d1b1e;
+            z-index: -2;
+        }
+
+        .content-overlay {
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+          	color: #4a5568;
+          	font-family: 'Georgia', serif;
+          	margin:1rem;
+        }
+
+        .narrative-panel {
+           background: rgba(240, 235, 220, 0.9);
+            border-radius: 20px;
+            padding: 0 5em;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            position: relative;
+            overflow-y: auto;
+          
+        }
+
+
+        .panel-title {
+            font-size: 52px;
+            font-weight: normal;
+            color: #4a5568;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .story-text {
+          	display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            line-height: 1.8;
+           color: #4a5568;
+        }
+
+		.story-text img {
+            margin-left: auto;
+            margin-right: auto;
+          	max-width:85%;
+            border: 4px solid #d7cdbd;
+          	margin-bottom:2.5rem;
+padding: 8px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+transform: rotate(-0.7deg);
+        }
+
+        .mode-title {
+            font-size: 18px;
+            color: #4a5568;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .mode-icon {
+            width: 20px;
+            height: 20px;
+            background: #819A91;
+            border-radius: 50%;
+        }
+
+        .mode-description {
+            font-size: 16px;
+            color: #2C3930;
+            font-style: italic;
+          	margin:10px 0;
+        }
+
+		.mode-section{
+          margin:30px auto;
+		}
+
+
+        .decision-title {
+            font-size: 18px;
+            color: #4a5568;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 1em;
+        }
+
+        .decision-icon {
+            width: 20px;
+            height: 20px;
+            background: linear-gradient(45deg, #7a8890, #9aa8b0);
+            border-radius: 50%;
+            border: 2px solid #fff;
+        }
+
+.decision-section{
+margin:30px auto;
+}
+
+		#choicesContainer{
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          gap:10px;
+		}
+
+      .link-internal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: linear-gradient(to right, #819a91, #9fb8a3);
+  border: 2px solid rgba(120, 136, 144, 0.3);
+  border-radius: 12px;
+  padding: 20px 25px;
+  margin: 15px 0;
+  color: #2d3748;
+  text-decoration: none;
+  font-size: 1.3em;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s ease-out;
+  position: relative;
+}
+
+.link-internal:hover {
+  background: linear-gradient(to right, #95a89d, #cde3d3);
+  border-color: rgba(120, 136, 144, 0.6);
+  transform: scale(1.03);
+  color: #1f2d36;
+  box-shadow: inset 0 -5px 15px rgba(0, 0, 0, 0.1);
+  text-decoration:none;
+}
+
+.link-internal:hover .arrow-icon {
+  opacity: 1;
+  transform: translateX(6px);
+}
+
+
+        .stats-panel {
+            background: rgba(240, 235, 220, 0.9);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+          	padding:1em;
+        }
+
+        .stat-item {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 10px 0;
+            font-size: 24px;
+            color: #4a5568;
+        }
+
+        .stat-bar {
+            width: 70%;
+            height: 3px
+            border-radius: 3px;
+            overflow: hidden;
+  			transition: width 1.9s ease-in-out;
+        }
+
+        .stat-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #b8860b, #daa520);
+            transition: width 0.3s ease;
+        }
+
+        .weather-effect {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.3;
+        }
+
+        .rain-drop {
+            position: absolute;
+            width: 2px;
+            height: 20px;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1));
+            animation: rain 1s linear infinite;
+        }
+
+        @keyframes rain {
+            from {
+                transform: translateY(-100vh);
+            }
+            to {
+                transform: translateY(100vh);
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.8s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            .content-overlay {
+                justify-content: center;
+                padding: 20px;
+            }
+            
+            .narrative-panel {
+                max-width: 95vw;
+                max-height: 90vh;
+                padding: 30px;
+            }
+            
+            .stats-panel {
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                min-width: 180px;
+                padding: 15px;
+            }
+            
+            .panel-title {
+                font-size: 28px;
+            }
+            
+            .story-text {
+                font-size: 16px;
+            }
+            
+            .choice-button {
+                font-size: 16px;
+                padding: 18px 20px;
+            }
+        }
+
+
+
+.cordura-fill {
+  background-color: #4caf50;
+  height: 100%;
+  text-align: center;
+  color: white;
+  line-height: 30px;
+  border-radius: 3px;
+  background: linear-gradient(270deg, #c6e48b, #b4d87c, #f0c474, #f3956b, #e57373);
+  transition: width 1.9s ease-in-out;
+}
+
+.foto-vieja {
+  width: 300px;
+  height: auto;
+  
+}
+
+p{
+font-size:1.4em;
+background-color:transparent;
+margin:20px 0;}
+
+
+.blur-in {
+  animation: blurIn 2.5s ease forwards;
+}
+
+@keyframes blurIn {
+  0% {
+    opacity: 0;
+    filter: blur(8px);
+  }
+  50% {
+    opacity: 0.5;
+    filter: blur(5px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.flicker {
+  animation: flicker 0.5s ease;
+}
+
+@keyframes flicker {
+  0% { opacity: 0.65; }
+  50% { opacity: 0.75; }
+  75% { opacity: 0.85; }
+  100% { opacity: 1;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);}
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #f0e6d2;
+  animation: typing 3s steps(40, end), blink 0.8s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 80% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+
+.texto-impacto {
+  font-weight: bold;
+  font-size: 1.8em;
+  color: #4a5568;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  animation: gritoImpacto 0.2s ease-in-out 0.3s 3, rebote 0.4s ease-in-out 1;
+  margin:0 auto;
+}
+
+@keyframes gritoImpacto {
+  0%   { transform: scale(1);   }
+  25%  { transform: scale(1.1); }
+  50%  { transform: scale(0.95); }
+  75%  { transform: scale(1.05); }
+  100% { transform: scale(1);   }
+}
+
+@keyframes rebote {
+  0%   { transform: translateY(0); }
+  20%  { transform: translateY(-6px); }
+  40%  { transform: translateY(4px); }
+  60%  { transform: translateY(-3px); }
+  100% { transform: translateY(0); }
+}
+
+.flashback{
+  filter: sepia(0.6) contrast(1.2) brightness(0.9) grayscale(0.3);
+}
+
+
+.perdida-cordura {
+  animation: cordura 1.5s ease;
+}
+
+@keyframes cordura {
+  0% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  25% {
+    opacity: 0.8;
+    filter: blur(5px);
+  }
+  50% {
+    opacity: 0.6;
+    filter: blur(10px);
+  }
+  70% {
+    opacity: 0.4;
+    filter: blur(15px);
+  }
+  100% {
+    opacity: 0;
+    filter: blur(20px);
+  }
+}
+
+.textoBlur {
+  animation: blur 0.7s ease-in-out;
+}
+
+@keyframes blur {
+  0% {
+    filter: blur(10px);
+  }
+  25% {
+    filter: blur(8px);
+  }
+  50% {
+    filter: blur(5px);
+  }
+  70% {
+    filter: blur(3px);
+  }
+  100% {
+    filter: blur(0);
+  }
+}
+
+
+.bloque-cordura {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1.5s ease, transform 1.5s ease;
+  filter: blur(4px);
+}
+
+
+.bloque-cordura.activa {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.8;
+}
+
+.linea-narrativa {
+  border: none;
+  border-top: 2px solid #aaa;
+  margin: 2em 0;
+  width: 80%;
+  opacity: 0.6;
+}
+
+.fondo-cordura {
+  background: linear-gradient(270deg, #533c65, #4b355c, #432E54, #2a1b36);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #e0d7f5;
+  border-radius: 10px;
+  padding: 0 5em;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow-y: auto;
+  display:flex;
+  width:100%;
+  align-items:center;
+  justify-content:space-evenly;
+  
+}
+
+.recuerdo-card {
+  background: linear-gradient(270deg, #c6923c, #cf9533, #dc9e35, #f0aa35);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #e0d7f5;
+  border-radius: 10px;
+  padding: 0 5em;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow-y: auto;
+  display:flex;
+  width:100%;
+  margin:0 auto;
+  height:15rem;
+  align-items:center;
+  justify-content:space-evenly;
+    /* glow base */
+  --glow-color: rgba(240, 170, 53, 0.8);
+  box-shadow:
+    0 10px 20px rgba(0,0,0,0.3),
+    0 0 20px var(--glow-color),
+    0 0 40px var(--glow-color);
+
+
+  /* animación */
+  animation: glowPulse 3s ease-in-out;
+  
+}
+@keyframes glowPulse {
+  from {
+    --glow-color: rgba(240, 170, 53, 0.4);
+    box-shadow:
+      0 10px 20px rgba(0,0,0,0.3),
+      0 0 10px var(--glow-color),
+      0 0 20px var(--glow-color);
+  }
+  to {
+    --glow-color: rgba(240, 170, 53, 1);
+    box-shadow:
+      0 10px 20px rgba(0,0,0,0.3),
+      0 0 30px var(--glow-color),
+      0 0 60px var(--glow-color);
+  }
+}
+.recuerdo{
+background-color:(270deg, #c6923c, #cf9533, #dc9e35, #f0aa35);
+}
+
+.information{
+	display:flex;
+  	align-items:center;
+  font-style:italic;
+  	
+}
+
+svg{margin-right:20px;}
+
+
+.link-internal:contains("Finalizar juego") {
+    color: crimson;
+    font-weight: bold;
+    animation: parpadeo 1s infinite;
+}
+@keyframes parpadeo {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+/* Modo oscuro */
+body.dark-theme .narrative-panel,
+body.dark-theme .stats-panel,
+body.dark-theme #story-text,
+body.dark-theme span,
+body.dark-theme .link-internal,
+body.dark-theme .cordura-fill,
+body.dark-theme .fondo-cordura {
+    background: #302a38  !important;
+    color:      #f0f0f1  !important;
+}
+
+body.dark-theme p{
+  color:      #f0f0f1  !important;
+}
+
+
+/* Ajustes específicos */
+body.dark-theme .fondo-cordura {
+    background: #802b2b !important;
+}
+body.dark-theme .cordura-fill {
+
+    background: linear-gradient(270deg, #2c7c99, #3d8daa, #4c4189, #4d3f71, #342c48) !important;
+}
+/* Links internos */
+body.dark-theme .link-internal:not(.final-link) {
+    background: #465478  !important;
+    color:      #f0f0f1  !important;
+
+}
+
+.finalB{
+width:100%;
+overflow:fit;}
+
+
+.disabled-link {
+    color: gray;
+    cursor: not-allowed;
+    text-decoration: none;
+    pointer-events: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.background-scene.red-wave-active {
+  animation: redPulse 3s ease-in-out infinite;
+  background-size: cover;
+  transition: background 0.5s ease-in-out;
+}
+
+@keyframes redPulse {
+  0% {
+    background: radial-gradient(circle at center, rgba(255, 0, 0, 0.15) 20%, transparent 80%);
+    transform: scale(1);
+  }
+  25% {
+    background: radial-gradient(circle at center, rgba(255, 0, 0, 0.2) 30%, transparent 90%);
+    transform: scale(1.01);
+  }
+  50% {
+    background: radial-gradient(circle at center, rgba(255, 0, 0, 0.3) 40%, transparent 100%);
+    transform: scale(1.015);
+  }
+  75% {
+    background: radial-gradient(circle at center, rgba(255, 0, 0, 0.2) 30%, transparent 90%);
+    transform: scale(1.01);
+  }
+  100% {
+    background: radial-gradient(circle at center, rgba(255, 0, 0, 0.15) 20%, transparent 80%);
+    transform: scale(1);
+  }
+}
+
+.passage .link-internal:focus {
+  text-decoration: none !important;
+  color: #4a5568 !important;
+  outline: 0.2rem solid #539e67;
+}
+
+.link-internal:active {
+  text-decoration:none;
+  color: #4a5568;
+}
+
+ .keyboard {
+   display: flex;
+    align-items: center;
+  }
+
+  .key {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rotate-up { transform: rotate(180deg); }
+  .rotate-down { transform: rotate(0deg); }
+
+
+@media (max-width: 1700px) {
+  .fondo-cordura {
+    display:flex;
+    flex-direction:column;
+  }
+}
+
+h2{
+font-size:2em;
+}
