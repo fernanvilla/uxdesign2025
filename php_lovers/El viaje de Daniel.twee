@@ -1,0 +1,1943 @@
+:: StoryTitle
+El viaje de Daniel
+
+
+:: StoryData
+{
+  "ifid": "45A97748-8761-4995-B6D9-0C3DA8E2272B",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Preparación para la historia",
+  "zoom": 0.6
+}
+
+
+:: E2SA {"position":"700,800","size":"100,100"}
+(set: $eligioA to true)
+<main role="main">
+<h1 class="titulo-principal" id="corriendo-impulsivamente">Corriendo Impulsivamente</h1>
+<div role="region" aria-labelledby="corriendo-impulsivamente">
+
+''Daniel:'' ¡Lotso, Lotso! ¿Dónde estás?
+
+(align:"==>")[Daniel corrió durante unos breves minutos hasta que se encontró en una esquina de la plaza que no recordaba haber visto antes. De repente, cayó en cuenta de que se había alejado mucho de sus padres y ahora no solo Lotso estaba perdido, él también lo estaba. Con la respiración agitada, empezó a sentirse muy asustado y trató de correr un poco más, pero perdió el equilibrio y se cayó, permaneciendo en el suelo unos momentos.]
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-6.png" alt="Un niño de 8 años preocupado y abrazando sus piernas, sentado en el suelo">]
+
+''Daniel:'' (//abrazando sus piernas//) ¿Dónde están, mamá y papá? ¿Dónde está Lotso? ¿Ahora qué voy a hacer? 
+
+(align:"==>")[De repente, una niña con sombrero colorido se acercó a Daniel y le ofreció una sonrisa, ayudándole a levantarse.]
+
+''Niña:'' ¿Por qué estás aquí solo? ¿Puedo ayudarte en algo? 
+
+''Daniel:'' (//secándose las lágrimas de los ojos//) Estoy buscando a mi oso de peluche Lotso, ¡es muy importante para mí! Salí corriendo cuando lo perdí y ahora no sé dónde están mi mami y papi, ¡estoy muy asustado! 
+
+''Niña:'' (//con una expresión de sorpresa en los ojos//) ¡Así que tú eres el amigo de este lindo oso! Lo encontré en una de las escalinatas de la fuente y decidí recogerlo por si encontraba a alguien que lo estuviera buscando. 
+
+(align:"==>")[La pequeña niña buscó dentro de su mochila y sacó a Lotso, que se alegró al ver nuevamente a Daniel. Se lo entregó nuevamente y, acercándose un poco a él, le dio un consejo.]
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-7.png" alt="Una niña de 10 años parada con un oso rosado en las manos, en un parque">]
+
+''Niña:'' Cuando tengas tantas cosas en la cabeza que no sepas qué debes hacer, mira los colores de tu chaqueta y recuerda los cuatro pasos: (//señalando el rojo//) respira y trata de tranquilizarte, (//señalando el azul//) piensa en lo que debes hacer, (//señalando el amarillo//) pide ayuda a tus padres o a quien se encuentre cerca de ti, (//señalando el verde//) y decide lo que vas a hacer.
+
+''Daniel:'' (//con expresión sonriente//) ¡Nunca se me habría ocurrido hacer eso! Gracias por ayudarme, nunca te olvidaré.
+
+(align:"==>")[Los dos niños se dan un breve abrazo y la niña se despide, caminando en otra dirección. Daniel sostiene nuevamente a Lotso entre sus brazos y planea su siguiente paso.]
+
+''Daniel:'' ¡Querido Lotso! Creí que nunca volvería a verte, ¡qué feliz estoy! Aunque ahora estamos en un problema más grave, estamos perdidos y necesitamos volver a encontrarnos con mamá y papá, para que regresemos a casa.
+
+''Lotso:'' Tienes razón, esta será una de las aventuras más importantes de nuestra vida, ¡tenemos una misión! Puede ser que encontremos grandes dificultades en el camino, pero las afrontaremos juntos y eso es lo más importante.
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-8.png" alt="Un niño feliz de 8 años con el pelo castaño parado con un oso rosado en las manos">]
+</div>
+(align:"=><=")[[[¡Continuar!->Escena3-1]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+  
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+});
+})();
+</script>
+
+
+:: E2SB {"position":"700,1000","size":"100,100"}
+(set: $eligioA to false)
+<main role="main">
+<h1 class="titulo-principal" id="buscando-en-el-mapa">Buscando en el Mapa</h1>
+<div role="region" aria-labelledby="buscando-en-el-mapa">
+''Daniel:'' (//abre el dije del collar que le dieron sus padres y saca el mapa//) Creo que puedo tratar de recordar el lugar donde perdí a Lotso, iré a buscarlo y después volveré al lugar donde me están esperando mamá y papá.
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-9.png" alt="Un niño feliz mirando un mapa en un parque con una escuela de fondo">]
+
+(align:"==>")+(box:"X")[Daniel se detuvo a mitad del camino y se dispuso a revisar el mapa que sus padres le habían dado, tratando de recordar el último lugar en el que había visto a Lotso. Mientras observaba el mapa, unos pájaros sobrevolaron su cabeza y, como si se tratara de una ayuda especialmente hecha para él, recordó que había tenido a Lotso en sus brazos hasta que llegaron a la fuente principal de la plaza, donde se habían detenido para escuchar una explicación que no le pareció muy interesante.]
+
+''Daniel:'' (//saltando de alegría//) ¡Eso es! Lotso debe estar cerca de la fuente, correré hasta allí y lo rescataré de cualquier peligro en el que se encuentre.
+
+(align:"==>")+(box:"X")[Una vez decidió su siguiente paso, Daniel corrió hasta el centro de la plaza y comenzó a buscar en los alrededores de la fuente. Tal y como lo recordaba, Lotso se encontraba recostado en una escalinata de la fuente, con una expresión asustada y mirando a su alrededor.]
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-14.png" alt="Un oso pequeño rosado, asustado en las escalinatas de una fuente">]
+
+''Daniel:'' (//corriendo hacia Lotso//) ¡Lotso, amigo, qué susto pasé pensando que no volvería a encontrarte! Siempre me pasa que me distraigo con muchas cosas y olvido lo que estoy haciendo, ¿pero cómo podría olvidarte a ti? 
+
+''Lotso:'' Sabía que volverías a buscarme, te estuve esperando todo este tiempo (//haciendo una expresión de sorpresa//), pero… espera, ¿dónde están mamá y papá? ¿No viniste con ellos?
+
+(align:"==>")+(box:"X")[La expresión de Daniel cambió de un momento a otro, como si se diera cuenta de algo que hasta el momento había permanecido escondido dentro de su cabeza, ¡se había separado mucho de sus padres y ahora no sabía cómo regresar con ellos!]
+
+''Daniel:'' (//llevándose las manos a la cabeza//) No puede ser, ¡salí tan rápido que no me di cuenta de que me estaba alejando mucho, ahora qué hacemos!
+
+''Lotso:'' Esto solo significa una cosa, y es que tenemos una nueva misión: ¡volver con mamá y papá! Tal vez encontremos muchas dificultades en el camino, pero ¡mira! Has logrado encontrarme siguiendo el mapa y eso significa que has aprendido una lección nueva, no tienes que hacer todo lo que se te venga a la cabeza inmediatamente, puedes planear algo y concentrarte si te lo propones.
+
+(align:"==>")+(box:"X")[Daniel asiente y sonríe, abrazando a Lotso y guardando el mapa nuevamente dentro del collar. Ambos comenzaron a caminar, aceptando el nuevo desafío al que tendrían que enfrentarse y pensando en la alegría que sentirían al volver a ver a mamá y papá.]
+</div>
+(align:"=><=")[[[¡Continuar!->Escena3-2]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+  
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: E3SA {"position":"1100,800","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="vamos-lotso">¡Vamos, Lotso!</h1>
+<div role="region" aria-labelledby="vamos-lotso">
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-22.png" alt="Un niño serio corriendo con un oso rosado en la mano">]
+
+''Daniel:'' (//agarrando con fuerza a Lotso en una de sus manos//) ¡Vamos a correr muy rápido y pasaremos sin que nadie nos vea! Necesitamos llegar a la escuela, mamá y papá todavía pueden estar allá.
+</div>
+(align:"=><=")[[[¡Vamos!->E3SA-2]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: E3SA-2 {"position":"1300,800","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="recibiendo-ayuda">Recibiendo Ayuda</h1>
+<div role="region" aria-labelledby="recibiendo-ayuda">
+Daniel y Lotso empezaron a correr a lo largo del estrecho camino en la construcción, sin darse cuenta que algunas tablas debajo de ellos tambaleaban y podrían caerse en cualquier momento, pasar por aquel camino sin precauciones eran muy peligroso. Un trabajador de la obra los vio y detuvo a Daniel antes de que se cayera, poniéndose en frente de él y haciéndole señas con las manos.
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-12.png" alt="Un trabajador con chaleco naranja detiene a un niño que corría en una construcción">]
+
+''Trabajador:'' Pequeño, ¿qué estás haciendo aquí solo? Es muy peligroso que pases por aquí corriendo, ¿dónde están tus padres? 
+
+''Daniel:'' (//respirando fuertemente para descansar//) Es que tengo mucha prisa, necesito llegar a la escuela que queda después de la señal azul porque mami y papi me están buscando y creo que están allá esperándome.
+
+''Trabajador:'' Entiendo que tienes prisa, pero no puedes arriesgarte de esa manera, hubiera sido mucho peor si algo malo te hubiera pasado, ¿no crees?
+
+''Daniel:'' (//asintiendo con expresión preocupada//) Es verdad, creo que volví a dejarme llevar y no pensé en lo que iba a hacer antes de hacerlo. Lo siento mucho.
+
+El trabajador de la obra, con la mayor amabilidad que tenía, tomó a Daniel de la mano y lo ayudó a terminar de cruzar el camino para pasar la obra y llegar a la señal azul donde ya estaría cerca de la escuela. 
+
+Una vez salieron, Daniel le agradeció con una sonrisa y volvió a correr en dirección a la escuela, sin darle tiempo al trabajador de ofrecerle ayuda para buscar a sus padres o llamar a un policía.
+</div>
+(align:"=><=")[[[Continuar->Escena4]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+  
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: E3SB {"position":"1100,1000","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="una-nueva-idea">Una Nueva Idea</h1>
+<div role="region" aria-labelledby="una-nueva-idea">
+''Daniel:'' (//sonriendo//) ¡Ya sé qué vamos a hacer, Lotso! Hablaremos con alguien que esté trabajando en la construcción y le pediremos ayuda para pasar el camino, diciéndole que mamá y papá nos están esperando en la escuela y tenemos mucha prisa.
+</div>
+(align:"=><=")[[[¡Vamos!->E3SB-2]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+  
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: E3SB-2 {"position":"1300,1000","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="pidiendo-ayuda">Pidiendo Ayuda</h1>
+<div role="region" aria-labelledby="pidiendo-ayuda">
+
+Durante unos breves minutos, Daniel esperó a que alguien apareciera desde la construcción hasta la entrada del camino. Aunque se sentía impaciente y estaba nervioso, recordó los consejos que había recibido sabiamente y se dispuso a seguir las reglas, porque sabía que estaban hechas para evitar que corriera algún peligro.
+
+(align:"==>")[Un momento después, un trabajador de la construcción salió al borde del camino, arrastrando una carreta con diversos materiales. Al ver a Daniel acercarse disimuladamente, se detuvo y lo saludó, inclinándose un poco hacia él.]
+
+''Trabajador:'' ¡Buenas tardes, pequeño! ¿En qué puedo ayudarte?
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-16.png" alt="Un niño de 8 años habla con un trabajador de construcción que usa chaleco naranja">]
+
+''Daniel:'' (//mirando hacia el suelo//) Buenas tardes, señor, mi nombre es Daniel y estoy buscando a mis padres, creo que me están esperando en la escuela que se encuentra más allá de la señal azul y ¡tengo mucha prisa por llegar! Quisiera pedirle su ayuda para cruzar el camino, porque no quería hacerlo sin permiso.
+
+''Trabajador:'' ¡Te felicito, Daniel! Has demostrado ser muy valiente al pedir ayuda y saber que no siempre puedes hacer todo solo. Este camino puede ser peligroso, pero no te preocupes, dame la mano y te ayudaré a llegar hasta la señal azul sano y salvo.
+
+''Daniel:'' (//abrazando a Lotso//) ¡Muchas gracias, señor! Lotso y yo siempre estaremos muy agradecidos con usted.
+
+Después de la breve conversación, Daniel, Lotso y el trabajador de la construcción cruzaron el estrecho camino con mucho cuidado, sintiéndose más tranquilos a medida que se acercaban a la señal azul y se imaginaban la felicidad de ver nuevamente a mamá y papá. Cuando llegaron al final, Daniel agradeció nuevamente la ayuda y se despidió del noble trabajador, corriendo nuevamente en dirección a la escuela sin darle tiempo a que le dijese nada más o le ofreciera más ayuda. 
+</div>
+(align:"=><=")[[[Continuar->Escena4]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+  
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: E4SA {"position":"1700,600","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="vamos-lotso">¡Vamos, Lotso!</h1>
+<div role="region" aria-labelledby="vamos-lotso">
+''Daniel:'' ¡Lotso, vamos a la tienda de juguetes! Mamá y papá saben lo mucho que me gusta ir allí, nos deben estar esperando. 
+</div>
+(align:"=><=")[[[¡Vamos a Jugar!->E4SA-2]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+  
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: E4SA-2 {"position":"1900,500","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="encontrando-el-camino">Encontrando el Camino</h1>
+<div role="region" aria-labelledby="encontrando-el-camino">
+Daniel volvió a sacar el mapa que le habían regalado sus padres y lo extendió sobre el suelo un momento, revisando la posición donde estaba la escuela y el camino que tendrían que recorrer antes de llegar a la tienda de juguetes.
+
+''Daniel:'' (//mirando detenidamente el mapa//) ¡Aquí está la tienda! Tenemos que continuar derecho por este camino durante cinco minutos.
+
+''Lotso:'' ¡Muy bien! Continuemos nuestra misión, ya estamos muy cerca de mamá y papá.
+
+(align:"==>")+(box:"X")[Daniel sostuvo con fuerza a Lotso en una de sus manos y comenzó a caminar. Los lugares que observaba eran más familiares para él, porque sus padres lo habían llevado a la tienda de juguetes después de la escuela un par de veces antes, así que se sintió motivado para llegar pronto a su destino.]
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-24.png" alt="Un niño sonriente mirando una tienda de juguetes">]
+
+(align:"==>")+(box:"X")[Una vez llegaron a la calle donde estaba la tienda de juguetes, Lotso empezó a buscar con la mirada a alguno de los padres de Daniel que se encontrara cerca, o tal vez los dos, pero Daniel se había desconcentrado por completo: la vitrina de juguetes nuevos había acaparado toda su atención.]
+
+''Daniel:'' (//señalando un juguete en la vitrina//) ¡Mira, Lotso, es el nuevo astronauta! Justo el que les pedí a mami y papi como regalo de cumpleaños, ¿crees que podríamos entrar un momento a verlo? 
+
+''Lotso:'' ¡Pero espera! Eso no tiene nada que ver con nuestra misión, no debemos perder el foco de nuestro objetivo: volver a casa con mamá y papá.
+
+(align:"=><=")+(box:"X")[(text-style:"bold","italic")[¿Qué hará Daniel después de haber visto al nuevo astronauta en la vitrina de la tienda de juguetes?]]
+<div class="opciones">
+[[Opción A:->E4SA-2-A]]  Daniel entra a la tienda para ver más de cerca el juguete, olvidando por un momento su misión de averiguar si alguno de sus padres lo había estado buscando en algún lugar cercano.
+<hr>[[Opción B:->E4SA-2-B]] A pesar de su gran interés por el nuevo astronauta, Daniel decide no entrar a la tienda de juguetes y comienza a preguntar en los alrededores si alguien había estado buscando un niño, ya que no alcanza a ver a ninguno de sus padres en los alrededores.
+</div>
+</div>
+</main>
+
+<script>
+(function () {
+  'use strict';
+
+  let currentIndex = 0;
+
+  function obtenerOpciones() {
+    return Array.from(document.getElementsByTagName("tw-link"));
+  }
+
+  function enfocarOpcion(index) {
+    const opciones = obtenerOpciones();
+    if (opciones.length === 0) return;
+    currentIndex = ((index % opciones.length) + opciones.length) % opciones.length; // para evitar negativos
+    opciones[currentIndex].focus();
+  }
+
+  function seleccionarOpcionPorTexto(texto) {
+    const opciones = obtenerOpciones();
+    for (let i = 0; i < opciones.length; i++) {
+      if (opciones[i].textContent.trim() === texto.trim()) {
+        currentIndex = i;
+        opciones[i].focus();
+        break;
+      }
+    }
+  }
+
+  document.addEventListener('keydown', function (e) {
+    const opciones = obtenerOpciones();
+    if (opciones.length === 0) return;
+
+    switch (e.key) {
+      case 'ArrowDown':
+        e.preventDefault();
+        enfocarOpcion(currentIndex + 1);
+        break;
+
+      case 'ArrowUp':
+        e.preventDefault();
+        enfocarOpcion(currentIndex - 1);
+        break;
+
+      case 'a':
+      case 'A':
+        e.preventDefault();
+        seleccionarOpcionPorTexto("Opción A:");
+        break;
+
+      case 'b':
+      case 'B':
+        e.preventDefault();
+        seleccionarOpcionPorTexto("Opción B:");
+        break;
+    }
+  });
+  
+  // Se pueda hacer focus
+    document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+      region.setAttribute("tabindex", "0");
+    });
+      
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "button");
+
+    link.addEventListener("keydown", e => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        link.click();
+      }
+    });
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: E4SA-2-A {"position":"2100,400","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="una-leccion-aprendida">Una Lección Aprendida</h1>
+<div role="region" aria-labelledby="una-leccion-aprendida">
+''Daniel:'' (//entrando a la tienda de juguetes//) ¡Vamos, Lotso! Solo será un ratito, después continuaremos con nuestra misión. 
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-25.png" alt="Un niño feliz jugando con varios juguetes coloridos">]
+
+(align:"=><=")+(box:"X")[Transcurrió alrededor de una hora y Daniel se entretuvo viendo no solo al nuevo astronauta, sino también todos los juguetes viejos y nuevos que había en la tienda. Cada uno tenía colores, sonidos y texturas interesantes que hacían que Daniel saltara de un juguete a otro, imaginando cómo podría jugar con ellos en casa. Lotso lo miraba preocupado, aunque sabía que no podía hacer mucho para interferir y tendría que esperar a que Daniel recordara la misión que estaban llevando a cabo.] 
+
+(align:"==>")+(box:"X")[Un rato después, Daniel dejó de encontrar interesantes los juguetes de la tienda y recordó que habían venido para buscar a sus padres, porque seguramente alguno de ellos lo había estado buscando. En ese momento, entró a la tienda de juguetes un vendedor de periódicos y al ver a Daniel, una expresión de sorpresa se reveló en su rostro.
+]
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-13.png" alt="Un cartel de 'perdido' con el rostro de un niño de 8 años">]
+
+''Vendedor:'' (//mirando un cartel que traía en sus manos//) ¡Ah, pero si eres tú! Hace más o menos una hora pasó por aquí tu padre que te estaba buscando, tenía esperanza de encontrarte aquí pero no te vio y me dejó un cartel por si te reconocía en la calle. Si hubiera sabido que estabas aquí dentro, le hubiera avisado inmediatamente.
+
+''Daniel:'' (//con lágrimas en los ojos//) ¡No puede ser! Estuve a punto de encontrar a papá y volví a perderme por estar desconcentrado, cómo he podido olvidar mi misión y no le he hecho caso a Lotso. 
+
+''Vendedor:'' No te preocupes, jovencito, has aprendido una lección que te será valiosa en el futuro: es necesario que escuches los consejos de quienes te quieren y te concentres en los objetivos que debes alcanzar, porque una pequeña distracción puede resultar muy peligrosa.
+
+''Daniel:'' (//asintiendo//) Sí señor, trataré de recordar esto en el futuro. Dígame, ¿papá le dijo a dónde iba después de buscarme aquí? 
+
+''Vendedor:'' Así es, me dijo que se encontraría en casa con tu madre y después llamarían a la policía, en caso de que ella tampoco te hubiera podido encontrar.
+
+(align:"==>")+(box:"X")[Daniel le agradeció al vendedor de periódicos por su ayuda y emprendió de nuevo su camino hacia casa, sabiendo que debía llegar rápido antes de que las cosas empeoraran. No fue necesario que observara el mapa, porque el camino a casa era una de las pocas cosas que siempre permanecían presentes en su memoria. Lotso, por su parte, notó un ligero cambio en la expresión de Daniel después de lo que había sucedido: la lección que había aprendido ese día siempre iba a permanecer grabada en su corazón. ]
+</div>
+(align:"=><=")[[[Continuar!->Escena5-1]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: E4SA-2-B {"position":"2100,600","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="una-nueva-pista">Una Nueva Pista</h1>
+<div role="region" aria-labelledby="una-nueva-pista">
+''Daniel:'' Tienes razón, Lotso, no podemos dejar de concentrarnos en la misión que estamos cumpliendo, ¡busquemos a mamá y a papá!
+
+(align:"=><=")+(box:"X")[Daniel decidió que no entraría a la tienda de juguetes, aunque su imaginación lo empujara a hacerlo con mucha fuerza, ¡eso lo iba a separar más de sus padres y retrasaría su misión! Lotso le sonrió, feliz de saber que las lecciones aprendidas ese día lo habían ayudado a permanecer concentrado en un momento muy importante.]
+
+(align:"==>")+(box:"X")[En ese mismo momento, salió de la tienda de juguetes una de las vendedoras que trabajaban en el lugar desde hacía tiempo, reconoció a Daniel al instante y se dirigió hacia él con expresión preocupada.
+]
+''Vendedora:'' (//mostrándole un cartel con su foto//) ¡Daniel, ¿dónde has estado todo este tiempo?! Tu padre acaba de irse hace unos minutos, estaba muy triste por no haber podido encontrarte y dijo que iba a casa para reunirse con tu mamá e ir juntos a la policía. 
+
+''Daniel:'' (//con brillo en los ojos//) ¿De veras? Si papá acaba de irse no debe estar muy lejos, correré lo más rápido que pueda y lo alcanzaré para que vayamos juntos a casa. ¿Sabes hacia dónde se fue? 
+
+(align:"==>")+(box:"X")[La vendedora señaló con su mano la dirección en la que el padre de Daniel se había ido, a lo que el niño salió corriendo mientras le decía “¡gracias!” con una amplia sonrisa. Daniel abrazó a Lotso con fuerza mientras corría en el conocido camino a casa, sabiendo que su padre estaría a la vuelta de una esquina y pronto volvería a ser feliz.] 
+</div>
+(align:"=><=")[[[Continuar->Escena5-2]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+  
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: E4SB {"position":"1700,900","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="vamos-lotso">¡Vamos, Lotso!</h1>
+<div role="region" aria-labelledby="vamos-lotso">
+''Daniel:'' ¡Lotso, vayamos al parque de diversiones! Si mami y papi nos están esperando allá, podríamos jugar un rato todos juntos antes de regresar a casa.
+
+''Lotso:'' (//sonriendo un poco nervioso//) Ay, Daniel, tú nunca te cansas, ¿verdad? 
+</div>
+(align:"=><=")[[[¡Vamos al Parque!->E4SB-2]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: E4SB-2 {"position":"1900,900","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="se-retrasa-la-mision">¿Se Retrasa la Misión?</h1>
+<div role="region" aria-labelledby="se-retrasa-la-mision">
+Daniel sacó de su collar el mapa que le habían entregado sus padres y lo extendió sobre el suelo una vez más, buscando el camino que tendría que recorrer para llegar desde la escuela hasta el parque de diversiones, donde podría encontrar a alguno de sus padres o a los dos, que todavía debían estarlo buscando.
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-18.png" alt="Un niño sonriente mirando desde lejos un parque de diversiones">]
+
+''Daniel:'' (//señalando una ruta del mapa//) ¡Mira, Lotso! No estamos muy lejos del parque de diversiones, solamente tenemos que girar en la siguiente cuadra a la izquierda y seguir derecho hasta que encontremos el gran anuncio de la montaña rusa, si nos vamos lo suficientemente rápido llegaremos en menos de lo que te imaginas.
+
+''Lotso:'' ¡Es emocionante que ya casi llegaremos al fin de nuestra misión! Vayamos corriendo, que no queremos volver a llegar después de que mamá o papá se hayan ido.
+
+(align:"==>")+(box:"X")[Tal y como lo dijeron, Daniel salió corriendo con gran rapidez mientras sostenía con fuerza a Lotso en una de sus manos, esperando que pronto llegara el momento en que vería de nuevo a sus padres y ya no volvería a estar solo. No se demoraron en llegar a la entrada del parque de diversiones, encontrándose con un gran anuncio de la nueva montaña rusa que hoy tenía una gran promoción y dejaría entrar gratis a todos los niños que quisieran subir.]
+
+''Daniel:'' (//señalando el anuncio//) ¡Lotso, qué sorpresa! Hoy podríamos subirnos a la montaña rusa sin tener que pagar, deberíamos hacerlo, ¿no crees?
+
+''Lotso:'' Pero Daniel, ¿recuerdas que dijimos que no harías lo primero que se te pasara por la cabeza? Eso retrasaría mucho nuestra misión, ya no quiero que sigamos perdidos y lejos de tus padres, ¡esto es terrible!
+
+(align:"=><=")+(box:"X")[(text-style:"bold","italic")[¿Qué hará Daniel después de descubrir que puede subir a la montaña rusa más impresionante que ha visto? ]]
+<div class = "opciones">
+[[Opción A:->E4SB-2-A]] Daniel decide entrar al parque de diversiones y subir a la montaña rusa, olvidando por un momento el objetivo de su misión de regresar a casa.
+<hr>
+(if: $eligioA is true)[
+[[Opción B:->E4SB-2-B]] Daniel recuerda los consejos que ha recibido de parte de la niña de sombrero colorido y toma la decisión de no subir a la montaña rusa sino continuar en la búsqueda de sus padres.
+]
+(else:)[
+[[Opción B:->E4SB-2-B]] Daniel recuerda los consejos que ha recibido de parte de mamá y papá y toma la decisión de no subir a la montaña rusa sino continuar en la búsqueda de sus padres.
+]
+</div>
+</div>
+</main>
+
+<script>
+(function () {
+  'use strict';
+
+  let currentIndex = 0;
+
+  function obtenerOpciones() {
+    return Array.from(document.getElementsByTagName("tw-link"));
+  }
+
+  function enfocarOpcion(index) {
+    const opciones = obtenerOpciones();
+    if (opciones.length === 0) return;
+    currentIndex = ((index % opciones.length) + opciones.length) % opciones.length; // para evitar negativos
+    opciones[currentIndex].focus();
+  }
+
+  function seleccionarOpcionPorTexto(texto) {
+    const opciones = obtenerOpciones();
+    for (let i = 0; i < opciones.length; i++) {
+      if (opciones[i].textContent.trim() === texto.trim()) {
+        currentIndex = i;
+        opciones[i].focus();
+        break;
+      }
+    }
+  }
+
+  document.addEventListener('keydown', function (e) {
+    const opciones = obtenerOpciones();
+    if (opciones.length === 0) return;
+
+    switch (e.key) {
+      case 'ArrowDown':
+        e.preventDefault();
+        enfocarOpcion(currentIndex + 1);
+        break;
+
+      case 'ArrowUp':
+        e.preventDefault();
+        enfocarOpcion(currentIndex - 1);
+        break;
+
+      case 'a':
+      case 'A':
+        e.preventDefault();
+        seleccionarOpcionPorTexto("Opción A:");
+        break;
+
+      case 'b':
+      case 'B':
+        e.preventDefault();
+        seleccionarOpcionPorTexto("Opción B:");
+        break;
+    }
+  });
+  
+  // Se pueda hacer focus
+    document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+      region.setAttribute("tabindex", "0");
+    });
+      
+  Array.from(document.getElementsByTagName("tw-link"))("tw-link").forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "button");
+
+    link.addEventListener("keydown", e => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        link.click();
+      }
+    });
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: E4SB-2-A {"position":"2100,800","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="una-leccion-por-aprender">Una Lección por Aprender</h1>
+<div role="region" aria-labelledby="una-leccion-por-aprender">
+''Daniel:'' ¡Vamos, Lotso! Esta es una oportunidad única, debemos aprovecharla antes de que sea muy tarde.
+
+''Lotso:'' (//con una expresión de sorpresa//) ¡Justamente eso es lo que te digo! Si nos subimos a la montaña rusa, será muy tarde y no encontraremos a nadie que nos esté buscando.
+
+(align:"==>")+(box:"X")[Daniel salió corriendo hacia la fila de la montaña rusa, sosteniendo a Lotso en una de sus manos mientras que se imaginaba lo mucho que iba a divertirse en ese juego tan maravilloso. La última vez que sus padres lo habían llevado al parque de diversiones, no había podido subir porque era demasiado pequeño, pero ahora había crecido más, ¡ya era un niño grande y seguramente lo dejarían entrar!]
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-17.png" alt="Un niño con globos corriendo en un parque de diversiones">]
+
+(align:"==>")+(box:"X")[La fila para subir a la montaña rusa era muy larga debido a la promoción de subirse gratis, de manera que Daniel tuvo que esperar durante casi una hora hasta que llegara su turno. Tal y como lo había imaginado, cuando fue el primero en la fila el operario de la montaña rusa midió su estatura y lo dejó pasar, así que se divirtió mucho en el juego y por un momento olvidó cuál era su misión y por qué estaba allí. De repente, un mensaje en el altavoz del parque de diversiones lo sacó de su ensoñación.]
+
+''Altavoz:'' Si alguien ha visto al niño Daniel David Díaz Domínguez, por favor venga al puesto de la entrada, ¡es urgente! 
+
+''Daniel: ''¿Escuchaste, Lotso? Están hablando de nosotros, ¡vayamos corriendo al puesto de la entrada!
+
+(align:"=><=")+(box:"X")[Apenas la montaña rusa finalizó su paseo, Daniel se bajó y corrió en dirección a la entrada del parque de diversiones, lugar desde donde lo habían llamado. Apenas llegó y dijo su nombre, la trabajadora que atendía a los visitantes lo reconoció gracias al cartel que tenía en su mano]
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-13.png" alt="Un cartel de 'perdido' con el rostro de un niño de 8 años">]
+
+''Trabajadora:'' (//con expresión triste//) ¡Joven Daniel, tu mamá ha estado buscándote un largo rato en todo el parque y no te pudo encontrar! Hace una media hora se fue, diciéndome que iba a casa a ponerse de acuerdo con tu papá para ir a buscarte a la policía, y me dejó este cartel para que te siguiera buscando por si algo. ¿Dónde estabas?
+
+''Daniel:'' (//mirando a Lotso con lágrimas en los ojos//) ¡No puede ser, Lotso! Mamá nos estaba buscando y no pudo encontrarnos aunque estábamos tan cerca, si te hubiera hecho caso esto no habría sucedido. 
+
+''Trabajadora:'' También es mi responsabilidad porque no te detuve cuando te vi entrar solo al parque, debí haber pensado que estabas perdido (//tomando suavemente a Daniel de la mano//): esta será una lección que ambos aprendimos para el futuro, yo seré mucho más observadora y tú no te dejarás llevar por lo primero que se te pase por la cabeza, sino que recordarás tu objetivo y te esforzarás para alcanzarlo. 
+
+(align:"=><=")+(box:"X")[Daniel asintió con la cabeza, comprendiendo por primera vez las consecuencias que podían sucederle si solo se dejaba llevar por sus impulsos y no escuchaba los consejos o pensaba antes de actuar, ¡había estado tan cerca de mamá!]
+
+''Daniel:'' Señora, ¿puede usted decirme hacia dónde se fue mi mami después de salir de aquí? Quiero seguirla lo más rápido que pueda.
+
+(align:"==>")+(box:"X")[La joven trabajadora del parque de diversiones señaló un pequeño camino a la derecha del puesto de entrada, y Daniel y Lotso emprendieron nuevamente una carrera para tratar de llegar a casa antes de que sus padres se hubieran ido a la policía.]
+</div>
+(align:"=><=")[[[Continuar!->Escena5-1]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+  
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: E4SB-2-B {"position":"2100,1000","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="buenas-noticias">¡Buenas Noticias!</h1>
+<div role="region" aria-labelledby="buenas-noticias">
+''Daniel:'' Tienes razón, Lotso, no podemos desconcentrarnos de nuestra misión, ¡hay que seguir buscando a mami y papi!
+
+(align:"=><=")+(box:"X")[Daniel se quedó observando por un breve momento el anuncio de la montaña rusa, y a pesar de que su imaginación iba de un lado a otro, ideando diferentes juegos en los que podría divertirse, recordó los consejos que había recibido y [mirando los colores de su chaqueta], tomó la resolución de continuar con la misión y no distraerse con el parque de diversiones que tanto le llamaba la atención.]
+
+(align:"==>")+(box:"X")[Mientras tanto, un guardia de seguridad que se encontraba cerca de la puerta de entrada se fijó en Daniel y miró un cartel que sostenía en sus manos, su rostro se iluminó cuando reconoció al pequeño y se dirigió hacia él.]
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-13.png" alt="Un cartel de 'perdido' con el rostro de un niño de 8 años">]
+
+''Guardia:'' ¡Pequeño Daniel! Tu madre te ha estado buscando y me dejó este cartel en caso de que te reconociera en algún momento dentro del parque de diversiones. Debes ir corriendo tras ella, pues va de camino a casa a encontrarse con tu papá y no debe haber llegado muy lejos todavía.
+
+''Daniel:'' (//saltando de alegría//) ¿De verdad ha visto a mi mamá, señor? ¡Es la mejor noticia del mundo! (//Mirando a Lotso//) qué bueno que no me distraje con la montaña rusa y continué con nuestra misión, ¡pronto estaremos en casa! 
+
+''Lotso:'' ¡Estoy muy orgulloso de ti, Daniel! Sabía que si lograbas concentrarte en nuestro objetivo, regresaríamos a casa mucho más rápido y volveríamos a ver a tus padres. 
+
+(align:"==>")+(box:"X")[El guardia de seguridad sacudió con fuerza la mano de Daniel, como dándole ánimo para el trecho de camino que le quedaba por recorrer. Después, le explicó brevemente la ruta que había tomado su mamá, le regaló una pequeña botella de agua para que saciara su sed en cualquier momento y lo despidió con una gran sonrisa, en adelanto a la gran alegría que experimentaría muy pronto.]
+</div>
+(align:"=><=")[[[Continuar->Escena5-3]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+  
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: E4SC {"position":"1700,1200","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="una-decision-importante">Una Decisión Importante</h1>
+<div role="region" aria-labelledby="una-decision-importante">
+''Daniel:'' (//pensativo//) ¿Sabes qué, Lotso? Creo que deberíamos ir a casa, seguramente mamá y papá se encontrarán juntos allá y nos estarán esperando, ¡no perdamos más tiempo! 
+</div>
+(align:"=><=")[[[¡Vamos a Casa!->E4SC-2]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: E4SC-2 {"position":"2100,1200","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="una-buena-decision">Una Buena Decisión</h1>
+<div role="region" aria-labelledby="una-buena-decision">
+(align:"=><=")+(box:"X")[Después de decidir que tomarían el camino de regreso a casa, Daniel miró por última vez el mapa que mamá y papá le habían regalado, haciendo un recuento de todos los esfuerzos que él y Lotso habían realizado en esta misión; se encontraba agotado, pero sabía que no podía detenerse ahora, pues estaba muy cerca de volver a encontrarse con sus padres y dar por terminada esta inesperada aventura.]
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-21.png" alt="Un niño se imagina a sus padres abrazándolo mientras camina con su oso de peluche">]
+
+(align:"==>")+(box:"X")[Por un momento, pudo imaginar el cálido abrazo de alegría con que lo recibirían mamá y papá al llegar a casa, así que reunió fuerzas y se dispuso a correr una carrera más: la carrera definitiva, aquella de vuelta a su apreciado hogar.]
+</div>
+(align:"=><=")[[[¡Continuar!->Escena5-1]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+  
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: Escena1 {"position":"300,900","size":"100,100"}
+<main role="main">
+  <h1 class="titulo-principal" id="empieza-viaje">Embarcándonos en el viaje</h1>
+  <div role="region" aria-labelledby="empieza-viaje">
+    ¡Buenos días! ¿Llegaste hace mucho rato?
+
+    Me alegra saludarte, mi nombre es Lotso y soy el peluche favorito de Daniel, además de uno de sus mejores amigos. Ah…, espera, ¿no conoces a Daniel? ¡Ahora mismo te lo voy a presentar!
+
+    (align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-1.png" alt="Imagen estilo caricatura de un niño de 8 años con el pelo castaño en una clase de primaria">]
+  Él es Daniel, ¡y lo acompaño a todas partes! Tiene ocho años y está estudiando en primaria, aunque, como te habrás dado cuenta, no es fácil para él estar concentrado en la misma actividad durante mucho tiempo. Eso es porque recibió un diagnóstico de TDAH después de que sus padres lo llevaran al médico algunas veces, lo que significa que también es un poco impulsivo y a veces hace las cosas sin pensar, ¡pero no te preocupes! Esto no será un impedimento para que Daniel crezca feliz y cumpla todos sus sueños
+
+    (align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-3.png" alt="Niño de 8 años corriendo tras una aves en el parque">]
+    ''Madre:'' Mi amor, por favor recuerda que (text-style:"italic","underline")[no debes hacer todo lo que se te pase por la cabeza al mismo tiempo, puedes esperar y ver si es algo que realmente necesitas hacer]. Quédate a nuestro lado, nos preocupamos mucho por ti.
+
+    ''Padre:'' (//extiende su mano sosteniendo un collar//) Te vamos a regalar este collar especial, ¡guárdalo bien! Dentro encontrarás un mapa para volver a casa, úsalo en cualquier momento que lo necesites [le pone el collar a Daniel].
+
+    ''Daniel:'' (//aprieta el dije del collar entre sus dedos//) ¡Sí, mami y papi! Haré mi mejor esfuerzo para ser el niño que está más concentrado en todo el mundo.
+
+    (align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-2.png" alt="Daniel acompañado por su familia">]
+   </div>
+   (align:"=><=")[[[Comenzar la historia->Escena2]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+  
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+});
+})();
+</script>
+
+
+:: Escena2 {"position":"500,900","size":"100,100"}
+<main role="main">
+  <h1 class="titulo-principal" id="llegando-a-la-plaza">Llegando a la Plaza de la Ciudad</h1>
+  <div role="region" aria-labelledby="llegando-a-la-plaza">
+    Daniel y sus padres llegan a un punto de especial interés turístico en su recorrido, así que todo el grupo se detiene a escuchar una explicación del guía, todos lucen interesados en el tema menos Daniel, que pudo escuchar atentamente solo durante unos pocos minutos, pues inmediatamente se dispuso a observar a su alrededor otras cosas que le llamaran más la atención que una charla de 10 minutos.
+    
+    (align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-4.png" alt="Un niño de 8 años caminando con sus padres y, en el fondo, un oso rosado tirado en el suelo.">]
+    Mientras se entretenía imaginando que se encontraría con su superhéroe favorito en la próxima esquina, Daniel no se dio cuenta de que Lotso se cayó y quedó en el suelo, detrás del grupo que comenzaba a avanzar en el recorrido.
+    
+    ''Daniel:'' (//mira sus manos y se da cuenta de que no tiene a Lotso//) ¡Lotso, Lotso! ¿Dónde estás? Cómo pude haberte perdido, debes estar muy asustado; ¡no te preocupes, voy a encontrarte ya mismo! En aquel momento, asustado por la ausencia de su querido amigo, Daniel olvidó que no debía actuar de repente, sin pensar bien en lo que estaba haciendo.
+    
+    (align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-5.png" alt="un niño de 8 años preocupado, que se da cuenta que olvido su oso en el camino">]
+    (align:"=><=")+(box:"X")[(text-style:"bold","italic")[¿Cuál es la siguiente acción de Daniel después de darse cuenta que perdió a Lotso?]] 
+    <div class="opciones">
+        [[Opción A:->E2SA]] Daniel sale corriendo de manera impulsiva en dirección opuesta al recorrido, atravesando la plaza de la ciudad y tratando de recordar dónde fue el último lugar donde vio a Lotso y llamándolo de forma desesperada.
+        <hr>
+        [[Opción B:->E2SB]] Daniel sale corriendo hacia la fuente central de la plaza, esperando que ese sea el lugar donde haya perdido a Lotso. A mitad del camino se detiene, recordando lo que le dijeron sus padres sobre permanecer tranquilo y pensar en lo que va a hacer.
+    </div>
+  </div>
+</main>
+<script>
+(function () {
+  'use strict';
+
+  // Se pueda hacer focus
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+    
+ Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "button");
+  });
+
+  // Aplicar manejador de teclado
+  let optionLinks = Array.from(document.getElementsByTagName("tw-link"));
+  let currentOption = 0;
+
+  function focusOption(idx) {
+    if (optionLinks.length === 0) return;
+    currentOption = (idx + optionLinks.length) % optionLinks.length;
+    optionLinks[currentOption].focus();
+  }
+
+  function selectOptionByLetter(text) {
+    for (let i = 0; i < optionLinks.length; i++) {
+      if (optionLinks[i].textContent.trim() === text.trim()) {
+        currentOption = i;
+        optionLinks[i].focus();
+        break;
+      }
+    }
+  }
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "ArrowDown":
+        e.preventDefault();
+        focusOption(currentOption + 1);
+        break;
+      case "ArrowUp":
+        e.preventDefault();
+        focusOption(currentOption - 1);
+        break;
+      case "A":
+      case "a":
+        e.preventDefault();
+        selectOptionByLetter("Opción A:");
+        break;
+      case "B":
+      case "b":
+        e.preventDefault();
+        selectOptionByLetter("Opción B:");
+        break;
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+
+})();
+</script>
+
+
+:: Escena3-1 {"position":"900,700","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="que-paso-despues">¿Qué sucedió después?</h1>
+<div role="region" aria-labelledby="que-paso-despues">
+(align:"=><=")+(box:"X")[La tarde caía sobre la plaza de la ciudad, Daniel y Lotso habían estado dando vueltas alrededor del lugar varias veces, pero no vieron a mamá y papá, ni a otra persona conocida que los hubiera acompañado en el recorrido. Ambos estaban preocupados, porque se haría tarde muy pronto y no habían adelantado nada en su nueva misión.]
+
+''Daniel:'' Parece que mamá y papá ya no se encuentran por aquí cerca, ¿crees que se hayan ido muy lejos?
+
+''Lotso:'' Seguramente se preocuparon mucho cuando se dieron cuenta que no estabas con ellos y decidieron recorrer toda la ciudad buscándote, ''su rostro se ilumina por un momento''. ¡Lo había olvidado! Una vez los escuché diciendo que si algo así ocurría, comenzarían a buscarte en tu escuela, tal vez si vamos lo suficientemente rápido podamos alcanzarlos, ¿sabes cómo ir a la escuela desde aquí?
+
+''Daniel:'' Nunca antes había hecho ese paseo, pero creo que si revisamos el mapa, podemos encontrar alguna pista. 
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-9.png" alt="Un niño feliz mirando un mapa con una escuela de fondo">]
+
+(align:"==>")+(box:"X")[Daniel sacó el mapa de su collar y lo extendió sobre el suelo; sus padres habían señalado varios lugares importantes para que Daniel los viera con más facilidad, la escuela estaba señalada con un círculo rojo  y no parecía estar muy lejos de la plaza.]
+
+''Daniel:'' (//señalando la escuela con el dedo en el mapa//) ¡Aquí está! Creo que podemos ir hacia la escuela cruzando derecho las próximas cuadras y la encontraremos después de la señal azul, ¡vayamos allá!
+
+(align:"==>")+(box:"X")[Después de guardar el mapa, Lotso y Daniel se dirigen hacia la escuela siguiendo la ruta que habían visto, pero después de avanzar un poco, se dieron cuenta de que había un obstáculo inesperado entre la última cuadra y la señal azul que esperaban encontrar antes de llegar a la escuela: el paso de la calle estaba cerrado por una construcción y un cartel grande decía lo siguiente: “el paso está restringido, solo pueden pasar los menores acompañados de un adulto o deberán dar la vuelta y pasar por la calle a la derecha”. ]
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-10.png" alt="Un niño con cara seria mirando una señal de prohibido el paso">]
+
+Daniel se encontraba muy impaciente por llegar hasta la escuela, pues tal vez sus padres todavía estaban ahí. Mientras sostenía a Lotso en sus manos, se preguntó qué iba a hacer.
+
+(align:"=><=")+(box:"X")[(text-style:"bold","italic")[¿Cuál es la siguiente acción de Daniel frente a la calle cerrada por la construcción?]]
+<div class="opciones">
+[[Opción A:->E3SA]] Daniel corre e intenta cruzar el camino restringido solo, esperando que nadie se dé cuenta y pueda continuar hacia la señal azul que está más adelante.
+<hr>[[Opción B:->E3SB]] En ese momento, Daniel recuerda los cuatro pasos que le había enseñado la niña en la plaza de la ciudad, y mirando los colores de su chaqueta, trató de permanecer calmado y elaboró un pequeño plan para pasar por el camino restringido sin necesidad de dar la vuelta por la calle de la derecha.
+</div>
+</div>
+</main>
+
+<script>
+(function () {
+  'use strict';
+  
+  // Se pueda hacer focus
+    document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+      region.setAttribute("tabindex", "0");
+    });
+
+  let currentIndex = 0;
+
+  function obtenerOpciones() {
+    return Array.from(document.getElementsByTagName("tw-link"));
+  }
+
+  function enfocarOpcion(index) {
+    const opciones = obtenerOpciones();
+    if (opciones.length === 0) return;
+    currentIndex = ((index % opciones.length) + opciones.length) % opciones.length; // para evitar negativos
+    opciones[currentIndex].focus();
+  }
+
+  function seleccionarOpcionPorTexto(texto) {
+    const opciones = obtenerOpciones();
+    for (let i = 0; i < opciones.length; i++) {
+      if (opciones[i].textContent.trim() === texto.trim()) {
+        currentIndex = i;
+        opciones[i].focus();
+        break;
+      }
+    }
+  }
+
+  document.addEventListener('keydown', function (e) {
+    const opciones = obtenerOpciones();
+    if (opciones.length === 0) return;
+
+    switch (e.key) {
+      case 'ArrowDown':
+        e.preventDefault();
+        enfocarOpcion(currentIndex + 1);
+        break;
+
+      case 'ArrowUp':
+        e.preventDefault();
+        enfocarOpcion(currentIndex - 1);
+        break;
+
+      case 'a':
+      case 'A':
+        e.preventDefault();
+        seleccionarOpcionPorTexto("Opción A:");
+        break;
+
+      case 'b':
+      case 'B':
+        e.preventDefault();
+        seleccionarOpcionPorTexto("Opción B:");
+        break;
+    }
+  });
+    
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "button");
+
+    link.addEventListener("keydown", e => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        link.click();
+      }
+    });
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: Escena3-2 {"position":"900,1100","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="tengo-una-idea">¡Tengo una Idea!</h1>
+<div role="region" aria-labelledby="tengo-una-idea">
+(align:"=><=")+(box:"X")[La tarde caía sobre la plaza de la ciudad, Daniel y Lotso habían estado dando vueltas alrededor del lugar varias veces, pero no vieron a mamá y papá, ni a otra persona conocida que los hubiera acompañado en el recorrido. Ambos estaban preocupados, porque se haría tarde muy pronto y no habían adelantado nada en su nueva misión.]
+
+''Daniel:'' Parece que mamá y papá ya no se encuentran por aquí cerca, ¿crees que se hayan ido muy lejos?
+
+''Lotso:'' Seguramente se preocuparon mucho cuando se dieron cuenta que no estabas con ellos y decidieron recorrer toda la ciudad buscándote, ''su rostro se ilumina por un momento''. ¡Lo había olvidado! Una vez los escuché diciendo que si algo así ocurría, comenzarían a buscarte en tu escuela, tal vez si vamos lo suficientemente rápido podamos alcanzarlos, ¿sabes cómo ir a la escuela desde aquí?
+
+''Daniel:'' Nunca antes había hecho ese paseo, pero creo que si revisamos el mapa, podemos encontrar alguna pista. 
+
+(align:"==>")+(box:"X")[Daniel sacó el mapa de su collar y lo extendió sobre el suelo; sus padres habían señalado varios lugares importantes para que Daniel los viera con más facilidad, la escuela estaba señalada con un círculo rojo  y no parecía estar muy lejos de la plaza.]
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-15.png" alt="Un niño un niño con el pelo castaño de 8 años sosteniendo un mapa que tiene señalada una escuela en un circulo rojo">]
+
+''Daniel:'' (//señalando la escuela con el dedo en el mapa//) ¡Aquí está! Creo que podemos ir hacia la escuela cruzando derecho las próximas cuadras y la encontraremos después de la señal azul, ¡vayamos allá!
+
+(align:"==>")+(box:"X")[Después de guardar el mapa, Lotso y Daniel se dirigen hacia la escuela siguiendo la ruta que habían visto, pero después de avanzar un poco, se dieron cuenta de que había un obstáculo inesperado entre la última cuadra y la señal azul que esperaban encontrar antes de llegar a la escuela: el paso de la calle estaba cerrado por una construcción y un cartel grande decía lo siguiente: “el paso está restringido, solo pueden pasar los menores acompañados de un adulto o deberán dar la vuelta y pasar por la calle a la derecha”.]
+
+(align:"=><=")+(box:"X")[Daniel se encontraba muy impaciente por llegar hasta la escuela, pues tal vez sus padres todavía estaban ahí. Mientras sostenía a Lotso en sus manos, se preguntó qué iba a hacer.]
+
+(align:"=><=")+(box:"X")[(text-style:"bold","italic")[¿Cuál es la siguiente acción de Daniel frente a la calle cerrada por la construcción?]]
+<div class = "opciones">
+[[Opción A:->E3SA]] Daniel corre e intenta cruzar el camino restringido solo, esperando que nadie se dé cuenta y pueda continuar hacia la señal azul que está más adelante.
+<hr>[[Opción B:->E3SB]] A pesar de que que estaba muy impaciente, Daniel trató de permanecer tranquilo recordando los consejos que le habían dado mamá y papá y pensó un pequeño plan para pasar por el camino restringido sin necesidad de dar la vuelta por la calle de la derecha.
+</div>
+</div>
+</main>
+
+<script>
+(function () {
+  'use strict';
+
+  let currentIndex = 0;
+
+  function obtenerOpciones() {
+    return Array.from(document.getElementsByTagName("tw-link"));
+  }
+
+  function enfocarOpcion(index) {
+    const opciones = obtenerOpciones();
+    if (opciones.length === 0) return;
+    currentIndex = ((index % opciones.length) + opciones.length) % opciones.length; // para evitar negativos
+    opciones[currentIndex].focus();
+  }
+
+  function seleccionarOpcionPorTexto(texto) {
+    const opciones = obtenerOpciones();
+    for (let i = 0; i < opciones.length; i++) {
+      if (opciones[i].textContent.trim() === texto.trim()) {
+        currentIndex = i;
+        opciones[i].focus();
+        break;
+      }
+    }
+  }
+
+  document.addEventListener('keydown', function (e) {
+    const opciones = obtenerOpciones();
+    if (opciones.length === 0) return;
+
+    switch (e.key) {
+      case 'ArrowDown':
+        e.preventDefault();
+        enfocarOpcion(currentIndex + 1);
+        break;
+
+      case 'ArrowUp':
+        e.preventDefault();
+        enfocarOpcion(currentIndex - 1);
+        break;
+
+      case 'a':
+      case 'A':
+        e.preventDefault();
+        seleccionarOpcionPorTexto("Opción A:");
+        break;
+
+      case 'b':
+      case 'B':
+        e.preventDefault();
+        seleccionarOpcionPorTexto("Opción B:");
+        break;
+    }
+  });
+  
+  // Se pueda hacer focus
+    document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+      region.setAttribute("tabindex", "0");
+    });
+    
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "button");
+
+    link.addEventListener("keydown", e => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        link.click();
+      }
+    });
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: Escena4 {"position":"1500,900","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="una-nueva-pista">Una Nueva Pista</h1>
+<div role="region" aria-labelledby="una-nueva-pista">
+Daniel y Lotso llegaron a la escuela un rato después de haber atravesado la construcción, pero con tristeza notaron que mamá y papá ya no estaban, sin embargo, había un pequeño cartel con la foto de Daniel al lado de la puerta de la escuela y un mensaje de búsqueda, ¡eso significaba que habían estado allí!
+
+''Daniel:'' (//señalando el cartel//) Mira Lotso, mami y papi nos estuvieron buscando en  la escuela, ¡tal como dijiste! Pero no hemos logrado alcanzarlos, ¿cuál debería ser el siguiente lugar que visitemos? 
+
+''Lotso:'' Recuerdo que en la conversación que escuché, tus padres dijeron que después de buscarte en la escuela cada uno te buscaría en un lugar diferente y después se iban a encontrar en un lugar en común; mencionaron la tienda de juguetes, el parque de diversiones y también nuestra casa, pero no alcanzo a recordar en qué orden fue.
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-23.png" alt="Un niño de 8 años con un globo de pensamiento de tres opciones">]
+
+(align:"=><=")+(box:"X")[(text-style:"bold","italic")[¿Cuál es el siguiente lugar al que deberían dirigirse Daniel y Lotso para encontrar a mamá y papá?]]
+<div class = "opciones">
+[[Opción A:->E4SA]] Dirigirse a la tienda de juguetes.
+<hr>[[Opción B:->E4SB]] Dirigirse al parque de diversiones.
+<hr>[[Opción C:->E4SC]] Dirigirse a casa.
+</div>
+</div>
+</main>
+
+<script>
+(function () {
+  'use strict';
+
+  let currentIndex = 0;
+
+  function obtenerOpciones() {
+    return Array.from(document.getElementsByTagName("tw-link"));
+  }
+
+  function enfocarOpcion(index) {
+    const opciones = obtenerOpciones();
+    if (opciones.length === 0) return;
+    currentIndex = ((index % opciones.length) + opciones.length) % opciones.length; // para evitar negativos
+    opciones[currentIndex].focus();
+  }
+
+  function seleccionarOpcionPorTexto(texto) {
+    const opciones = obtenerOpciones();
+    for (let i = 0; i < opciones.length; i++) {
+      if (opciones[i].textContent.trim() === texto.trim()) {
+        currentIndex = i;
+        opciones[i].focus();
+        break;
+      }
+    }
+  }
+
+  document.addEventListener('keydown', function (e) {
+    const opciones = obtenerOpciones();
+    if (opciones.length === 0) return;
+
+    switch (e.key) {
+      case 'ArrowDown':
+        e.preventDefault();
+        enfocarOpcion(currentIndex + 1);
+        break;
+
+      case 'ArrowUp':
+        e.preventDefault();
+        enfocarOpcion(currentIndex - 1);
+        break;
+
+      case 'a':
+      case 'A':
+        e.preventDefault();
+        seleccionarOpcionPorTexto("Opción A:");
+        break;
+
+      case 'b':
+      case 'B':
+        e.preventDefault();
+        seleccionarOpcionPorTexto("Opción B:");
+        break;
+        
+      case 'c':
+      case 'C':
+      	e.preventDefault();
+        seleccionarOpcionPorTexto("Opción C:");
+        break;
+    }
+  });
+  
+  // Se pueda hacer focus
+    document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+      region.setAttribute("tabindex", "0");
+    });
+        
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "button");
+
+    link.addEventListener("keydown", e => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        link.click();
+      }
+    });
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+    
+})();
+</script>
+
+
+:: Escena5-1 {"position":"2500,700","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="el-reencuentro">¡El Reencuentro!</h1>
+<div role="region" aria-labelledby="el-reencuentro">
+(align:"==>")+(box:"X")[Daniel corrió con todo su ánimo el recordado camino a casa, mientras sostenía a Lotso en una de sus manos y rogaba que sus padres todavía estuvieran allí, ¡qué triste sería para él si volvía a llegar tarde, como ya le había pasado por haberse desconcentrado de su objetivo! Cruzó caminos, un parque y la estación de bomberos, y en cada cuadra todos sus vecinos se quedaron sorprendidos, pues nunca nadie lo había visto con tanta determinación y empeño. ]
+
+(align:"=><=")+(box:"X")[Justo al llegar a la esquina de su casa, Daniel se detuvo por un instante para respirar y, abrazando a Lotso, le dio las gracias por haberlo acompañado en el viaje.]
+
+''Daniel: ''¡Gracias por quedarte a mi lado, Lotso! No volveré a perderte, eres muy importante para mí. 
+
+''Lotso:'' (//con una gran sonrisa//) Tú también eres mi mejor amigo, Daniel, así que yo siempre te voy a acompañar y te ayudaré de la mejor forma en que un oso puede hacerlo. 
+
+(align:"=><=")+(box:"X")[Qué inmensa fue la alegría de Daniel al mirar hacia su hogar y ver a sus padres al frente de la puerta, haciendo expresiones con sus manos como si planearan un recorrido. Ellos, al verlo, saltaron de alegría y corrieron instantáneamente a su encuentro, con lágrimas en los ojos y grandes expresiones de amor hacia su pequeño hijo, que los abrazó con cariño sin soltar a Lotso de su pequeña mano. ]
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-26.png" alt="Un niño corre hacia su casa donde sus padres lo esperan con alegría">]
+
+''Mamá:'' (//abrazándolo con fuerza//) ¡Daniel, mi amor! Tu papá y yo hemos estado tan tristes y asustados sin ti, ahora mismo íbamos a la policía para que nos ayudaran a buscarte. 
+
+''Papá:'' (//dándole un beso en la frente//) ¡Hijo de mi corazón! Hemos estado en tantos lugares diferentes con la esperanza de encontrarte, que sentía un gran dolor en mi pecho al pensar que te habíamos perdido.
+</div>
+(align:"=><=")[[[Continuar->Fin]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+  
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: Escena5-2 {"position":"2500,900","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="encontrando-a-papa">Encontrando a Papá</h1>
+<div role="region" aria-labelledby="encontrando-a-papa">
+(align:"=><=")+(box:"X")[Daniel comenzó a correr a lo largo del camino que le había señalado la vendedora, sosteniendo a Lotso en una de sus manos y rogando que pudiera ver a su padre en cualquier momento. ¡Qué gran alegría sintió cuando al doblar una esquina, vio a su papá esperando a que el semáforo cambiara para poder cruzar la calle!]
+
+''Daniel: ''(//casi sin voz, por lo agotado que estaba//) ¡Papá, papá, espérame! 
+
+(align:"==>")+(box:"X")[No había terminado de hablar cuando su padre volvió a mirarlo y, en un abrir y cerrar de ojos, corrió hacia él y lo alzó en sus brazos mientras contenía el llanto y lo miraba con los ojos más dulces del mundo.]
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-20.png" alt="Un niño corriendo hacia su padre, ambos lloran de alegría">]
+
+''Papá:'' Daniel, ¡mi hijo querido! ¿Cómo te encuentras? ¿Estás herido? He sufrido mucho por no haber podido encontrarte antes, justo ahora iba a encontrarme con mamá, teniendo la esperanza de que ella sí te hubiera visto. 
+
+''Daniel:'' Estoy bien, papi, muy cansado pero ahora soy feliz al estar contigo de nuevo. ¡Mira, encontré a Lotso y él me acompañó todo el tiempo! 
+
+(align:"=><=")+(box:"X")[En un breve instante de tiempo llegaron a casa, donde mamá estaba esperando y saltó de alegría al verlos. Con mucho amor, ella recibió a Daniel entre sus brazos y le dio muchos besos en el rostro, diciéndole lo mucho que lo había extrañado y dando gracias por tener a su esposo y a su hijo de regreso.]
+</div>
+(align:"=><=")[[[Continuar->Fin]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+  
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: Escena5-3 {"position":"2500,1100","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="encontrando-a-mama">Encontrando a Mamá</h1>
+<div role="region" aria-labelledby="encontrando-a-mama">
+Justo como el guardia de seguridad le había indicado, Daniel emprendió una rápida carrera en el camino a casa, sosteniendo a Lotso entre sus manos y rogando que pudiera alcanzar a mamá antes de que surgiera cualquier otro problema que se sumara a su larga lista de experiencias en ese día. Con gran alegría vio, al pasar por un puente para peatones, que su mamá estaba allí, pegando en un poste el cartel con su foto que ya había visto antes. A pesar de que estaba muy cansado, Daniel se acercó más hasta que estuvo seguro de que su mamá podría escucharlo.
+
+''Daniel:'' (//poniendo las manos como un altavoz//) ¡Mami, mami, he podido encontrarte! 
+
+(align:"=><=")+(box:"X")[La mamá de Daniel salió corriendo a su encuentro, con los ojos llenos de lágrimas y soltando en el suelo una pila de carteles que había estado pegando en todos los postes que encontraba en su camino. En cuanto llegó a donde estaba Daniel, lo alzó entre sus brazos y lo abrazó con mucha fuerza, sintiendo que su corazón volvía a acomodarse dentro de su pecho.]
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-19.png" alt="Un niño corriendo hacia su madre, ambos lloran de alegría">]
+
+''Mamá: '' (//sonriendo y mirando a Daniel//) ¡Hijo mío, mi amor! Soy la mujer más feliz del mundo ahora que te tengo conmigo de nuevo, ¿estás bien? ¿Estás herido? ¿Nadie te hizo daño?
+
+''Daniel:'' No, mami, todas las personas que he encontrado han sido muy buenas conmigo, ¡y mira! Lotso me ha acompañado todo este tiempo, sin él no habría podido regresar contigo.
+
+(align:"==>")+(box:"X")[Los dos continuaron su camino hasta llegar a casa, cuando de repente vieron al papá de Daniel sentado en la acera, mirando hacia el cielo. Grande fue el salto de alegría cuando los vio en la esquina y salió corriendo a su encuentro, abrazándolos y dando gracias por tener de regreso a su esposa e hijo sanos y salvos.]
+</div>
+(align:"=><=")[[[Continuar->Fin]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+  
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: Fin {"position":"2800,900","size":"100,100"}
+<main role="main">
+<h1 class="titulo-principal" id="daniel-llego-a-su-destino">Daniel ha Llegado a su Destino</h1>
+<div role="region" aria-labelledby="daniel-llego-a-su-destino">
+Mamá y papá abrieron las puertas de la casa y entraron cargando a Daniel, quien abrazaba a Lotso con fuerza y daba gracias por haber podido completar su misión de volver a casa, ¡tantas cosas había aprendido! Ciertamente su <span aria-label="T D A H">TDAH</span> llegaría a jugarle malas pasadas de vez en cuando, pero esa no sería la última palabra, pues había entendido que podía superar su distracción e impulsos y además, contaba con el amor de sus padres, los consejos de Lotso y la ayuda de muchos amigos que estarían para él en el presente y el futuro.
+
+(align:"=><=")[<img src="https://catalinarpos.github.io/daniel-journey/images/daniel-11.png" alt="Un niño de 8 años abrazando a su mamá y papá, todos sonríen felices">]
+
+(align:"==>")+(box:"X")[Daniel les cuenta a sus padres sobre las personas que conoció en el camino y, juntos, empiezan a escribir un diario en el que Daniel guardaría todas sus memorias sobre ese inesperado día, además de las estrategias que había aprendido para enfrentar sus impulsos y distracciones: respirar y tranquilizarse, pensar un plan, pedir ayuda y tomar una decisión; todas esas acciones, aunque pequeñas, habían tenido un gran impacto en él y serían atesoradas por siempre como valiosos aprendizajes que recordaría durante toda su vida.]
+
+''Lotso:'' ¡Gracias por tu compañía en esta aventura! Sin tu ayuda no habríamos logrado volver a nuestro hogar. Ahora que comprendes mejor lo que sucede en la cabeza de un niño con TDAH, espero que seas más comprensivo y puedas brindar tu ayuda cuando se presenten dificultades. ¡No lo olvides, para el que cree, todo es posible!
+</div>
+(align:"=><=")[[[Volver al Inicio->Preparación para la historia]]]
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+  
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+  });
+})();
+</script>
+
+
+:: Preparación para la historia {"position":"100,900","size":"100,100"}
+<main role="main">
+  <h1 class="titulo-principal" id="viaje-daniel">El viaje de Daniel</h1>
+  <div role="region" aria-labelledby="viaje-daniel">
+    ¡Hola, gracias por jugar con nosotros!
+    
+    En esta historia conocerás a Daniel, un niño diagnosticado con Trastorno por Déficit de Atención e Hiperactividad (<span aria-label="T D A H">TDAH</span>), y lo acompañarás en su aventura para regresar a casa al lado de su oso de peluche, Lotso, en un camino en el que tendrás que tomar decisiones que afectarán el curso de la historia.
+    </div>
+    (align:"=><=")[[[Continuar->Escena1]]]  
+</main>
+<script>
+(function () {
+  'use strict';
+  
+  document.querySelectorAll("main[role=main] > div[role=region]").forEach(region => {
+    region.setAttribute("tabindex", "0");
+  });
+  
+  Array.from(document.getElementsByTagName("tw-link")).forEach(link => {
+    link.setAttribute("tabindex", "0");
+    link.setAttribute("role", "link");
+  });
+
+  document.addEventListener("keydown", e => {
+    switch (e.key) {
+      case "Enter":
+      case " ":
+        if (document.activeElement.tagName.toLowerCase() === "tw-link") {
+          e.preventDefault();
+          document.activeElement.click();
+        }
+        break;
+    }
+  });
+  
+  document.querySelectorAll("tw-sidebar *").forEach(el => {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+  
+  el.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      el.click();
+    }
+  });
+});
+})();
+</script>
+
+
+:: StoryScript [script]
+document.getElementsByTagName('html')[0].setAttribute('lang', 'es');
+
+:: StoryStylesheet [stylesheet]
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+tw-story {
+  background-color: #254D70;
+  font-family: "Atkinson Hyperlegible", "Comic Sans MS", sans-serif;
+  margin: 0 auto;
+}
+
+tw-passage {
+  color: #131D4F;
+  background-color: #EFE4D2;	
+  border-radius: 16px;	
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 5px solid black;
+}
+
+tw-sidebar {
+  color: #131D4F;
+  background-color: #EFE4D2;	
+  border-radius: 16px;
+  border: 5px solid black;
+  font-weight: bold;
+}
+
+tw-link {
+  color: #254D70;
+}
+
+img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 20%;
+  border: 2px dashed black;
+}
+
+.titulo-principal {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.instrucciones-navegacion {
+  margin-top: 0;
+}
